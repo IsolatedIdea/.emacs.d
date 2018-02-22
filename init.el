@@ -139,7 +139,7 @@
 (add-hook 'c-mode-hook 'my:ac-c-header-init)
 
 ;;iEdit
-(define-key global-map (kbd "C-c ;") 'iedit-mode)
+(define-key global-map (kbd "C-x ;") 'iedit-mode)
 
 (server-start)
 (custom-set-variables
@@ -183,8 +183,10 @@
 ;; neotree
 (setq new-smart-open t)
 (define-key global-map (kbd"C-t") 'neotree-toggle)
+
 ;; indent highlighting
 (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
 
+;; flycheck mode
 (add-hook 'after-init-hook #'global-flycheck-mode)
 ;;; init.el ends here
