@@ -17,18 +17,22 @@
 
 (set-face-attribute 'default nil :font "ProggyTinyTT" :height 110)
 
+
 ;;Colour Scheme
 ;; (set-background-color "black")
 ;; (set-foreground-color "#00CCFF")
 ;; (set-foreground-color "#00FF00")
 ;; (set-cursor-color "purple")
 
+
 ;; Highlight current line
 (global-hl-line-mode 1)
 (set-face-background 'hl-line "#3F1F1F")
 
+
 ;; ;shut up the bloody beep
 (setq visible-bell 1)
+
 
 ;; setup line display
 (require 'linum)
@@ -36,12 +40,14 @@
 (column-number-mode)
 (toggle-truncate-lines)
 
-;; ;display a line at column 80
+
+;; display a line at column 80
 (add-to-list 'load-path "~/.emacs.d/modes/fci/")
 (require 'fill-column-indicator)
 (setq fci-rule-column 80)
 (define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
 (global-fci-mode 1)
+
 
 ;; set whitespace mode on
 (setq whitespace-line 0)
@@ -57,8 +63,10 @@
 ;; (setq indent-line-function 'insert-tab)
 (setq-default indent-tabs-mode nil)
 
+
 ;; handle indenting
 (setq c-default-style "bsd")
+
 
 ;; indent case statments
 (add-hook 'c-mode-common-hook
@@ -66,29 +74,38 @@
             (c-set-offset 'case-label +)))
 (c-set-offset 'case-label '+)
 
+
 ;; python settings
 (add-hook 'python-mode-hook
           (lambda ()
             (add-to-list 'write-file-functions 'delete-trailing-whitespace)))
 
+
 ;; setup useful modes
 (show-paren-mode)
+
+
 ;; (tabkey2-mode)
 (delete-selection-mode t)
 
+
 ;; save the session
 (desktop-save-mode 1)
+
 
 ;; don't display scroll bars or toolbar
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 
+
 ;; set the comment colour
 (set-face-foreground 'font-lock-comment-face "#505050")
 
+
 ;; maximise the window
 ;; (w32-send-sys-command 61488)
+
 
 ;; Additional functions...
 (defun my-multi-occur-in-matching-buffers (regexp &optional allbufs)
@@ -97,39 +114,49 @@
   (multi-occur-in-matching-buffers ".*" regexp))
  (global-set-key (kbd "M-s") 'my-multi-occur-in-matching-buffers)
 
+
 ;; Additional key bindings
 (global-set-key (kbd "C-x /") 'comment-or-uncomment-region)
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
 
+
 ;; Disable C-z
 (global-unset-key [(control z)])
 (global-unset-key[(control x)(control z)])
 
+
 ;; Disable M-.
 (global-unset-key [(alt .)])
+
 
 ;; Auto update buffers
 (global-auto-revert-mode t)
 
+
+;; Set frame alpha
 (set-frame-parameter (selected-frame) 'alpha '(83 78))
 (add-to-list 'default-frame-alist '(alpha 83 78))
 
-;;package manager
+
+;; package manager
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
 (package-initialize)
 
-;;auto-complete mode
+
+;; auto-complete mode
 (require 'auto-complete)
 (require 'auto-complete-config)
 (ac-config-default)
 
-;;yasnippet
+
+;; yasnippet
 (require 'yasnippet)
 (yas-global-mode 1)
 
-;;auto complete headers
+
+;; auto complete headers
 (defun my:ac-c-header-init()
 	(require 'auto-complete-c-headers)
 	(add-to-list 'ac-sources 'ac-source-c-headers)
@@ -138,9 +165,12 @@
 (add-hook 'c++-mode-hook 'my:ac-c-header-init)
 (add-hook 'c-mode-hook 'my:ac-c-header-init)
 
-;;iEdit
+
+;; iEdit
 (define-key global-map (kbd "C-x ;") 'iedit-mode)
 
+
+;; Package manager
 (server-start)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -180,12 +210,15 @@
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 
+
 ;; neotree
 (setq new-smart-open t)
 (define-key global-map (kbd"C-t") 'neotree-toggle)
 
+
 ;; indent highlighting
 (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+
 
 ;; flycheck mode
 (add-hook 'after-init-hook #'global-flycheck-mode)
