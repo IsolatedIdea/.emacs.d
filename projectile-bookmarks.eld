@@ -1,0 +1,1 @@
+("~/projects/walkers/ws_site/lib/src/ecommerce/" "~/projects/walkers/ws_site/")

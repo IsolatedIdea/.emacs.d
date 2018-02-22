@@ -1,0 +1,3 @@
+(
+ (:id "sha1:edb3acfbd961d150ddbd741380a2111ccaa69e17" :fingerprint "sha1:4c:58:82:15:7e:d0:27:5b:ce:0e:2f:e8:97:13:5c:e9:bc:84:5f:80" :host "mercurytide.co.uk:443" :conditions (:self-signed :no-host-match :expired :unknown-ca :invalid))
+)
