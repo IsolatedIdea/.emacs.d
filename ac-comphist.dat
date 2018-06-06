@@ -1,1704 +1,1972 @@
-((("~/.bashrc:" .
-   [0 0 0 1 0 1 0 0 0 0])
-  ("-f" .
-   [1 0])
-  ("core" .
-   [1 0 0 0])
-  ("GOOGLE_MAPS_API_KEY" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("GOOGLE_MAPS_KEY" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("google_maps" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("conf" .
-   [1 0 0 0])
-  ("HOST" .
-   [2 0 0 0])
-  ("region_field" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("cssPath" .
-   [3 0 0 0 0 0 0])
-  ("const" .
-   [3 0 0 0 0])
-  ("django" .
-   [2 0 0 0 0 0])
-  ("my-global-indent-mode" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("highlight-indent" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("Python" .
-   [0 0 1 0 1 0])
-  ("highlight-indent-guides" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("prog-mode-hook" .
-   [0 0 0 0 0 1 0 1 0 0 0 0 0 0])
-  ("highlight-indent-guides-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 1 1])
-  ("highlight" .
-   [0 0 0 1 1 0 0 0 0])
-  ("indent" .
-   [1 0 0 0 0 0])
-  ("product_vat_gbp" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("product_net_value" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("net" .
-   [1 0 0])
-  ("net_value" .
-   [3 0 0 0 0 0 0 0 0])
-  ("get_net_value" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("get_vat_percentage" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("no" .
-   [3 0])
-  ("pair" .
-   [4 0 0 0])
-  ("generate_pdf_invoice" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("send_order_email" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("pre" .
-   [2 0 0])
-  ("process" .
-   [2 0 0 0 0 0 0])
-  ("whitespace-space" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("SEND_ORDER_EMAILS" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("delete-trailing-whitespace" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("indent-tabs-mode" .
-   [0 0 0 0 0 0 0 0 0 2 1 1 0 0 0 0])
-  ("setq-default" .
-   [4 0 0 1 0 0 1 2 0 1 0 0])
-  ("lambda" .
-   [2 0 0 1 0 0])
-  ("python-mode-hook" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("guest" .
-   [1 0 0 0 0])
-  ("network" .
-   [1 0 0 0 0 0 0])
-  ("neotree" .
-   [1 0 0 0 0 0 0])
-  ("global-set-key" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("ssh" .
-   [1 0 0])
-  ("false" .
-   [1 0 0 0 0])
-  ("application" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("contentType" .
-   [0 0 0 0 0 0 0 1 0 0 0])
-  ("POST" .
-   [7 0 0 0])
-  ("url" .
-   [1 0 0])
-  ("function" .
-   [1 0 0 0 0 0 0 0])
-  ("rgbCaptureAngle" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("scanType" .
-   [1 0 0 0 0 0 0 0])
-  ("StringBuffer" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("buffer" .
-   [2 0 0 0 0 0])
-  ("to" .
-   [2 0])
-  ("Available" .
-   [1 0 0 0 0 0 0 0 0])
-  ("capacity" .
-   [1 0 0 0 0 0 0 0])
-  ("spaceInfo" .
-   [4 0 0 0 0 0 0 0 0])
-  ("getFreeSpace" .
-   [1 0 0 0 0 1 0 0 0 0 0 0])
-  ("space_info" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("m_serialNumber" .
-   [0 0 0 0 0 1 1 0 1 0 0 0 0 0])
-  ("second" .
-   [1 0 0 0 0 0])
-  ("calibrationForm" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("calibrationProgressBar" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("calibrationProgressBa" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("implementation" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("calibrate" .
-   [1 0 0 0 0 0 0 0 0])
-  ("percentCompete" .
-   [0 0 0 0 0 2 0 0 0 0 0 0 0 0])
-  ("percentComplete" .
-   [1 0 0 0 0 0 0 1 0 0 0 0 1 0 0])
-  ("Calibrating" .
-   [0 0 0 0 0 0 0 0 1 0 1])
-  ("startCapture" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("isCalibrated" .
-   [0 0 0 0 1 0 0 0 1 0 0 0])
-  ("virtual" .
-   [0 0 0 1 0 0 0])
-  ("getSerialNumber" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("device" .
-   [1 0 0 0 0 0])
-  ("deviceInfo" .
-   [2 0 0 0 0 0 0 0 1 0])
-  ("XCloseDisplay" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("None" .
-   [1 0 0 0])
-  ("none" .
-   [3 0 0 0])
-  ("glXMakeCurrent" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("DrawQuad" .
-   [0 0 0 0 0 1 0 0])
-  ("XGetWindowAttributes" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("event" .
-   [1 0 0 0 0])
-  ("KeyPress" .
-   [1 0 0 0 0 0 0 0])
-  ("Expose" .
-   [1 0 0 0 0 0])
-  ("xEvent" .
-   [2 0 0 0 0 0])
-  ("XNextEvent" .
-   [0 0 0 0 0 1 0 0 0 0])
-  ("running" .
-   [3 0 0 0 0 0 0])
-  ("glContext" .
-   [2 0 0 0 0 0 0 0 0])
-  ("XStoreName" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("XMapWindow" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("XCreateWindow" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("KeyPressMask" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("ExposureMask" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("setWindowAttributes" .
-   [0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("found" .
-   [1 0 0 0 0])
-  ("visual" .
-   [3 0 0 0 0 0])
-  ("appropriate" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("att" .
-   [1 0 0])
-  ("visualInfo" .
-   [1 0 0 0 0 0 1 3 2 0])
-  ("rootWindow" .
-   [0 0 0 0 1 1 1 2 0 0])
-  ("exit" .
-   [3 0 0 0])
-  ("NULL" .
-   [6 0 0 0])
-  ("XOpenDisplay" .
-   [0 0 0 0 0 1 0 0 0 0 0 0])
-  ("glVertex3f" .
-   [0 0 0 1 1 0 0 1 0 0])
-  ("glColor3f" .
-   [0 0 0 0 0 1 1 1 0])
-  ("glLoadIdentity" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("glMatrixMode" .
-   [0 0 0 0 0 0 0 1 0 0 0 0])
-  ("XEvent" .
-   [1 0 0 0 0 0])
-  ("XWindowAttributes" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("windowAttributes" .
-   [2 0 0 0 0 0 0 1 2 0 0 0 0 0 0 0])
-  ("XSetWindowAttributes" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("colourMap" .
-   [1 0 0 0 0 0 1 1 0])
-  ("Window" .
-   [2 0 0 0 0 0])
-  ("display" .
-   [15 0 1 0 2 0 1])
-  ("Display" .
-   [1 0 0 0 0 0 0])
-  ("glx" .
-   [5 0 0])
-  ("Xlib" .
-   [1 0 0 0])
-  ("X11" .
-   [2 0 0])
-  ("main" .
-   [5 0 0 0])
-  ("hpp" .
-   [1 0 0])
-  ("GL" .
-   [6 0])
-  ("h" .
-   [1])
-  ("glm" .
-   [3 0 0])
-  ("stdlib" .
-   [2 0 0 0 0 0])
-  ("stdio" .
-   [2 0 0 0 0])
-  ("head" .
-   [1 0 0 0])
-  ("VDAR" .
-   [1 0 0 0])
-  ("/home/graeme/Data/VDARSerialFiles/sysInfo.txt" .
-   [0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("NEW_SSID" .
-   [0 0 0 3 1 0 0 1])
-  ("SERIAL" .
-   [1 0 0 0 0 0])
-  ("value" .
-   [4 0 0 0 0])
-  ("/media/configuration/vdar/Run/sysInfo.txt" .
-   [0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("/media/configuration/vdar/Run/calib.yml" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("cat" .
-   [4 0 0])
-  ("e57" .
-   [3 0 0])
-  (":height" .
-   [3 0 0 0 0 1 0])
-  ("nil" .
-   [7 0 0])
-  ("default" .
-   [3 0 0 0 0 0 0])
-  ("set-face-attribute" .
-   [0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 0 0 0])
-  ("powerUpVelodyne" .
-   [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("null" .
-   [1 0 0 0])
-  ("m_velodynePowerUpThread" .
-   [0 0 0 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("Capture" .
-   [0 0 0 1 0 0 0])
-  ("DepthConfigurationInterface" .
-   [1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("configurationSubSystem" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 4 5 3 0 1 0 0 0])
-  ("cols" .
-   [1 0 0 0])
-  ("rows" .
-   [1 0 0 0])
-  ("height" .
-   [3 0 0 0 0 0])
-  ("width" .
-   [4 0 0 0 0])
-  ("what" .
-   [1 0 0 0])
-  ("err_msg" .
-   [0 0 0 0 1 0 0])
-  ("newThread" .
-   [1 0 0 0 0 0 0 0 0])
-  ("newCapture" .
-   [4 0 0 0 0 0 0 0 0 0])
-  ("rgbCapture" .
-   [1 0 0 0 1 0 0 0 0 0])
-  ("sent" .
-   [0 0 0 1])
-  ("efficient" .
-   [1 0 0 0 0 0 0 0 0])
-  ("m_isStreaming" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("exposure" .
-   [1 0 0 0 0 0 0 0])
-  ("finalImages" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("sensorCaptureThreads" .
-   [0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0])
-  ("sensorImages" .
-   [0 0 0 0 0 0 0 0 0 1 0 0])
-  ("captureSensor" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("stopStreaming" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("shared_ptr" .
-   [1 0 0 0 0 0 2 6 0 0])
-  ("expo" .
-   [2 0 0 0])
-  ("sensorNo" .
-   [2 0 0 0 0 0 0 1])
-  ("temp" .
-   [13 0 0 0])
-  ("endTime" .
-   [0 0 0 0 0 1 0])
-  ("u" .
-   [6])
-  ("shared" .
-   [2 0 0 0 0 0])
-  ("saveThread" .
-   [4 0 0 0 0 0 0 0 0 0])
-  ("unique_ptr" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("saveImage" .
-   [0 0 0 0 0 0 1 0 0])
-  ("rgbCaptureThreadGroup" .
-   [0 0 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0])
-  ("VdarScanner" .
-   [0 0 0 2 1 1 0 0 0 0 0])
-  ("imageOnly" .
-   [0 0 0 0 0 0 2 0 0])
-  ("Exposure" .
-   [0 0 0 0 0 1 1 0])
-  ("angle" .
-   [2 0 0 0 0])
-  ("saveImages" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("captureThreadGroup" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0])
-  ("create" .
-   [1 0 0 0 0 0])
-  ("depth" .
-   [10 0 0 1 0])
-  ("flipEndTime" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("getImageCaptureAngle" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0])
-  ("imageAngle" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("Directory" .
-   [1 0 0 0 0 0 0 0 0])
-  ("is_regular_file" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("remove" .
-   [7 0 0 0 0 0])
-  ("listFiles" .
-   [0 0 0 0 1 0 0 0 0])
-  ("checked" .
-   [1 0 0 0 0 0 0])
-  ("createSuccessFail" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("EndObject" .
-   [1 0 0 0 0 0 0 0 0])
-  ("StartObject" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("writer" .
-   [3 0 0 0 0 0])
-  ("m_rootDir" .
-   [0 0 0 0 0 1 2 0 0])
-  ("filesystem" .
-   [6 0 0 0 0 0 0 1 0 0])
-  ("boost" .
-   [7 0 0 0 0])
-  ("class" .
-   [1 0 0 0 0])
-  ("div" .
-   [4 0 0])
-  ("Delete" .
-   [1 0 0 0 0 0])
-  ("TestName01" .
-   [0 0 0 0 1 1 0 0 0 0])
-  ("Size" .
-   [1 0 0 0])
-  ("targetFiles" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("V" .
-   [1])
-  ("GetString" .
-   [1 0 0 0 0 0 0 0 0])
-  ("filename" .
-   [9 0 0 0 0 0 0 0])
-  ("end" .
-   [5 0 0])
-  ("it" .
-   [1 0])
-  ("itr" .
-   [4 0 0])
-  ("Value" .
-   [2 0 0 0 0])
-  ("rapidjson" .
-   [4 0 0 0 0 2 0 0 0])
-  ("HasMember" .
-   [0 0 0 1 1 0 0 0 0])
-  ("jsonData" .
-   [7 0 0 0 0 0 0 0])
-  ("json" .
-   [2 0 1 0])
-  ("deleteFile" .
-   [2 0 0 0 0 1 0 0 0 0])
-  ("m_fileSystem" .
-   [0 0 0 1 1 0 0 0 0 0 0 0])
-  ("Key" .
-   [2 0 0])
-  ("status" .
-   [1 0 0 0 0 0])
-  ("message" .
-   [2 0 0 0 0 0 0])
-  ("percent" .
-   [2 0 0 0 0 0 0])
-  ("progress" .
-   [5 0 0 0 0 0 0 0])
-  ("stateText" .
-   [1 0 0 0 0 0 0 0 0])
-  ("checkStatus" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("checkSdcard" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("settingsForm" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("captureForm" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("html" .
-   [1 0 0 0])
-  ("infoText" .
-   [2 0 0 0 0 0 0 0])
-  ("done" .
-   [3 0 0 0])
-  ("name" .
-   [7 0 0 0])
-  ("infoForm" .
-   [2 0 0 0 0 0 0 0])
-  ("cgi" .
-   [3 0 0])
-  ("run" .
-   [3 0 0])
-  ("cgi-bin" .
-   [2 0 0 0 0 0 0])
-  ("form" .
-   [3 0 0 0])
-  ("finalSteps" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("leapStepsToApply" .
-   [0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0])
-  ("numSteps" .
-   [1 0 0 0 0 1 0 0])
-  ("leapSteps" .
-   [0 0 0 0 4 0 0 0 0])
-  ("String" .
-   [1 0 0 0 0 1])
-  ("close" .
-   [6 0 0 0 0])
-  ("read" .
-   [5 0 0 0])
-  ("readCalib" .
-   [4 0 0 0 0 0 0 0 0])
-  ("write" .
-   [5 0 0 0 0])
-  ("open" .
-   [3 0 0 0])
-  ("calibWriter" .
-   [3 0 0 0 0 0 1 1 0 1 0])
-  ("binary" .
-   [2 0 0 0 0 0])
-  ("ios" .
-   [4 0 0])
-  ("out" .
-   [2 0 0])
-  ("ofstream" .
-   [1 0 0 0 0 0 0 0])
-  ("size_t" .
-   [3 0 0 0 0 0])
-  ("ScanFileIoE57" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("strlen" .
-   [3 0 0 0 0 0])
-  ("length" .
-   [6 0 1 1 1 0])
-  ("tools" .
-   [1 0 0 0 0])
-  ("fileContents" .
-   [7 0 0 0 0 0 0 0 0 2 0 0])
-  ("n" .
-   [11])
-  ("sstream" .
-   [1 0 0 0 0 0 0])
-  ("ifstream" .
-   [2 0 0 0 0 0 0 0])
-  ("calibrationData" .
-   [11 0 0 0 0 0 0 0 0 0 1 0 2 1 0])
-  ("cho" .
-   [1 0 0])
-  ("grabFullSweepPackets" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("currentAngleInt" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("current" .
-   [7 0 0 1 10 0 1])
-  ("currentAngle" .
-   [3 0 0 0 0 0 0 0 0 0 0 0])
-  ("getDegreesPerScan" .
-   [0 0 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("m_depthSubSystem" .
-   [0 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0])
-  ("currDelay" .
-   [2 0 0 1 6 1 0 1 0])
-  ("printk" .
-   [6 0 0 0 0 0])
-  ("g_accelerationTicks" .
-   [1 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("g_initalMult" .
-   [0 0 0 0 0 0 0 0 1 0 0 0])
-  ("g_delay" .
-   [3 0 1 3 0 0 0])
-  ("spiTest02" .
-   [0 0 0 1 0 0 0 0 0])
-  ("-o" .
-   [1 0])
-  ("CFLAGS" .
-   [0 0 0 1 0 0])
-  ("CC" .
-   [1 0])
-  ("COMPILERDIR" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("TX_LEN" .
-   [0 0 6 2 0 0])
-  ("bits_per_word" .
-   [0 0 0 0 0 1 0 0 1 0 0 0 0])
-  ("cs_change" .
-   [1 0 1 0 0 0 0 0 0])
-  ("CONFIG" .
-   [0 0 0 1 0 0])
-  ("cmdBuff" .
-   [1 0 0 0 0 0 0])
-  ("sendBuffer" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("printf" .
-   [13 0 0 0 0 1])
-  ("GET_PARAM" .
-   [1 0 0 0 0 0 0 0 0])
-  ("ends" .
-   [8 0 0 0])
-  ("tryNum" .
-   [2 0 0 0 0 0])
-  ("rxbuf" .
-   [4 0 0 1 1])
-  ("txbuf" .
-   [9 0 0 0 0])
-  ("R" .
-   [5])
-  ("RX_LEN" .
-   [0 0 0 0 1 0])
-  ("rx_nbits" .
-   [0 0 0 0 2 0 0 0])
-  ("tx_nbits" .
-   [0 0 0 1 1 0 0 0])
-  ("xfer" .
-   [6 0 0 0])
-  ("capture" .
-   [4 0 0 0 0 0 0])
-  ("m_rgbSubSystem" .
-   [0 0 0 0 0 2 0 0 0 0 0 0 0 0])
-  ("sensorID" .
-   [26 0 0 0 0 0 0 2])
-  ("join" .
-   [10 0 0 0])
-  ("push_back" .
-   [0 0 0 1 5 1 3 0 0])
-  ("m_exposures" .
-   [1 0 0 0 0 0 0 1 0 0 0])
-  ("m_exposure" .
-   [0 0 0 0 0 1 0 0 0 0])
-  ("exposures" .
-   [9 0 0 0 0 0 0 0 0])
-  ("r" .
-   [13])
-  ("size" .
-   [29 0 0 0])
-  ("m_sensors" .
-   [1 0 0 0 0 3 0 0 0])
-  ("images" .
-   [37 0 1 0 0 0])
-  ("exposureVec" .
-   [3 0 0 0 0 0 0 0 1 1 0])
-  ("IDSRGBSubSystem" .
-   [0 0 0 0 2 1 0 0 0 0 0 0 0 0 0])
-  ("rgbSubSystem" .
-   [0 0 0 3 0 0 0 0 0 0 0 0])
-  ("fireSensor" .
-   [2 0 0 0 0 1 0 0 0 0])
-  ("Mat" .
-   [25 0 0])
-  ("captureThreads" .
-   [7 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("vector" .
-   [26 0 2 1 1 0])
-  ("captureThread" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("position" .
-   [2 0 0 0 0 0 0 0])
-  ("type" .
-   [2 0 0 0])
-  ("path" .
-   [4 0 0 0])
-  ("m_imgOutputDir" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("i" .
-   [15])
-  ("w" .
-   [8])
-  ("MOVE_BACKWARD" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("MOVE_FORWARD" .
-   [0 0 1 0 0 0 0 0 0 0 0 0])
-  ("buf" .
-   [3 0 0])
-  ("cmd" .
-   [6 0 0])
-  ("sleep" .
-   [5 0 0 0 0])
-  ("STEPCLOCK_FORWARD" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("data" .
-   [14 0 0 0])
-  ("core-image-vidar-dev" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("bitbake" .
-   [4 0 0 0 0 0 0])
-  ("clear" .
-   [8 0 0 0 0])
-  ("source" .
-   [0 0 0 0 1 0])
-  ("flush" .
-   [15 0 0 0 0])
-  ("system" .
-   [2 0 1 0 0 0])
-  ("initPowerSystem" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("co" .
-   [1 0])
-  ("is_open" .
-   [0 0 0 0 1 1 0])
-  ("powerSwitch" .
-   [3 0 0 0 0 0 0 0 0 0 0])
-  ("c" .
-   [42])
-  ("powerDown" .
-   [1 0 0 0 0 0 0 0 0])
-  ("powerUp" .
-   [3 0 0 0 0 0 0])
-  ("depthSubSystem" .
-   [0 0 0 0 0 1 2 0 1 0 0 0 0 0])
-  ("e" .
-   [13])
-  ("endl" .
-   [105 0 1 0])
-  ("cout" .
-   [106 0 0 2])
-  ("compare" .
-   [7 0 0 0 0 0 0])
-  ("argv" .
-   [8 0 0 0])
-  ("string" .
-   [22 0 0 0 0 0])
-  ("std" .
-   [381 1 2])
-  ("setCalibrationMode" .
-   [0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0])
-  ("setDegreesPerScan" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("setImageCaptureAngle" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("config" .
-   [3 0 0 0 0 0])
-  ("setTotalScanRoation" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("configurationDepth" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 2 3 1 0 0])
-  ("configuration" .
-   [6 0 0 0 0 2 1 2 2 0 0 0 0])
-  ("scanner" .
-   [8 0 0 0 0 0 0])
-  ("iedit-mode" .
-   [0 0 0 0 0 0 0 1 0 0])
-  ("kbd" .
-   [2 0 0])
-  ("global-map" .
-   [1 0 0 0 1 0 0 0 0 0])
-  ("define-key" .
-   [1 0 0 0 0 0 1 0 0 0])
-  ("achead:include-directories" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("math" .
-   [1 0 1 0])
-  ("iostream" .
-   [3 0 0 0 0 0 0 1])
-  ("s" .
-   [62])
-  ("f" .
-   [24])
-  ("require" .
-   [2 0 0 0 0 0 0])
-  ("auto" .
-   [1 0 0 0])
-  ("defun" .
-   [0 0 0 0 1])
-  ("auto-complete" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("auto-complete-c-headers" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("add-to-list" .
-   [3 0 0 0 0 0 2 0 0 0 0])
-  ("ac-sources" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("add-hook" .
-   [2 0 0 1 3 0 0 0])
-  ("c++-mode-hook" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("my:ac-c-header-init" .
-   [0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("c-mode" .
-   [1 0 0 0 0 0])
-  ("c-mode-hook" .
-   [0 0 0 0 0 0 0 0 0 1 0])
-  ("include" .
-   [0 0 0 0 0 1 0])
-  ("m_configurationDepth" .
-   [2 0 0 0 0 5 6 5 0 0 0 0 0 0 0 2 2 0 1 0])
-  ("getOutputRAW" .
-   [1 0 0 0 0 0 0 1 0 0 0 0])
-  ("scanBasic" .
-   [1 0 0 0 0 0 0 0 0])
-  ("scanRAW" .
-   [3 0 0 0 0 0 0])
-  ("dataPoints" .
-   [13 0 0 0 0 0 0 0 0 0])
-  ("m_configuration" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("m_scanFileIo" .
-   [0 0 0 0 0 0 0 0 0 1 0 0])
-  ("writeDataPoints" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("Scans" .
-   [1 0 0 0 0])
-  ("scan" .
-   [2 0 0 0])
-  ("st" .
-   [4 0])
-  ("getCaptureMode" .
-   [2 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("m_captureMode" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("CaptureMode" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("ImageOnly" .
-   [1 0 0 0 0 0 0 0 1])
-  ("I" .
-   [4])
-  ("Calibrate" .
-   [3 0 0 0 1 1 0 0 0])
-  ("Scan" .
-   [1 0 0 0])
-  ("ScanAndImage" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("ImageScanAndImage" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0])
-  ("ImageScan" .
-   [1 0 0 0 0 0 0 0 0])
-  ("getCaptureModeString" .
-   [2 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
-  ("scansPerDegree" .
-   [1 0 0 0 0 3 0 0 1 0 0 0 0 0])
-  ("val" .
-   [8 0 0])
-  ("input" .
-   [2 0 0 1 0])
-  ("text" .
-   [5 0 0 0])
-  ("window" .
-   [11 0 0 0 0 0])
-  ("alert" .
-   [1 0 0 0 0])
-  ("select" .
-   [4 0 0 0 0 0])
-  ("option" .
-   [5 0 0 0 0 0])
-  ("captureType" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("selected" .
-   [3 0 0 0 0 0 0 0])
-  ("m_outputDir" .
-   [1 0 0 0 1 0 1 0 1 0 0])
-  ("calibCopy" .
-   [0 0 0 0 0 0 1 0 0])
-  ("captureMode" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("c_str" .
-   [5 0 0 0 0])
-  ("to_string" .
-   [3 0 5 3 1 0 0 0 0])
-  ("t" .
-   [20])
-  ("S" .
-   [9])
-  ("engage" .
-   [0 0 0 1 0 0])
-  ("moveTo" .
-   [2 0 0 1 2 0])
-  ("disengage" .
-   [0 0 0 0 0 1 0 0 0])
-  ("this_thread" .
-   [1 0 0 0 0 1 1 0 0 0 0])
-  ("sleep_for" .
-   [0 0 0 1 0 1 0 0 0])
-  ("chrono" .
-   [2 0 1 1 1 0])
-  ("seconds" .
-   [1 0 0 0 0 0 0])
-  ("thread" .
-   [26 0 0 0 2 1])
-  ("cv" .
-   [26 0])
-  ("m" .
-   [15])
-  ("cameraConfig" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("m_configurationRGB" .
-   [4 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0])
-  ("m_lastMessage" .
-   [0 0 0 0 0 0 0 2 0 0 0 0 0])
-  ("nct" .
-   [40 0 0])
-  ("modules" .
-   [29 0 1 3 3 3 1])
-  ("ControlSubSystem" .
-   [0 0 0 0 0 0 0 3 4 2 1 0 0 0 0 0])
-  ("StateSingleton" .
-   [3 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("stateSystem" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("g" .
-   [7])
-  ("getInstance" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("setState" .
-   [1 0 0 0 0 0 0 0])
-  ("controlSubSystem" .
-   [2 0 0 0 0 0 0 0 0 2 2 0 0 0 0 0])
-  ("StateInterface" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("StateCode" .
-   [1 0 0 0 0 0 0 0 0])
-  ("Idle" .
-   [1 0 0 0])
-  ("getLastMessage" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("SYSROOT" .
-   [0 0 1 0 0 0 0])
-  ("bit" .
-   [1 0 0])
-  ("__u8" .
-   [2 0 2 2])
-  ("__u32" .
-   [2 0 0 0 0])
-  ("len" .
-   [10 0 0])
-  ("speed_hz" .
-   [0 0 0 0 0 0 1 0])
-  ("__u16" .
-   [1 0 0 0 1])
-  ("delay_usecs" .
-   [1 0 0 1 0 0 0 0 0 0 0])
-  ("pad" .
-   [1 0 0])
-  ("spi_ioc_override" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("l" .
-   [7])
-  ("tx_buf" .
-   [1 0 0 0 0 0])
-  ("rx_buf" .
-   [1 0 0 0 0 0])
-  ("unsigned" .
-   [0 0 0 0 1 0 0 0])
-  ("perror" .
-   [1 0 0 0 0 0])
-  ("x" .
-   [1])
-  ("printBuffer" .
-   [0 0 0 0 0 0 2 0 0 0 0])
-  ("sendCMD" .
-   [2 0 0 0 0 0 0])
-  ("BITS_TO_TRANSMIT" .
-   [1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("getStatus" .
-   [0 0 0 0 0 0 1 0 0])
-  ("setq" .
-   [5 0 0 0])
-  ("default-frame-alist" .
-   [0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0])
-  ("append" .
-   [13 0 0 0 0 0])
-  ("background-color" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("foreground-color" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("cursor-color" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("font" .
-   [0 0 0 1])
-  ("g_moveValue" .
-   [1 0 0 0 0 0 4 0 0 1 0])
-  ("in" .
-   [25 0])
-  ("incrementer" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("decrementer" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("accel" .
-   [4 0 0 0 0])
-  ("a" .
-   [6])
-  ("positon" .
-   [0 0 0 0 0 0 2])
-  ("recalibrate" .
-   [4 0 0 0 1 1 1 1 1 0 0])
-  ("v" .
-   [11])
-  ("tiltCompass" .
-   [4 0 0 0 1 0 0 1 0 0 0])
-  ("C" .
-   [5])
-  ("is_GetBusSpeed" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("m_hCam" .
-   [1 0 0 0 0 0])
-  ("IS_USB_30" .
-   [0 0 0 0 1 0 0 0 0])
-  ("H" .
-   [1])
-  ("m_sInfo" .
-   [2 0 0 0 0 0 0])
-  ("strSensorName" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("m_sensorType" .
-   [1 0 0 0 0 0 0 0 0 1 0 0])
-  ("SENSOR_10MP" .
-   [1 0 0 0 0 0 0 1 0 0 0])
-  ("pixelClock" .
-   [2 0 0 0 0 0 0 1 0 0])
-  ("flip" .
-   [3 0 0 0])
-  ("image" .
-   [10 0 0 0 0])
-  ("sensor" .
-   [3 0 0 0 0 0])
-  ("fileUrls" .
-   [3 0 0 0 0 0 0 0])
-  ("file" .
-   [2 0 0 0])
-  ("deleteForm" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("targetFile" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("fileSystem" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("action" .
-   [1 0 0 0 0 0])
-  ("delete" .
-   [1 0 0 0 0 0])
-  ("console" .
-   [2 0 0 0 0 0 0])
-  ("log" .
-   [2 0 0])
-  ("File" .
-   [1 0 0 0])
-  ("fileList" .
-   [1 0 0 0 0 0 0 0])
-  ("listFilesText" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("/bin/sh" .
-   [0 0 0 0 0 1 0])
-  ("-c" .
-   [4 0])
-  ("cleanall" .
-   [1 0 0 0 0 0 0 0])
-  ("core-image-vdar-dev" .
-   [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("/home/graeme/projects/linux_buildsystem/build/yocto/build/tmp/sysroots/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("core-image-live-initrd" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("testMode" .
-   [2 0 0 0 0 0 0 0])
-  ("numRuns" .
-   [2 0 0 0 0 0 0])
-  ("m_numberOfScansLeft" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("br" .
-   [1 0])
-  ("inputFile" .
-   [1 0 0 0 0 0 0 0 1])
-  ("font-size: ..." .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  (":font" .
-   [1 0 0 0 0])
-  (":help" .
-   [0 0 0 1 0])
-  ("m_motor" .
-   [1 0 0 0 0 0 1])
-  ("readPosition" .
-   [1 0 0 0 0 0 0 0 0 0 1 0])
-  ("degree" .
-   [1 0 0 0 0 0])
-  ("m_motorResolution" .
-   [1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0])
-  ("targetA" .
-   [4 0 0 0 0 0 0])
-  ("adjustment" .
-   [4 0 0 0 0 0 0 0 1 0])
-  ("target" .
-   [4 0 0 1 0 0])
-  ("angleAdjustment" .
-   [1 0 0 0 0 0 0 1 0 1 1 2 0 0 0])
-  ("m_position" .
-   [7 0 0 0 2 0 0 0 0 0])
-  ("startAngle" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("M" .
-   [1])
-  ("targetAngle" .
-   [2 0 0 0 0 0 0 0 1 0 0])
-  ("amount" .
-   [10 0 0 0 0 0])
-  ("subStepAngle" .
-   [1 0 0 0 1 0 2 0 0 0 0 0])
-  ("milliseconds" .
-   [0 0 0 1 0 0 0 0 0 0 0 0])
-  ("moveSubSteps" .
-   [0 0 0 0 0 0 0 0 0 0 1 0])
-  ("Adjusting" .
-   [0 0 0 1 0 0 0 0 0])
-  ("A" .
-   [2])
-  ("o" .
-   [3])
-  ("ceil" .
-   [1 0 0 0])
-  ("blkid" .
-   [1 0 0 0 0])
-  ("/dev/mmcblk0p2" .
-   [1 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("grep" .
-   [4 0 0 0])
-  ("/media" .
-   [1 0 0 1 0 1])
-  ("mount" .
-   [1 0 0 0 0])
-  ("/dev/mmcblk0p5" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("/media/mmcblk0p5" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0])
-  ("/media/mmcblk0p" .
-   [0 0 0 0 0 0 0 0 0 2 0 0 0 0 0])
-  ("/media/mmcblk0p2" .
-   [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("/media/mmcblk0p2/etc/fstab" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("/dev" .
-   [1 0 0 0])
-  ("aplay" .
-   [1 0 0 0 0])
-  ("totalScanRotation" .
-   [1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0])
-  ("motorSweepThread" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("detach" .
-   [0 0 0 0 3 0])
-  ("currentAzi" .
-   [1 0 0 0 0 0 0 0 2 0])
-  ("azi" .
-   [3 0 0])
-  ("clipLasers" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("dataPoint3DLASIRIS" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 10 4 2 0 0 0])
-  ("dataPoint3D" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("dataPointExtended3D" .
-   [2 0 0 0 0 0 0 0 0 1 2 0 1 0 0 0 0 0 0])
-  ("dataPointsGroup" .
-   [8 0 0 0 0 0 0 0 0 0 0 2 2 0 0])
-  ("group" .
-   [7 0 0 0 0])
-  ("lastSubDir" .
-   [0 0 0 0 1 1 0 0 0 0])
-  ("round" .
-   [1 0 0 0 0])
-  ("motorPosition" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("readLasirisPointBlob" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("lasiris" .
-   [3 0 0 0 1 0 0])
-  ("pointManipulator" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("lasirisToE57" .
-   [0 0 0 0 0 0 0 0 1 0 0 0])
-  ("scanDir" .
-   [2 0 0 0 0 0 0])
-  ("horizAngle" .
-   [3 0 0 0 0 11 1 0 0 0])
-  ("intensity" .
-   [2 0 0 0 0 0 1 1 0])
-  ("points" .
-   [16 0 0 0 0 0])
-  ("filepaths" .
-   [2 0 0 0 0 0 0 0 0])
-  ("writeDataPointsLasiris" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0])
-  ("writing" .
-   [1 0 0 0 0 0 0])
-  ("d" .
-   [5])
-  ("exception" .
-   [2 0 0 0 0 0 0 0 0])
-  ("report" .
-   [1 0 0 0 0 0])
-  ("__FILE__" .
-   [1 0 0 0 0 0 0 0])
-  ("__LINE__" .
-   [1 0 0 0 0 0 0 0])
-  ("__FUNCTION__" .
-   [1 0 0 0 0 1 0 0 0 0 0 0])
-  ("E57" .
-   [1 0 0])
-  ("DataPacket" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("g_buffer" .
-   [0 0 0 0 2 0 0 0])
-  ("stack" .
-   [1 0 0 0 0])
-  ("queue" .
-   [1 0 0 0 0])
-  ("saveQueue" .
-   [0 0 0 0 0 1 0 0 0])
-  ("savePoints" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("packetVec" .
-   [2 0 0 0 0 0 0 0 0])
-  ("numberOfItems" .
-   [0 0 0 0 0 0 0 0 2 0 1 0 0])
-  ("bufferSize" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("dataPointSize" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("point" .
-   [1 0 0 0 0])
-  ("lasirisXYZToScannerCoords" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("calibration" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("!/bin/sh" .
-   [1 0 0 0 0 0 0 0])
-  ("./" .
-   [2 0])
-  ("sysInfoFile" .
-   [3 0 0 0 1 1 0 0 0 0 0])
-  ("currentConfigFile" .
-   [4 0 0 0 0 0 0 0 1 0 1 5 4 0 0 0 0])
-  ("sysInfoSSID" .
-   [3 0 0 3 3 5 0 1 2 1 0])
-  ("currentConfigSSID" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("regex" .
-   [6 0 0 0 0])
-  ("No" .
-   [1 0])
-  ("N" .
-   [1])
-  ("currentConfigFull" .
-   [8 0 0 0 0 0 0 0 1 0 6 3 3 1 0 2 0])
-  ("oldSSID" .
-   [1 0 0 0 0 0 0])
-  ("searchSSID" .
-   [1 0 0 0 0 0 0 1 2 0])
-  ("begin" .
-   [1 0 0 0 0])
-  ("fstream" .
-   [4 0 0 0 0 0 0])
-  ("checkWiFiSSID" .
-   [0 0 0 0 0 1 1 0 0 0 0 0 0])
-  ("regex_error" .
-   [2 0 0 0 0 0 0 1 0 0 0])
-  ("code" .
-   [1 0 0 0])
-  ("regexError" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("b" .
-   [3])
-  ("regex_constants" .
-   [0 0 0 0 0 0 0 0 0 1 1 0 0 0 0])
-  ("basic" .
-   [1 0 0 0 0])
-  ("regex_match" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("find" .
-   [3 0 0 0])
-  ("index" .
-   [3 0 0 0 0])
-  ("match" .
-   [13 0 0 0 0])
-  ("str" .
-   [2 0 0])
-  ("substr" .
-   [0 0 0 1 0 0])
-  ("pos" .
-   [6 0 0])
-  ("empty" .
-   [1 0 0 0 0])
-  ("npos" .
-   [2 0 0 0])
-  ("sync" .
-   [1 0 0 0])
-  ("LINUX_REBOOT_CMD_POWER_OFF" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("unistd" .
-   [1 0 0 0 1 0])
-  ("sys" .
-   [2 0 0])
-  ("reboot" .
-   [0 0 0 0 1 0])
-  ("once" .
-   [1 0 0 0])
-  ("namespace" .
-   [0 0 0 0 0 0 0 1 0])
-  ("calibData" .
-   [3 0 0 0 0 0 0 0 0])
-  ("CalibrationConfiguration" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 2 0 0 0 0 0 0 0 0])
-  ("CalibrationConfigurationInterface" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 2 0 0 0 0 0])
-  ("CalibrationConfigurationVDAR" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("calibFilePath" .
-   [3 0 0 0 0 0 0 0 0 1 1 0 0])
-  ("override" .
-   [0 0 1 0 0 0 0 0])
-  ("getCalibrationData" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("loadCalibration" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("loadCalibrationFile" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("Calibration" .
-   [0 0 0 0 0 0 0 0 0 1 0])
-  ("m_configurationCalibration" .
-   [0 0 0 0 0 0 2 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("configurationCalibration" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0])
-  ("calibrationFile" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("m_calibrationData" .
-   [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("getCalibration" .
-   [3 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("tmRToB" .
-   [1 0 0 0 0 0])
-  ("filePath" .
-   [1 0 0 0 0 0 0 0])
-  ("readSerialFile" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("fs" .
-   [1 0])
-  ("i2cBus" .
-   [1 0 0 0 0 0])
-  ("argc" .
-   [4 0 0 0])
-  ("ControlSubSystemTerminal" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 2 1 0 0 0])
-  ("controlSystem" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("p" .
-   [5])
-  ("configurationRGB" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("RGBConfigurationSimple" .
-   [0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("RGBConfigurationInterface" .
-   [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("m_scanner" .
-   [1 0 0 0 0 0 0 0 0])
-  ("m_Configuration" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("positionSubSystem" .
-   [0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0])
-  ("PositionSubSystemLSM303DLCH" .
-   [1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("m_positionSystem" .
-   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0])
-  ("m_motorDevice" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("motorDevice" .
-   [2 0 0 0 0 0 0 0 1 0 0])
-  ("motor" .
-   [1 0 0 0 0])
-  ("motorDevice8825" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("mainMenu" .
-   [0 0 0 0 1 1 0 0])
-  ("MotorDeviceInterface" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("G" .
-   [2])
-  ("PositionSubSystemInterface" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("m_positionSubSystem" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
-  ("positionSystem" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("stage" .
-   [4 0 0 0 0])
-  ("LED" .
-   [4 0 0])
-  ("LEDInterface" .
-   [0 0 0 1 1 1 0 0 1 0 0 0])
-  ("Colour" .
-   [4 0 0 0 0 0])
-  ("BLUE" .
-   [1 0 0 0])
-  ("m_lastColour" .
-   [3 0 0 0 0 1 1 1 0 1 0 0])
-  ("NONE" .
-   [3 0 0 0])
-  ("setLED" .
-   [1 0 0 0 1 0])
-  ("colour" .
-   [2 0 0 0 0 0])
-  ("m_lastBlinkColour" .
-   [0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0])
-  ("allOff" .
-   [2 0 0 0 0 0])
-  ("lastHorizAngle" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("laserData" .
-   [0 0 0 0 0 0 1 0 0])
-  ("server-mode" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("server-start" .
-   [0 0 0 0 0 0 0 0 0 1 0 0])
-  ("serial" .
-   [6 0 0 0 1 0])
-  ("fixCorruptSystemInfo" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("LEDSystem" .
-   [0 0 0 0 0 1 0 0 0])
-  ("put" .
-   [1 0 0])
-  ("currentLetter" .
-   [1 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("at" .
-   [2 0])
-  ("lineEndPos" .
-   [1 0 0 0 0 0 2 4 0 0])
-  ("DepthSubSystemVelodyneSweep" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("m_controlSubsystemTerminal" .
-   [0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("controlSystemTerminal" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("showMenu" .
-   [0 0 0 0 0 1 0 0])
-  ("ControlSubSystemHTTP" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0])
-  ("startHttpServer" .
-   [1 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("o3dControl" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("o3dInterface" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("mod" .
-   [1 0 0])
-  ("j" .
-   [2])
-  ("menuThread" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("mainLoop" .
-   [1 0 0 0 0 0 0 0])
-  ("north" .
-   [1 0 0 0 0])
-  ("rotations" .
-   [1 0 0 0 0 0 0 0 0])
-  ("neotree-toggle" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("-d" .
-   [6 0])
-  ("cpu" .
-   [1 0 0])
-  ("pt" .
-   [4 0])
-  ("format" .
-   [1 0 0 0 0 0])
-  ("the" .
-   [2 0 0])
-  ("OW" .
-   [4 0])
-  ("OV" .
-   [5 0])
-  ("shift" .
-   [0 0 1 0 0])
-  ("POSH" .
-   [5 0 0 0])
-  ("HSH" .
-   [2 0 0])
-  ("HGH" .
-   [2 0 0])
-  ("POSW" .
-   [5 0 0 0])
-  ("WSH" .
-   [1 0 0])
-  ("WGH" .
-   [1 0 0])
-  ("FSCRW" .
-   [4 0 1 1 0])
-  ("FSCRH" .
-   [4 0 0 0 0])
-  ("IMGH" .
-   [5 0 0 0])
-  ("IMGW" .
-   [7 0 0 0])
-  ("SCRW" .
-   [7 0 0 0])
-  ("ARGS" .
-   [2 0 0 0])
-  ("IT" .
-   [4 0])
-  ("**" .
-   [3 0])
-  ("LSW" .
-   [3 0 0])
-  ("SCRH" .
-   [2 0 0 0])
-  ("POSH:" .
-   [1 0 0 0 0])
-  ("discount" .
-   [1 0 0 0 0 0 0 0])
-  ("delivery" .
-   [1 0 0 0 0 0 0 0])
-  ("currency" .
-   [1 0 0 0 0 0 0 0])
-  ("amount_includes_vat" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("price" .
-   [8 0 0 0 0])
-  ("net_price" .
-   [1 0 0 0 0 0 0 0 0])
-  ("item" .
-   [19 0 0 0])
-  ("order" .
-   [5 0 0 0 0])
-  ("product" .
-   [4 0 0 5 0 0 0])
-  ("object_id" .
-   [4 0 0 0 0 0 0 0 0])
-  ("fields" .
-   [5 0 1 0 0 0])
-  ("Order" .
-   [1 0 1 0 0])
-  ("order_info" .
-   [16 0 0 0 0 0 1 0 0 0])
-  ("customer_address" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("delivery_address" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("order_number" .
-   [3 0 0 0 0 0 0 0 0 0 0 0])
-  ("invoice_date" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("enumerate" .
-   [0 0 0 0 0 0 0 1 0])
-  ("description" .
-   [1 0 0 0 0 1 0 0 0 0 0])
-  ("quantity" .
-   [3 0 1 2 0 0 0 0])
-  ("unit" .
-   [1 0 0 0])
-  ("vat_codt" .
-   [1 0 0 0 0 0 0 0])
-  ("vat_code" .
-   [12 0 1 0 0 1 0 0])
-  ("vat_rate" .
-   [3 0 0 0 1 0 1 0])
-  ("gross_price" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("the_price" .
-   [1 0 0 0 0 0 0 0 0])
-  ("VAT_Code" .
-   [0 0 0 0 1 0 1 0])
-  ("elif" .
-   [0 0 1 0])
-  ("calc" .
-   [1 0 0 0])
-  ("fill_pdf_invoice_overflow" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("orderA" .
-   [1 0 0 0 0 0])
-  ("itemA" .
-   [1 0 0 0 0])
-  ("itemB" .
-   [1 0 0 0 0])
-  ("page" .
-   [4 0 0 0])
-  ("pages" .
-   [2 0 0 0 0])
-  ("fdf_data" .
-   [6 0 0 0 0 0 0 0])
-  ("page_data" .
-   [2 0 0 0 0 0 0 0 0])
-  ("wb" .
-   [1 0])
-  ("temp_file" .
-   [9 0 0 0 1 1 0 0 0])
-  ("closd" .
-   [2 0 0 0 0])
-  ("subprocess" .
-   [0 0 0 1 0 0 0 0 0 0])
-  ("call" .
-   [2 0 0 0])
-  ("on" .
-   [1 0])
-  ("we" .
-   [1 0])
-  ("forge_fdf" .
-   [1 0 0 0 0 0 0 0 0])
-  ("template" .
-   [2 0 0 0 0 0 0 0])
-  ("page_no" .
-   [7 0 1 0 0 0 0])
-  ("output" .
-   [1 0 0 0 0 0])
-  ("temp_filename" .
-   [7 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("output_filename" .
-   [5 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("build_pdf_page" .
-   [5 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("invoice_templates" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("current_page_no" .
-   [7 0 0 0 0 0 0 0 0 0 1 1 0 0 0])
-  ("last_item" .
-   [2 0 0 0 0 0 0 0 0])
-  ("last_item_index" .
-   [13 0 0 2 3 0 1 0 0 0 0 0 0 0 1])
-  ("built" .
-   [2 0 0 0 0])
-  ("vat" .
-   [3 0 0])
-  ("Invoice" .
-   [0 0 0 1 0 0 0])
-  ("pdf_pages" .
-   [6 0 0 0 0 0 0 0 0])
-  ("pdh_pages" .
-   [1 0 0 0 0 0 0 0 0])
-  ("pdf" .
-   [3 0 0])
-  ("customer_details_fields" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("product_fields" .
-   [11 0 0 1 0 0 0 0 2 1 0 0 0 0])
-  ("num_products_front_page" .
-   [1 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("num_products_one_page" .
-   [1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("order_items" .
-   [12 0 0 0 0 0 0 0 0 0 1])
-  ("randint" .
-   [1 0 0 2 1 0 0])
-  ("vat_codes" .
-   [1 0 0 0 0 0 0 0 0])
-  ("get_random_vat_code" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("items" .
-   [4 0 0 0 0])
-  ("num_fields_in_product_line" .
-   [4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("num_products_full_page" .
-   [6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("prin" .
-   [20 0 0 0])
-  ("f_id" .
-   [21 0 0 0])
-  ("so" .
-   [7 0])
-  ("num_products_last_page" .
-   [4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("first_page" .
-   [5 0 0 0 0 0 0 0 0 0])
-  ("first" .
-   [1 0 0 0 0])
-  ("an" .
-   [7 0])
-  ("current_page" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("last" .
-   [1 0 0 0])
-  ("cod" .
-   [1 0 0])
-  ("SpooledTemporaryFile" .
-   [0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("our" .
-   [1 0 0])
-  ("NamedTemporaryFile" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("tmp_pages_paths" .
-   [1 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("whitespace-style" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("whitespace-line" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("whitespace-indentation" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0])
-  (":background" .
-   [0 0 0 0 0 1 2 0 0 0 0])
-  ("finalise" .
-   [3 0 0 0 0 0 0 0])
-  ("db" .
-   [1 0])
-  ("attrs" .
-   [1 0 0 0 0])
-  ("last_name" .
-   [1 0 0 0 0 0 0 0 0])
-  ("basket_id" .
-   [1 0 0 0 0 0 0 0 0])
-  ("update_from_user" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("base" .
-   [1 0 0 0])
-  ("basket" .
-   [3 0 0 0 0 0])
-  ("total_net_value" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("total_vat_amount" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("total_amount_payable" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("request" .
-   [5 0 0 0 0 2 0])
-  ("is_ajax" .
-   [2 0 0 0 1 0 0])
-  ("product_available" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("enquiry_form" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("settings" .
-   [5 0 0 0 0 0 0 0])
-  ("text-mode-hook" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("Django" .
-   [0 0 1 0 0 0])
-  ("auto-mode-alist" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("web-mode" .
-   [0 0 0 0 1 0 0 0])
-  ("maps" .
-   [1 0 0 0])
-  ("key" .
-   [1 0 0])
-  ("display_amount" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("init" .
-   [1 0 0 0])))
+((("paginator" .
+	 [3 0 0 0 0 0 0 0 0])
+	("Paginator" .
+	 [2 0 0 0 0 2 0 0 0])
+	("form_class" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("ListView" .
+	 [1 0 0 0 0 0 0 0])
+	("promotional_mechanics_list" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("while" .
+	 [1 0 0 0 0])
+	("font-lock-variable-name-face" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+	("font-lock-function-name-face" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("set-face-foreground" .
+	 [0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 1])
+	("font-lock-string-face" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+	("list" .
+	 [1 0 0 0])
+	("lawlist-red" .
+	 [3 0 0 0 0 0 0 0 0 0 0])
+	("reverse" .
+	 [1 0 0 0 0 0 0])
+	("add" .
+	 [1 0 0])
+	("element" .
+	 [2 0 0 0 0 0 0])
+	("for" .
+	 [1 0 0])
+	("promotional_mechanic_list" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+	("Promotional" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("td" .
+	 [1 0])
+	("endfor" .
+	 [2 0 0 0 0 0])
+	("label" .
+	 [1 0 0 0 0])
+	("is_archived" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("assign-promotional-mechanics" .
+	 [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("AssignPromotionalMechanicForm" .
+	 [1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+	("InequalLengthStringCompare" .
+	 [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("StringLengthMatch" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+	("utilities" .
+	 [0 0 0 0 0 1 0 0 0])
+	("support_systems" .
+	 [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+	("emailB" .
+	 [1 0 0 0 0 0])
+	("stringLengthDifferenceThreshold" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("emailMatchWeight" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("lengthDifference" .
+	 [0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
+	("missmatched" .
+	 [0 0 0 0 0 0 0 1 0 0 0])
+	("stringB" .
+	 [2 0 0 0 0 0 0])
+	("stringA" .
+	 [3 0 0 0 0 0 0])
+	("WeightPercentageCalculator" .
+	 [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("CalculatePercentageDifference" .
+	 [0 0 0 1 0 0 0 0 0 0 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("Calculate" .
+	 [0 0 0 1 0 0 0 0 0])
+	("MatchWeights" .
+	 [0 0 0 0 0 5 1 0 0 0 0 0])
+	("py" .
+	 [1 0])
+	("context" .
+	 [15 0 0 2 1 0 1])
+	("kwargs" .
+	 [18 0 0 0 0 0])
+	("fci-rule-width" .
+	 [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+	("print_stack" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("endchunk" .
+	 [0 0 0 0 0 1 0 0])
+	("chunk" .
+	 [1 0 0 0 0])
+	("smart-mode-line" .
+	 [0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
+	("sublimity-map" .
+	 [0 0 0 0 0 0 0 0 0 1 0 0 0])
+	("discount_code" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("~/.bashrc:" .
+	 [0 0 0 1 0 1 0 0 0 0])
+	("-f" .
+	 [1 0])
+	("core" .
+	 [4 0 0 0])
+	("GOOGLE_MAPS_API_KEY" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+	("GOOGLE_MAPS_KEY" .
+	 [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+	("google_maps" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("conf" .
+	 [1 0 0 0])
+	("HOST" .
+	 [2 0 0 0])
+	("region_field" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0])
+	("cssPath" .
+	 [3 0 0 0 0 0 0])
+	("const" .
+	 [3 0 0 0 0])
+	("django" .
+	 [6 0 0 0 0 0])
+	("my-global-indent-mode" .
+	 [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("highlight-indent" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+	("Python" .
+	 [0 0 1 0 1 0])
+	("highlight-indent-guides" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+	("prog-mode-hook" .
+	 [0 0 0 0 0 1 0 1 0 0 0 0 0 0])
+	("highlight-indent-guides-mode" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 1 1])
+	("highlight" .
+	 [0 0 0 1 1 0 0 0 0])
+	("indent" .
+	 [1 0 0 0 0 0])
+	("product_vat_gbp" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("product_net_value" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("net" .
+	 [1 0 0])
+	("net_value" .
+	 [3 0 0 0 0 0 0 0 0])
+	("get_net_value" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("get_vat_percentage" .
+	 [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+	("no" .
+	 [3 0])
+	("pair" .
+	 [4 0 0 0])
+	("generate_pdf_invoice" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("send_order_email" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("pre" .
+	 [2 0 0])
+	("process" .
+	 [2 0 0 0 0 0 0])
+	("whitespace-space" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+	("SEND_ORDER_EMAILS" .
+	 [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("delete-trailing-whitespace" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("indent-tabs-mode" .
+	 [0 0 0 0 0 0 0 0 0 3 1 1 0 0 0 0])
+	("setq-default" .
+	 [4 0 0 1 0 0 1 2 0 1 0 0])
+	("lambda" .
+	 [2 0 0 1 0 0])
+	("python-mode-hook" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("guest" .
+	 [1 0 0 0 0])
+	("network" .
+	 [1 0 0 0 0 0 0])
+	("neotree" .
+	 [1 0 0 0 0 0 0])
+	("global-set-key" .
+	 [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+	("ssh" .
+	 [1 0 0])
+	("false" .
+	 [1 0 0 0 0])
+	("application" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("contentType" .
+	 [0 0 0 0 0 0 0 1 0 0 0])
+	("POST" .
+	 [7 0 0 0])
+	("url" .
+	 [2 0 0])
+	("function" .
+	 [1 0 0 0 0 0 0 0])
+	("rgbCaptureAngle" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+	("scanType" .
+	 [1 0 0 0 0 0 0 0])
+	("StringBuffer" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0])
+	("buffer" .
+	 [2 0 0 0 0 0])
+	("to" .
+	 [2 0])
+	("Available" .
+	 [1 0 0 0 0 0 0 0 0])
+	("capacity" .
+	 [1 0 0 0 0 0 0 0])
+	("spaceInfo" .
+	 [4 0 0 0 0 0 0 0 0])
+	("getFreeSpace" .
+	 [1 0 0 0 0 1 0 0 0 0 0 0])
+	("space_info" .
+	 [3 0 0 0 0 0 0 0 0 0])
+	("m_serialNumber" .
+	 [0 0 0 0 0 1 1 0 1 0 0 0 0 0])
+	("second" .
+	 [1 0 0 0 0 0])
+	("calibrationForm" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("calibrationProgressBar" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("calibrationProgressBa" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+	("implementation" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("calibrate" .
+	 [1 0 0 0 0 0 0 0 0])
+	("percentCompete" .
+	 [0 0 0 0 0 2 0 0 0 0 0 0 0 0])
+	("percentComplete" .
+	 [1 0 0 0 0 0 0 1 0 0 0 0 1 0 0])
+	("Calibrating" .
+	 [0 0 0 0 0 0 0 0 1 0 1])
+	("startCapture" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0])
+	("isCalibrated" .
+	 [0 0 0 0 1 0 0 0 1 0 0 0])
+	("virtual" .
+	 [0 0 0 1 0 0 0])
+	("getSerialNumber" .
+	 [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("device" .
+	 [1 0 0 0 0 0])
+	("deviceInfo" .
+	 [2 0 0 0 0 0 0 0 1 0])
+	("XCloseDisplay" .
+	 [0 0 0 0 0 0 1 0 0 0 0 0 0])
+	("None" .
+	 [1 0 0 0])
+	("none" .
+	 [3 0 0 0])
+	("glXMakeCurrent" .
+	 [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+	("DrawQuad" .
+	 [0 0 0 0 0 1 0 0])
+	("XGetWindowAttributes" .
+	 [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("event" .
+	 [1 0 0 0 0])
+	("KeyPress" .
+	 [1 0 0 0 0 0 0 0])
+	("Expose" .
+	 [1 0 0 0 0 0])
+	("xEvent" .
+	 [2 0 0 0 0 0])
+	("XNextEvent" .
+	 [0 0 0 0 0 1 0 0 0 0])
+	("running" .
+	 [3 0 0 0 0 0 0])
+	("glContext" .
+	 [2 0 0 0 0 0 0 0 0])
+	("XStoreName" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("XMapWindow" .
+	 [0 0 0 0 1 0 0 0 0 0])
+	("XCreateWindow" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("KeyPressMask" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0])
+	("ExposureMask" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0])
+	("setWindowAttributes" .
+	 [0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0])
+	("found" .
+	 [1 0 0 0 0])
+	("visual" .
+	 [3 0 0 0 0 0])
+	("appropriate" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("att" .
+	 [1 0 0])
+	("visualInfo" .
+	 [1 0 0 0 0 0 1 3 2 0])
+	("rootWindow" .
+	 [0 0 0 0 1 1 1 2 0 0])
+	("exit" .
+	 [3 0 0 0])
+	("NULL" .
+	 [6 0 0 0])
+	("XOpenDisplay" .
+	 [0 0 0 0 0 1 0 0 0 0 0 0])
+	("glVertex3f" .
+	 [0 0 0 1 1 0 0 1 0 0])
+	("glColor3f" .
+	 [0 0 0 0 0 1 1 1 0])
+	("glLoadIdentity" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+	("glMatrixMode" .
+	 [0 0 0 0 0 0 0 1 0 0 0 0])
+	("XEvent" .
+	 [1 0 0 0 0 0])
+	("XWindowAttributes" .
+	 [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+	("windowAttributes" .
+	 [2 0 0 0 0 0 0 1 2 0 0 0 0 0 0 0])
+	("XSetWindowAttributes" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("colourMap" .
+	 [1 0 0 0 0 0 1 1 0])
+	("Window" .
+	 [2 0 0 0 0 0])
+	("display" .
+	 [15 0 1 0 2 0 2])
+	("Display" .
+	 [1 0 0 0 0 0 0])
+	("glx" .
+	 [5 0 0])
+	("Xlib" .
+	 [1 0 0 0])
+	("X11" .
+	 [2 0 0])
+	("main" .
+	 [5 0 0 0])
+	("hpp" .
+	 [1 0 0])
+	("GL" .
+	 [6 0])
+	("h" .
+	 [1])
+	("glm" .
+	 [3 0 0])
+	("stdlib" .
+	 [2 0 0 0 0 0])
+	("stdio" .
+	 [2 0 0 0 0])
+	("head" .
+	 [1 0 0 0])
+	("VDAR" .
+	 [1 0 0 0])
+	("/home/graeme/Data/VDARSerialFiles/sysInfo.txt" .
+	 [0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("NEW_SSID" .
+	 [0 0 0 3 1 0 0 1])
+	("SERIAL" .
+	 [1 0 0 0 0 0])
+	("value" .
+	 [4 0 0 0 0])
+	("/media/configuration/vdar/Run/sysInfo.txt" .
+	 [0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("/media/configuration/vdar/Run/calib.yml" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("cat" .
+	 [4 0 0])
+	("e57" .
+	 [3 0 0])
+	(":height" .
+	 [3 0 0 0 0 1 0])
+	("nil" .
+	 [8 0 0])
+	("default" .
+	 [3 0 0 0 0 0 0])
+	("set-face-attribute" .
+	 [0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 0 0 0])
+	("powerUpVelodyne" .
+	 [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+	("null" .
+	 [1 0 0 0])
+	("m_velodynePowerUpThread" .
+	 [0 0 0 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("Capture" .
+	 [0 0 0 1 0 0 0])
+	("DepthConfigurationInterface" .
+	 [1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("configurationSubSystem" .
+	 [2 0 0 0 0 0 0 0 0 0 0 0 0 0 4 5 3 0 1 0 0 0])
+	("cols" .
+	 [1 0 0 0])
+	("rows" .
+	 [1 0 0 0])
+	("height" .
+	 [3 0 0 0 0 0])
+	("width" .
+	 [4 0 0 0 0])
+	("what" .
+	 [1 0 0 0])
+	("err_msg" .
+	 [0 0 0 0 1 0 0])
+	("newThread" .
+	 [1 0 0 0 0 0 0 0 0])
+	("newCapture" .
+	 [4 0 0 0 0 0 0 0 0 0])
+	("rgbCapture" .
+	 [1 0 0 0 1 0 0 0 0 0])
+	("sent" .
+	 [0 0 0 1])
+	("efficient" .
+	 [1 0 0 0 0 0 0 0 0])
+	("m_isStreaming" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("exposure" .
+	 [1 0 0 0 0 0 0 0])
+	("finalImages" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("sensorCaptureThreads" .
+	 [0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0])
+	("sensorImages" .
+	 [0 0 0 0 0 0 0 0 0 1 0 0])
+	("captureSensor" .
+	 [2 0 0 0 0 0 0 0 0 0 0 0 0])
+	("stopStreaming" .
+	 [0 0 0 0 0 0 0 1 0 0 0 0 0])
+	("shared_ptr" .
+	 [1 0 0 0 0 0 2 6 0 0])
+	("expo" .
+	 [2 0 0 0])
+	("sensorNo" .
+	 [2 0 0 0 0 0 0 1])
+	("temp" .
+	 [13 0 0 0])
+	("endTime" .
+	 [0 0 0 0 0 1 0])
+	("u" .
+	 [6])
+	("shared" .
+	 [2 0 0 0 0 0])
+	("saveThread" .
+	 [4 0 0 0 0 0 0 0 0 0])
+	("unique_ptr" .
+	 [0 0 0 0 1 0 0 0 0 0])
+	("saveImage" .
+	 [0 0 0 0 0 0 1 0 0])
+	("rgbCaptureThreadGroup" .
+	 [0 0 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0])
+	("VdarScanner" .
+	 [0 0 0 2 1 1 0 0 0 0 0])
+	("imageOnly" .
+	 [0 0 0 0 0 0 2 0 0])
+	("Exposure" .
+	 [0 0 0 0 0 1 1 0])
+	("angle" .
+	 [2 0 0 0 0])
+	("saveImages" .
+	 [3 0 0 0 0 0 0 0 0 0])
+	("captureThreadGroup" .
+	 [0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0])
+	("create" .
+	 [1 0 0 0 0 0])
+	("depth" .
+	 [10 0 0 1 0])
+	("flipEndTime" .
+	 [0 0 0 0 0 1 0 0 0 0 0])
+	("getImageCaptureAngle" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0])
+	("imageAngle" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("Directory" .
+	 [1 0 0 0 0 0 0 0 0])
+	("is_regular_file" .
+	 [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+	("remove" .
+	 [7 0 0 0 0 0])
+	("listFiles" .
+	 [0 0 0 0 1 0 0 0 0])
+	("checked" .
+	 [1 0 0 0 0 0 0])
+	("createSuccessFail" .
+	 [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+	("EndObject" .
+	 [1 0 0 0 0 0 0 0 0])
+	("StartObject" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("writer" .
+	 [3 0 0 0 0 0])
+	("m_rootDir" .
+	 [0 0 0 0 0 1 2 0 0])
+	("filesystem" .
+	 [6 0 0 0 0 0 0 1 0 0])
+	("boost" .
+	 [7 0 0 0 0])
+	("class" .
+	 [1 0 0 0 0])
+	("div" .
+	 [4 0 0])
+	("Delete" .
+	 [1 0 0 0 0 0])
+	("TestName01" .
+	 [0 0 0 0 1 1 0 0 0 0])
+	("Size" .
+	 [1 0 0 0])
+	("targetFiles" .
+	 [2 0 0 0 0 0 0 0 0 0 0])
+	("V" .
+	 [1])
+	("GetString" .
+	 [1 0 0 0 0 0 0 0 0])
+	("filename" .
+	 [9 0 0 0 0 0 0 0])
+	("end" .
+	 [5 0 0])
+	("it" .
+	 [1 0])
+	("itr" .
+	 [4 0 0])
+	("Value" .
+	 [2 0 0 0 0])
+	("rapidjson" .
+	 [4 0 0 0 0 2 0 0 0])
+	("HasMember" .
+	 [0 0 0 1 1 0 0 0 0])
+	("jsonData" .
+	 [7 0 0 0 0 0 0 0])
+	("json" .
+	 [2 0 1 0])
+	("deleteFile" .
+	 [2 0 0 0 0 1 0 0 0 0])
+	("m_fileSystem" .
+	 [0 0 0 1 1 0 0 0 0 0 0 0])
+	("Key" .
+	 [2 0 0])
+	("status" .
+	 [1 0 0 0 0 0])
+	("message" .
+	 [2 0 0 0 0 0 0])
+	("percent" .
+	 [2 0 0 0 0 0 0])
+	("progress" .
+	 [5 0 0 0 0 0 0 0])
+	("stateText" .
+	 [1 0 0 0 0 0 0 0 0])
+	("checkStatus" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("checkSdcard" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("settingsForm" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0])
+	("captureForm" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("html" .
+	 [2 0 0 0])
+	("infoText" .
+	 [2 0 0 0 0 0 0 0])
+	("done" .
+	 [3 0 0 0])
+	("name" .
+	 [17 0 0 0])
+	("infoForm" .
+	 [2 0 0 0 0 0 0 0])
+	("cgi" .
+	 [3 0 0])
+	("run" .
+	 [3 0 0])
+	("cgi-bin" .
+	 [2 0 0 0 0 0 0])
+	("form" .
+	 [8 0 0 0])
+	("finalSteps" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("leapStepsToApply" .
+	 [0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0])
+	("numSteps" .
+	 [1 0 0 0 0 1 0 0])
+	("leapSteps" .
+	 [0 0 0 0 4 0 0 0 0])
+	("String" .
+	 [1 0 0 0 0 1])
+	("close" .
+	 [6 0 0 0 0])
+	("read" .
+	 [5 0 0 0])
+	("readCalib" .
+	 [4 0 0 0 0 0 0 0 0])
+	("write" .
+	 [5 0 0 0 0])
+	("open" .
+	 [3 0 0 0])
+	("calibWriter" .
+	 [3 0 0 0 0 0 1 1 0 1 0])
+	("binary" .
+	 [2 0 0 0 0 0])
+	("ios" .
+	 [4 0 0])
+	("out" .
+	 [2 0 0])
+	("ofstream" .
+	 [1 0 0 0 0 0 0 0])
+	("size_t" .
+	 [3 0 0 0 0 0])
+	("ScanFileIoE57" .
+	 [0 0 0 0 0 0 0 0 0 0 1 0 0])
+	("strlen" .
+	 [3 0 0 0 0 0])
+	("length" .
+	 [7 0 1 1 1 0])
+	("tools" .
+	 [1 0 0 0 0])
+	("fileContents" .
+	 [7 0 0 0 0 0 0 0 0 2 0 0])
+	("n" .
+	 [11])
+	("sstream" .
+	 [1 0 0 0 0 0 0])
+	("ifstream" .
+	 [2 0 0 0 0 0 0 0])
+	("calibrationData" .
+	 [11 0 0 0 0 0 0 0 0 0 1 0 2 1 0])
+	("cho" .
+	 [1 0 0])
+	("grabFullSweepPackets" .
+	 [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("currentAngleInt" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("current" .
+	 [7 0 0 1 10 0 1])
+	("currentAngle" .
+	 [3 0 0 0 0 0 0 0 0 0 0 0])
+	("getDegreesPerScan" .
+	 [0 0 0 2 3 0 0 0 0 0 0 0 0 0 0 0 0])
+	("m_depthSubSystem" .
+	 [0 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0])
+	("currDelay" .
+	 [2 0 0 1 6 1 0 1 0])
+	("printk" .
+	 [6 0 0 0 0 0])
+	("g_accelerationTicks" .
+	 [1 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("g_initalMult" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0])
+	("g_delay" .
+	 [3 0 1 3 0 0 0])
+	("spiTest02" .
+	 [0 0 0 1 0 0 0 0 0])
+	("-o" .
+	 [1 0])
+	("CFLAGS" .
+	 [0 0 0 1 0 0])
+	("CC" .
+	 [1 0])
+	("COMPILERDIR" .
+	 [0 0 0 0 0 1 0 0 0 0 0])
+	("TX_LEN" .
+	 [0 0 6 2 0 0])
+	("bits_per_word" .
+	 [0 0 0 0 0 1 0 0 1 0 0 0 0])
+	("cs_change" .
+	 [1 0 1 0 0 0 0 0 0])
+	("CONFIG" .
+	 [0 0 0 1 0 0])
+	("cmdBuff" .
+	 [1 0 0 0 0 0 0])
+	("sendBuffer" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("printf" .
+	 [13 0 0 0 0 1])
+	("GET_PARAM" .
+	 [1 0 0 0 0 0 0 0 0])
+	("ends" .
+	 [8 0 0 0])
+	("tryNum" .
+	 [2 0 0 0 0 0])
+	("rxbuf" .
+	 [4 0 0 1 1])
+	("txbuf" .
+	 [9 0 0 0 0])
+	("R" .
+	 [5])
+	("RX_LEN" .
+	 [0 0 0 0 1 0])
+	("rx_nbits" .
+	 [0 0 0 0 2 0 0 0])
+	("tx_nbits" .
+	 [0 0 0 1 1 0 0 0])
+	("xfer" .
+	 [6 0 0 0])
+	("capture" .
+	 [4 0 0 0 0 0 0])
+	("m_rgbSubSystem" .
+	 [0 0 0 0 0 2 0 0 0 0 0 0 0 0])
+	("sensorID" .
+	 [26 0 0 0 0 0 0 2])
+	("join" .
+	 [10 0 0 0])
+	("push_back" .
+	 [0 0 0 1 5 1 3 0 0])
+	("m_exposures" .
+	 [1 0 0 0 0 0 0 1 0 0 0])
+	("m_exposure" .
+	 [0 0 0 0 0 1 0 0 0 0])
+	("exposures" .
+	 [9 0 0 0 0 0 0 0 0])
+	("r" .
+	 [13])
+	("size" .
+	 [29 0 0 0])
+	("m_sensors" .
+	 [1 0 0 0 0 3 0 0 0])
+	("images" .
+	 [37 0 1 0 0 0])
+	("exposureVec" .
+	 [3 0 0 0 0 0 0 0 1 1 0])
+	("IDSRGBSubSystem" .
+	 [0 0 0 0 2 1 0 0 0 0 0 0 0 0 0])
+	("rgbSubSystem" .
+	 [0 0 0 3 0 0 0 0 0 0 0 0])
+	("fireSensor" .
+	 [2 0 0 0 0 1 0 0 0 0])
+	("Mat" .
+	 [25 0 0])
+	("captureThreads" .
+	 [7 0 0 0 0 0 0 0 0 1 0 0 0 0])
+	("vector" .
+	 [26 0 2 1 1 0])
+	("captureThread" .
+	 [3 0 0 0 0 0 0 0 0 0 0 0 0])
+	("position" .
+	 [2 0 0 0 0 0 0 0])
+	("type" .
+	 [2 0 0 0])
+	("path" .
+	 [4 0 0 0])
+	("m_imgOutputDir" .
+	 [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+	("i" .
+	 [15])
+	("w" .
+	 [8])
+	("MOVE_BACKWARD" .
+	 [0 0 0 0 1 0 0 0 0 0 0 0 0])
+	("MOVE_FORWARD" .
+	 [0 0 1 0 0 0 0 0 0 0 0 0])
+	("buf" .
+	 [3 0 0])
+	("cmd" .
+	 [6 0 0])
+	("sleep" .
+	 [5 0 0 0 0])
+	("STEPCLOCK_FORWARD" .
+	 [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("data" .
+	 [14 0 0 0])
+	("core-image-vidar-dev" .
+	 [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("bitbake" .
+	 [4 0 0 0 0 0 0])
+	("clear" .
+	 [8 0 0 0 0])
+	("source" .
+	 [0 0 0 0 1 0])
+	("flush" .
+	 [15 0 0 0 0])
+	("system" .
+	 [2 0 1 0 0 0])
+	("initPowerSystem" .
+	 [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("co" .
+	 [1 0])
+	("is_open" .
+	 [0 0 0 0 1 1 0])
+	("powerSwitch" .
+	 [3 0 0 0 0 0 0 0 0 0 0])
+	("c" .
+	 [42])
+	("powerDown" .
+	 [1 0 0 0 0 0 0 0 0])
+	("powerUp" .
+	 [3 0 0 0 0 0 0])
+	("depthSubSystem" .
+	 [0 0 0 0 0 1 2 0 1 0 0 0 0 0])
+	("e" .
+	 [13])
+	("endl" .
+	 [105 0 1 0])
+	("cout" .
+	 [106 0 0 2])
+	("compare" .
+	 [7 0 0 0 0 0 0])
+	("argv" .
+	 [8 0 0 0])
+	("string" .
+	 [22 0 0 0 0 0])
+	("std" .
+	 [381 1 2])
+	("setCalibrationMode" .
+	 [0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0])
+	("setDegreesPerScan" .
+	 [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("setImageCaptureAngle" .
+	 [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+	("config" .
+	 [3 0 0 0 0 0])
+	("setTotalScanRoation" .
+	 [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("configurationDepth" .
+	 [3 0 0 0 0 0 0 0 0 0 0 0 0 2 3 1 0 0])
+	("configuration" .
+	 [6 0 0 0 0 2 1 2 2 0 0 0 0])
+	("scanner" .
+	 [8 0 0 0 0 0 0])
+	("iedit-mode" .
+	 [0 0 0 0 0 0 0 1 0 0])
+	("kbd" .
+	 [2 0 0])
+	("global-map" .
+	 [1 0 0 0 1 0 0 0 0 0])
+	("define-key" .
+	 [1 0 0 0 0 0 1 0 0 0])
+	("achead:include-directories" .
+	 [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("math" .
+	 [1 0 1 0])
+	("iostream" .
+	 [3 0 0 0 0 0 0 1])
+	("s" .
+	 [64])
+	("f" .
+	 [24])
+	("require" .
+	 [3 0 0 0 0 0 0])
+	("auto" .
+	 [2 0 0 0])
+	("defun" .
+	 [0 0 0 0 1])
+	("auto-complete" .
+	 [0 0 0 0 0 0 0 0 0 0 0 1 0])
+	("auto-complete-c-headers" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+	("add-to-list" .
+	 [3 0 0 0 0 0 2 1 0 0 0])
+	("ac-sources" .
+	 [0 0 0 0 0 0 1 0 0 0])
+	("add-hook" .
+	 [2 0 0 1 3 0 0 0])
+	("c++-mode-hook" .
+	 [0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("my:ac-c-header-init" .
+	 [0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("c-mode" .
+	 [2 0 0 0 0 0])
+	("c-mode-hook" .
+	 [0 0 0 0 0 0 0 0 0 1 0])
+	("include" .
+	 [1 0 0 0 0 1 0])
+	("m_configurationDepth" .
+	 [2 0 0 0 0 5 6 5 0 0 0 0 0 0 0 2 2 0 1 0])
+	("getOutputRAW" .
+	 [1 0 0 0 0 0 0 1 0 0 0 0])
+	("scanBasic" .
+	 [1 0 0 0 0 0 0 0 0])
+	("scanRAW" .
+	 [3 0 0 0 0 0 0])
+	("dataPoints" .
+	 [13 0 0 0 0 0 0 0 0 0])
+	("m_configuration" .
+	 [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("m_scanFileIo" .
+	 [0 0 0 0 0 0 0 0 0 1 0 0])
+	("writeDataPoints" .
+	 [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+	("Scans" .
+	 [1 0 0 0 0])
+	("scan" .
+	 [2 0 0 0])
+	("st" .
+	 [4 0])
+	("getCaptureMode" .
+	 [2 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("m_captureMode" .
+	 [0 0 0 0 0 0 0 0 0 1 0 0 0])
+	("CaptureMode" .
+	 [2 0 0 0 0 0 0 0 0 0 0])
+	("ImageOnly" .
+	 [1 0 0 0 0 0 0 0 1])
+	("I" .
+	 [4])
+	("Calibrate" .
+	 [3 0 0 0 1 1 0 0 0])
+	("Scan" .
+	 [1 0 0 0])
+	("ScanAndImage" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0])
+	("ImageScanAndImage" .
+	 [0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0])
+	("ImageScan" .
+	 [1 0 0 0 0 0 0 0 0])
+	("getCaptureModeString" .
+	 [2 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
+	("scansPerDegree" .
+	 [1 0 0 0 0 3 0 0 1 0 0 0 0 0])
+	("val" .
+	 [8 0 0])
+	("input" .
+	 [2 0 0 1 0])
+	("text" .
+	 [5 0 0 0])
+	("window" .
+	 [11 0 0 0 0 0])
+	("alert" .
+	 [1 0 0 0 0])
+	("select" .
+	 [4 0 0 0 0 0])
+	("option" .
+	 [5 0 0 0 0 0])
+	("captureType" .
+	 [2 0 0 0 0 0 0 0 0 0 0])
+	("selected" .
+	 [3 0 0 0 0 0 0 0])
+	("m_outputDir" .
+	 [1 0 0 0 1 0 1 0 1 0 0])
+	("calibCopy" .
+	 [0 0 0 0 0 0 1 0 0])
+	("captureMode" .
+	 [2 0 0 0 0 0 0 0 0 0 0])
+	("c_str" .
+	 [5 0 0 0 0])
+	("to_string" .
+	 [3 0 5 3 1 0 0 0 0])
+	("t" .
+	 [20])
+	("S" .
+	 [9])
+	("engage" .
+	 [0 0 0 1 0 0])
+	("moveTo" .
+	 [2 0 0 1 2 0])
+	("disengage" .
+	 [0 0 0 0 0 1 0 0 0])
+	("this_thread" .
+	 [1 0 0 0 0 1 1 0 0 0 0])
+	("sleep_for" .
+	 [0 0 0 1 0 1 0 0 0])
+	("chrono" .
+	 [2 0 1 1 1 0])
+	("seconds" .
+	 [1 0 0 0 0 0 0])
+	("thread" .
+	 [26 0 0 0 2 1])
+	("cv" .
+	 [26 0])
+	("m" .
+	 [17])
+	("cameraConfig" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0])
+	("m_configurationRGB" .
+	 [4 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0])
+	("m_lastMessage" .
+	 [0 0 0 0 0 0 0 2 0 0 0 0 0])
+	("nct" .
+	 [40 0 0])
+	("modules" .
+	 [29 0 1 3 3 3 1])
+	("ControlSubSystem" .
+	 [0 0 0 0 0 0 0 3 4 2 1 0 0 0 0 0])
+	("StateSingleton" .
+	 [3 0 0 0 0 0 0 0 0 0 0 1 0 0])
+	("stateSystem" .
+	 [0 0 0 0 0 0 1 0 0 0 0])
+	("g" .
+	 [7])
+	("getInstance" .
+	 [2 0 0 0 0 0 0 0 0 0 0])
+	("setState" .
+	 [1 0 0 0 0 0 0 0])
+	("controlSubSystem" .
+	 [2 0 0 0 0 0 0 0 0 2 2 0 0 0 0 0])
+	("StateInterface" .
+	 [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+	("StateCode" .
+	 [1 0 0 0 0 0 0 0 0])
+	("Idle" .
+	 [1 0 0 0])
+	("getLastMessage" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("SYSROOT" .
+	 [0 0 1 0 0 0 0])
+	("bit" .
+	 [1 0 0])
+	("__u8" .
+	 [2 0 2 2])
+	("__u32" .
+	 [2 0 0 0 0])
+	("len" .
+	 [10 0 0])
+	("speed_hz" .
+	 [0 0 0 0 0 0 1 0])
+	("__u16" .
+	 [1 0 0 0 1])
+	("delay_usecs" .
+	 [1 0 0 1 0 0 0 0 0 0 0])
+	("pad" .
+	 [1 0 0])
+	("spi_ioc_override" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+	("l" .
+	 [7])
+	("tx_buf" .
+	 [1 0 0 0 0 0])
+	("rx_buf" .
+	 [1 0 0 0 0 0])
+	("unsigned" .
+	 [0 0 0 0 1 0 0 0])
+	("perror" .
+	 [1 0 0 0 0 0])
+	("x" .
+	 [1])
+	("printBuffer" .
+	 [0 0 0 0 0 0 2 0 0 0 0])
+	("sendCMD" .
+	 [2 0 0 0 0 0 0])
+	("BITS_TO_TRANSMIT" .
+	 [1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("getStatus" .
+	 [0 0 0 0 0 0 1 0 0])
+	("setq" .
+	 [8 0 0 0])
+	("default-frame-alist" .
+	 [0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0])
+	("append" .
+	 [13 0 0 0 0 0])
+	("background-color" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("foreground-color" .
+	 [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+	("cursor-color" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0])
+	("font" .
+	 [0 0 0 1])
+	("g_moveValue" .
+	 [1 0 0 0 0 0 4 0 0 1 0])
+	("in" .
+	 [25 0])
+	("incrementer" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("decrementer" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("accel" .
+	 [4 0 0 0 0])
+	("a" .
+	 [6])
+	("positon" .
+	 [0 0 0 0 0 0 2])
+	("recalibrate" .
+	 [4 0 0 0 1 1 1 1 1 0 0])
+	("v" .
+	 [11])
+	("tiltCompass" .
+	 [4 0 0 0 1 0 0 1 0 0 0])
+	("C" .
+	 [5])
+	("is_GetBusSpeed" .
+	 [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("m_hCam" .
+	 [1 0 0 0 0 0])
+	("IS_USB_30" .
+	 [0 0 0 0 1 0 0 0 0])
+	("H" .
+	 [1])
+	("m_sInfo" .
+	 [2 0 0 0 0 0 0])
+	("strSensorName" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("m_sensorType" .
+	 [1 0 0 0 0 0 0 0 0 1 0 0])
+	("SENSOR_10MP" .
+	 [1 0 0 0 0 0 0 1 0 0 0])
+	("pixelClock" .
+	 [2 0 0 0 0 0 0 1 0 0])
+	("flip" .
+	 [3 0 0 0])
+	("image" .
+	 [10 0 0 0 0])
+	("sensor" .
+	 [3 0 0 0 0 0])
+	("fileUrls" .
+	 [3 0 0 0 0 0 0 0])
+	("file" .
+	 [2 0 0 0])
+	("deleteForm" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("targetFile" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("fileSystem" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("action" .
+	 [1 0 0 0 0 0])
+	("delete" .
+	 [1 0 0 0 0 0])
+	("console" .
+	 [2 0 0 0 0 0 0])
+	("log" .
+	 [2 0 0])
+	("File" .
+	 [1 0 0 0])
+	("fileList" .
+	 [1 0 0 0 0 0 0 0])
+	("listFilesText" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("/bin/sh" .
+	 [0 0 0 0 0 1 0])
+	("-c" .
+	 [4 0])
+	("cleanall" .
+	 [1 0 0 0 0 0 0 0])
+	("core-image-vdar-dev" .
+	 [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0])
+	("/home/graeme/projects/linux_buildsystem/build/yocto/build/tmp/sysroots/" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("core-image-live-initrd" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+	("testMode" .
+	 [2 0 0 0 0 0 0 0])
+	("numRuns" .
+	 [2 0 0 0 0 0 0])
+	("m_numberOfScansLeft" .
+	 [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("br" .
+	 [1 0])
+	("inputFile" .
+	 [1 0 0 0 0 0 0 0 1])
+	("font-size: ..." .
+	 [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+	(":font" .
+	 [1 0 0 0 0])
+	(":help" .
+	 [0 0 0 1 0])
+	("m_motor" .
+	 [1 0 0 0 0 0 1])
+	("readPosition" .
+	 [1 0 0 0 0 0 0 0 0 0 1 0])
+	("degree" .
+	 [1 0 0 0 0 0])
+	("m_motorResolution" .
+	 [1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0])
+	("targetA" .
+	 [4 0 0 0 0 0 0])
+	("adjustment" .
+	 [4 0 0 0 0 0 0 0 1 0])
+	("target" .
+	 [4 0 0 1 0 0])
+	("angleAdjustment" .
+	 [1 0 0 0 0 0 0 1 0 1 1 2 0 0 0])
+	("m_position" .
+	 [7 0 0 0 2 0 0 0 0 0])
+	("startAngle" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("M" .
+	 [1])
+	("targetAngle" .
+	 [2 0 0 0 0 0 0 0 1 0 0])
+	("amount" .
+	 [10 0 0 0 0 0])
+	("subStepAngle" .
+	 [1 0 0 0 1 0 2 0 0 0 0 0])
+	("milliseconds" .
+	 [0 0 0 1 0 0 0 0 0 0 0 0])
+	("moveSubSteps" .
+	 [0 0 0 0 0 0 0 0 0 0 1 0])
+	("Adjusting" .
+	 [0 0 0 1 0 0 0 0 0])
+	("A" .
+	 [2])
+	("o" .
+	 [3])
+	("ceil" .
+	 [1 0 0 0])
+	("blkid" .
+	 [1 0 0 0 0])
+	("/dev/mmcblk0p2" .
+	 [1 0 0 0 0 0 0 1 0 0 0 0 0 0])
+	("grep" .
+	 [4 0 0 0])
+	("/media" .
+	 [1 0 0 1 0 1])
+	("mount" .
+	 [1 0 0 0 0])
+	("/dev/mmcblk0p5" .
+	 [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+	("/media/mmcblk0p5" .
+	 [0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0])
+	("/media/mmcblk0p" .
+	 [0 0 0 0 0 0 0 0 0 2 0 0 0 0 0])
+	("/media/mmcblk0p2" .
+	 [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("/media/mmcblk0p2/etc/fstab" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("/dev" .
+	 [1 0 0 0])
+	("aplay" .
+	 [1 0 0 0 0])
+	("totalScanRotation" .
+	 [1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0])
+	("motorSweepThread" .
+	 [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+	("detach" .
+	 [0 0 0 0 3 0])
+	("currentAzi" .
+	 [1 0 0 0 0 0 0 0 2 0])
+	("azi" .
+	 [3 0 0])
+	("clipLasers" .
+	 [0 0 0 0 1 0 0 0 0 0])
+	("dataPoint3DLASIRIS" .
+	 [0 0 0 0 0 0 0 0 0 0 0 1 10 4 2 0 0 0])
+	("dataPoint3D" .
+	 [2 0 0 0 0 0 0 0 0 0 0])
+	("dataPointExtended3D" .
+	 [2 0 0 0 0 0 0 0 0 1 2 0 1 0 0 0 0 0 0])
+	("dataPointsGroup" .
+	 [8 0 0 0 0 0 0 0 0 0 0 2 2 0 0])
+	("group" .
+	 [7 0 0 0 0])
+	("lastSubDir" .
+	 [0 0 0 0 1 1 0 0 0 0])
+	("round" .
+	 [1 0 0 0 0])
+	("motorPosition" .
+	 [0 0 0 0 1 0 0 0 0 0 0 0 0])
+	("readLasirisPointBlob" .
+	 [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("lasiris" .
+	 [3 0 0 0 1 0 0])
+	("pointManipulator" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("lasirisToE57" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0])
+	("scanDir" .
+	 [2 0 0 0 0 0 0])
+	("horizAngle" .
+	 [3 0 0 0 0 11 1 0 0 0])
+	("intensity" .
+	 [2 0 0 0 0 0 1 1 0])
+	("points" .
+	 [16 0 0 0 0 0])
+	("filepaths" .
+	 [2 0 0 0 0 0 0 0 0])
+	("writeDataPointsLasiris" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0])
+	("writing" .
+	 [1 0 0 0 0 0 0])
+	("d" .
+	 [5])
+	("exception" .
+	 [2 0 0 0 0 0 0 0 0])
+	("report" .
+	 [1 0 0 0 0 0])
+	("__FILE__" .
+	 [1 0 0 0 0 0 0 0])
+	("__LINE__" .
+	 [1 0 0 0 0 0 0 0])
+	("__FUNCTION__" .
+	 [1 0 0 0 0 1 0 0 0 0 0 0])
+	("E57" .
+	 [1 0 0])
+	("DataPacket" .
+	 [2 0 0 0 0 0 0 0 0 0])
+	("g_buffer" .
+	 [0 0 0 0 2 0 0 0])
+	("stack" .
+	 [1 0 0 0 0])
+	("queue" .
+	 [1 0 0 0 0])
+	("saveQueue" .
+	 [0 0 0 0 0 1 0 0 0])
+	("savePoints" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("packetVec" .
+	 [2 0 0 0 0 0 0 0 0])
+	("numberOfItems" .
+	 [0 0 0 0 0 0 0 0 2 0 1 0 0])
+	("bufferSize" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("dataPointSize" .
+	 [3 0 0 0 0 0 0 0 0 0 0 0 0])
+	("point" .
+	 [1 0 0 0 0])
+	("lasirisXYZToScannerCoords" .
+	 [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("calibration" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("!/bin/sh" .
+	 [1 0 0 0 0 0 0 0])
+	("./" .
+	 [2 0])
+	("sysInfoFile" .
+	 [3 0 0 0 1 1 0 0 0 0 0])
+	("currentConfigFile" .
+	 [4 0 0 0 0 0 0 0 1 0 1 5 4 0 0 0 0])
+	("sysInfoSSID" .
+	 [3 0 0 3 3 5 0 1 2 1 0])
+	("currentConfigSSID" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("regex" .
+	 [6 0 0 0 0])
+	("No" .
+	 [1 0])
+	("N" .
+	 [1])
+	("currentConfigFull" .
+	 [8 0 0 0 0 0 0 0 1 0 6 3 3 1 0 2 0])
+	("oldSSID" .
+	 [1 0 0 0 0 0 0])
+	("searchSSID" .
+	 [1 0 0 0 0 0 0 1 2 0])
+	("begin" .
+	 [1 0 0 0 0])
+	("fstream" .
+	 [4 0 0 0 0 0 0])
+	("checkWiFiSSID" .
+	 [0 0 0 0 0 1 1 0 0 0 0 0 0])
+	("regex_error" .
+	 [2 0 0 0 0 0 0 1 0 0 0])
+	("code" .
+	 [1 0 0 0])
+	("regexError" .
+	 [2 0 0 0 0 0 0 0 0 0])
+	("b" .
+	 [3])
+	("regex_constants" .
+	 [0 0 0 0 0 0 0 0 0 1 1 0 0 0 0])
+	("basic" .
+	 [1 0 0 0 0])
+	("regex_match" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("find" .
+	 [3 0 0 0])
+	("index" .
+	 [3 0 0 0 0])
+	("match" .
+	 [16 0 0 0 0])
+	("str" .
+	 [2 0 0])
+	("substr" .
+	 [0 0 0 1 0 0])
+	("pos" .
+	 [6 0 0])
+	("empty" .
+	 [1 0 0 0 0])
+	("npos" .
+	 [2 0 0 0])
+	("sync" .
+	 [1 0 0 0])
+	("LINUX_REBOOT_CMD_POWER_OFF" .
+	 [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("unistd" .
+	 [1 0 0 0 1 0])
+	("sys" .
+	 [2 0 0])
+	("reboot" .
+	 [0 0 0 0 1 0])
+	("once" .
+	 [1 0 0 0])
+	("namespace" .
+	 [0 0 0 0 0 0 0 1 0])
+	("calibData" .
+	 [3 0 0 0 0 0 0 0 0])
+	("CalibrationConfiguration" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 2 0 0 0 0 0 0 0 0])
+	("CalibrationConfigurationInterface" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 2 0 0 0 0 0])
+	("CalibrationConfigurationVDAR" .
+	 [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+	("calibFilePath" .
+	 [3 0 0 0 0 0 0 0 0 1 1 0 0])
+	("override" .
+	 [0 0 1 0 0 0 0 0])
+	("getCalibrationData" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+	("loadCalibration" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+	("loadCalibrationFile" .
+	 [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("Calibration" .
+	 [0 0 0 0 0 0 0 0 0 1 0])
+	("m_configurationCalibration" .
+	 [0 0 0 0 0 0 2 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("configurationCalibration" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0])
+	("calibrationFile" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("m_calibrationData" .
+	 [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+	("getCalibration" .
+	 [3 0 0 0 0 0 0 1 0 0 0 0 0 0])
+	("tmRToB" .
+	 [1 0 0 0 0 0])
+	("filePath" .
+	 [1 0 0 0 0 0 0 0])
+	("readSerialFile" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("fs" .
+	 [1 0])
+	("i2cBus" .
+	 [1 0 0 0 0 0])
+	("argc" .
+	 [4 0 0 0])
+	("ControlSubSystemTerminal" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 2 1 0 0 0])
+	("controlSystem" .
+	 [0 0 0 0 0 0 0 0 0 0 1 0 0])
+	("p" .
+	 [5])
+	("configurationRGB" .
+	 [2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+	("RGBConfigurationSimple" .
+	 [0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("RGBConfigurationInterface" .
+	 [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+	("m_scanner" .
+	 [1 0 0 0 0 0 0 0 0])
+	("m_Configuration" .
+	 [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+	("positionSubSystem" .
+	 [0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0])
+	("PositionSubSystemLSM303DLCH" .
+	 [1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("m_positionSystem" .
+	 [1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0])
+	("m_motorDevice" .
+	 [2 0 0 0 0 0 0 0 0 0 0 0 0])
+	("motorDevice" .
+	 [2 0 0 0 0 0 0 0 1 0 0])
+	("motor" .
+	 [1 0 0 0 0])
+	("motorDevice8825" .
+	 [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+	("mainMenu" .
+	 [0 0 0 0 1 1 0 0])
+	("MotorDeviceInterface" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+	("G" .
+	 [2])
+	("PositionSubSystemInterface" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("m_positionSubSystem" .
+	 [0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
+	("positionSystem" .
+	 [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("stage" .
+	 [4 0 0 0 0])
+	("LED" .
+	 [4 0 0])
+	("LEDInterface" .
+	 [0 0 0 1 1 1 0 0 1 0 0 0])
+	("Colour" .
+	 [4 0 0 0 0 0])
+	("BLUE" .
+	 [1 0 0 0])
+	("m_lastColour" .
+	 [3 0 0 0 0 1 1 1 0 1 0 0])
+	("NONE" .
+	 [3 0 0 0])
+	("setLED" .
+	 [1 0 0 0 1 0])
+	("colour" .
+	 [2 0 0 0 0 0])
+	("m_lastBlinkColour" .
+	 [0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0])
+	("allOff" .
+	 [2 0 0 0 0 0])
+	("lastHorizAngle" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+	("laserData" .
+	 [0 0 0 0 0 0 1 0 0])
+	("server-mode" .
+	 [0 0 0 0 0 0 1 0 0 0 0])
+	("server-start" .
+	 [0 0 0 0 0 0 0 0 0 1 0 0])
+	("serial" .
+	 [6 0 0 0 1 0])
+	("fixCorruptSystemInfo" .
+	 [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("LEDSystem" .
+	 [0 0 0 0 0 1 0 0 0])
+	("put" .
+	 [1 0 0])
+	("currentLetter" .
+	 [1 0 0 0 0 0 0 0 1 0 0 0 0])
+	("at" .
+	 [2 0])
+	("lineEndPos" .
+	 [1 0 0 0 0 0 2 4 0 0])
+	("DepthSubSystemVelodyneSweep" .
+	 [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("m_controlSubsystemTerminal" .
+	 [0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("controlSystemTerminal" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+	("showMenu" .
+	 [0 0 0 0 0 1 0 0])
+	("ControlSubSystemHTTP" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0])
+	("startHttpServer" .
+	 [1 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("o3dControl" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("o3dInterface" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0])
+	("mod" .
+	 [1 0 0])
+	("j" .
+	 [2])
+	("menuThread" .
+	 [0 0 0 0 1 0 0 0 0 0])
+	("mainLoop" .
+	 [1 0 0 0 0 0 0 0])
+	("north" .
+	 [1 0 0 0 0])
+	("rotations" .
+	 [1 0 0 0 0 0 0 0 0])
+	("neotree-toggle" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("-d" .
+	 [6 0])
+	("cpu" .
+	 [1 0 0])
+	("pt" .
+	 [4 0])
+	("format" .
+	 [1 0 0 0 0 0])
+	("the" .
+	 [3 0 0])
+	("OW" .
+	 [4 0])
+	("OV" .
+	 [5 0])
+	("shift" .
+	 [0 0 1 0 0])
+	("POSH" .
+	 [5 0 0 0])
+	("HSH" .
+	 [2 0 0])
+	("HGH" .
+	 [2 0 0])
+	("POSW" .
+	 [5 0 0 0])
+	("WSH" .
+	 [1 0 0])
+	("WGH" .
+	 [1 0 0])
+	("FSCRW" .
+	 [4 0 1 1 0])
+	("FSCRH" .
+	 [4 0 0 0 0])
+	("IMGH" .
+	 [5 0 0 0])
+	("IMGW" .
+	 [7 0 0 0])
+	("SCRW" .
+	 [7 0 0 0])
+	("ARGS" .
+	 [2 0 0 0])
+	("IT" .
+	 [4 0])
+	("**" .
+	 [3 0])
+	("LSW" .
+	 [3 0 0])
+	("SCRH" .
+	 [2 0 0 0])
+	("POSH:" .
+	 [1 0 0 0 0])
+	("discount" .
+	 [1 0 0 0 0 0 0 0])
+	("delivery" .
+	 [1 0 0 0 0 0 0 0])
+	("currency" .
+	 [1 0 0 0 0 0 0 0])
+	("amount_includes_vat" .
+	 [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+	("price" .
+	 [8 0 0 0 0])
+	("net_price" .
+	 [1 0 0 0 0 0 0 0 0])
+	("item" .
+	 [19 0 0 0])
+	("order" .
+	 [5 0 0 0 0])
+	("product" .
+	 [4 0 0 5 0 0 0])
+	("object_id" .
+	 [4 0 0 0 0 0 0 0 0])
+	("fields" .
+	 [6 0 1 0 0 0])
+	("Order" .
+	 [1 0 1 0 0])
+	("order_info" .
+	 [16 0 0 0 0 0 1 0 0 0])
+	("customer_address" .
+	 [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("delivery_address" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("order_number" .
+	 [3 0 0 0 0 0 0 0 0 0 0 0])
+	("invoice_date" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0])
+	("enumerate" .
+	 [0 0 0 0 0 0 0 1 0])
+	("description" .
+	 [1 0 0 0 0 1 0 0 0 0 0])
+	("quantity" .
+	 [3 0 1 2 0 0 0 0])
+	("unit" .
+	 [1 0 0 0])
+	("vat_codt" .
+	 [1 0 0 0 0 0 0 0])
+	("vat_code" .
+	 [12 0 1 0 0 1 0 0])
+	("vat_rate" .
+	 [3 0 0 0 1 0 1 0])
+	("gross_price" .
+	 [0 0 0 0 0 0 1 0 0 0 0])
+	("the_price" .
+	 [1 0 0 0 0 0 0 0 0])
+	("VAT_Code" .
+	 [0 0 0 0 1 0 1 0])
+	("elif" .
+	 [0 0 1 0])
+	("calc" .
+	 [1 0 0 0])
+	("fill_pdf_invoice_overflow" .
+	 [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("orderA" .
+	 [1 0 0 0 0 0])
+	("itemA" .
+	 [1 0 0 0 0])
+	("itemB" .
+	 [1 0 0 0 0])
+	("page" .
+	 [4 0 0 0])
+	("pages" .
+	 [2 0 0 0 0])
+	("fdf_data" .
+	 [6 0 0 0 0 0 0 0])
+	("page_data" .
+	 [2 0 0 0 0 0 0 0 0])
+	("wb" .
+	 [1 0])
+	("temp_file" .
+	 [9 0 0 0 1 1 0 0 0])
+	("closd" .
+	 [2 0 0 0 0])
+	("subprocess" .
+	 [0 0 0 1 0 0 0 0 0 0])
+	("call" .
+	 [2 0 0 0])
+	("on" .
+	 [1 0])
+	("we" .
+	 [2 0])
+	("forge_fdf" .
+	 [1 0 0 0 0 0 0 0 0])
+	("template" .
+	 [4 0 0 0 1 0 0 0])
+	("page_no" .
+	 [7 0 1 0 0 0 0])
+	("output" .
+	 [1 0 0 0 0 0])
+	("temp_filename" .
+	 [7 0 0 0 0 0 0 0 0 0 0 0 0])
+	("output_filename" .
+	 [5 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+	("build_pdf_page" .
+	 [5 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("invoice_templates" .
+	 [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("current_page_no" .
+	 [7 0 0 0 0 0 0 0 0 0 1 1 0 0 0])
+	("last_item" .
+	 [2 0 0 0 0 0 0 0 0])
+	("last_item_index" .
+	 [13 0 0 2 3 0 1 0 0 0 0 0 0 0 1])
+	("built" .
+	 [2 0 0 0 0])
+	("vat" .
+	 [3 0 0])
+	("Invoice" .
+	 [0 0 0 1 0 0 0])
+	("pdf_pages" .
+	 [6 0 0 0 0 0 0 0 0])
+	("pdh_pages" .
+	 [1 0 0 0 0 0 0 0 0])
+	("pdf" .
+	 [3 0 0])
+	("customer_details_fields" .
+	 [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("product_fields" .
+	 [11 0 0 1 0 0 0 0 2 1 0 0 0 0])
+	("num_products_front_page" .
+	 [1 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("num_products_one_page" .
+	 [1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0])
+	("order_items" .
+	 [12 0 0 0 0 0 0 0 0 0 1])
+	("randint" .
+	 [1 0 0 2 1 0 0])
+	("vat_codes" .
+	 [1 0 0 0 0 0 0 0 0])
+	("get_random_vat_code" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("items" .
+	 [4 0 0 0 0])
+	("num_fields_in_product_line" .
+	 [4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("num_products_full_page" .
+	 [6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("prin" .
+	 [20 0 0 0])
+	("f_id" .
+	 [21 0 0 0])
+	("so" .
+	 [8 0])
+	("num_products_last_page" .
+	 [4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("first_page" .
+	 [5 0 0 0 0 0 0 0 0 0])
+	("first" .
+	 [1 0 0 0 0])
+	("an" .
+	 [7 0])
+	("current_page" .
+	 [2 0 0 0 0 0 0 0 0 0 0 0])
+	("last" .
+	 [1 0 0 0])
+	("cod" .
+	 [1 0 0])
+	("SpooledTemporaryFile" .
+	 [0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("our" .
+	 [1 0 0])
+	("NamedTemporaryFile" .
+	 [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+	("tmp_pages_paths" .
+	 [1 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+	("whitespace-style" .
+	 [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+	("whitespace-line" .
+	 [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+	("whitespace-indentation" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0])
+	(":background" .
+	 [0 0 0 0 0 1 2 0 0 0 0])
+	("finalise" .
+	 [3 0 0 0 0 0 0 0])
+	("db" .
+	 [1 0])
+	("attrs" .
+	 [1 0 0 0 0])
+	("last_name" .
+	 [1 0 0 0 0 0 0 0 0])
+	("basket_id" .
+	 [1 0 0 0 0 0 0 0 0])
+	("update_from_user" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("base" .
+	 [2 0 0 0])
+	("basket" .
+	 [3 0 0 0 0 0])
+	("total_net_value" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("total_vat_amount" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("total_amount_payable" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("request" .
+	 [10 0 0 1 1 2 1])
+	("is_ajax" .
+	 [2 0 0 0 1 0 0])
+	("product_available" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("enquiry_form" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0])
+	("settings" .
+	 [5 0 0 0 0 0 0 0])
+	("text-mode-hook" .
+	 [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+	("Django" .
+	 [0 0 1 0 0 0])
+	("auto-mode-alist" .
+	 [0 0 0 0 0 0 0 2 0 0 1 0 0 0 0])
+	("web-mode" .
+	 [0 0 0 0 1 0 0 0])
+	("maps" .
+	 [1 0 0 0])
+	("key" .
+	 [1 0 0])
+	("display_amount" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("init" .
+	 [1 0 0 0])
+	("sublimity" .
+	 [0 0 0 0 0 1 0 0 1])
+	("sublimity-mode" .
+	 [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("load-path" .
+	 [0 0 0 1 0 0 0 0 0])
+	("text-mode" .
+	 [1 0 0 0 0 0 0 0 0])
+	("column-number-mode" .
+	 [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+	("display-time-mode" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+	("size-indication-mode" .
+	 [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("line-number-mode" .
+	 [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+	("-p" .
+	 [1 0])
+	("do" .
+	 [1 0])
+	("views" .
+	 [2 0 0 0 0])
+	("AssignPromotionalMechanic" .
+	 [0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("as_view" .
+	 [1 0 0 1 0 0 0])
+	("template_name" .
+	 [8 0 0 0 1 0 0 0 0 0 0 0 0])
+	("fci-rule-column" .
+	 [1 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+	("cons" .
+	 [1 0 0 0])
+	("fci-rule-color" .
+	 [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+	("AttributeError" .
+	 [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+	("Match" .
+	 [1 0 0 0 0])
+	("Contact" .
+	 [1 0 0 0 0 0 0])
+	("Enum" .
+	 [3 0 0 0])
+	("matchWeights" .
+	 [0 0 0 0 0 0 1 0 0 0 0 0])
+	("contactMatchResult" .
+	 [0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0])
+	("CheckMatch" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("NoMatch" .
+	 [1 0 0 0 0 0 0])
+	("StringCompare" .
+	 [0 0 0 0 0 0 1 0 0 0 0 0 0])
+	("StringHandler" .
+	 [0 0 0 0 0 0 2 2 0 1 0 0 0])
+	("stringHandler" .
+	 [1 0 0 0 0 0 0 1 0 1 0 0 0])
+	("Compare" .
+	 [1 0 0 0 0 0 0])
+	("namesA" .
+	 [3 0 0 0 0 0])
+	("namesB" .
+	 [3 0 0 0 0 0])
+	("CompareTwoFullNames" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+	("CompareTwoAllNames" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+	("contactA" .
+	 [4 0 0 0 0 0 0 0])
+	("allNamesContactA" .
+	 [0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0])
+	("allNamesContactB" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("firstName" .
+	 [0 0 0 0 0 0 1 0 0])
+	("middleNames" .
+	 [1 0 0 0 0 0 0 0 0 0 0])
+	("surname" .
+	 [1 0 0 0 0 0 0])
+	("machine_learning" .
+	 [0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 0])
+	("common" .
+	 [1 0 0 0 0 0])
+	("field" .
+	 [2 0 0 0 0])
+	("post" .
+	 [2 0 0 0])
+	("get_context_data" .
+	 [1 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0])
+	("args" .
+	 [5 0 0 0])
+	("get" .
+	 [1 0 0])
+	("CreateView" .
+	 [2 0 0 0 0 0 0 0 0 0])
+	("BaseListView" .
+	 [1 0 0 0 0 0 1 0 0 0 0 0])
+	("render" .
+	 [1 0 0 1 0 0])
+	("render_to_response" .
+	 [1 0 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0])
+	("csrf_token" .
+	 [0 0 1 0 0 0 0 0 0 0])
+	("tr" .
+	 [1 0])
+	("dispatch" .
+	 [1 0 0 0 0 0 0 0])
+	("object_list" .
+	 [1 0 0 0 0 0 0 1 0 0 0])
+	("__init__" .
+	 [0 0 0 0 0 1 0 0])
+	("TemplateView" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0])
+	("loader" .
+	 [1 0 0 0 0 0])
+	("render_to_string" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("store_name" .
+	 [1 0 0 0 0 0 0 0 0 0])
+	("TemplateResponse" .
+	 [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+	("TemplateResponseMixin" .
+	 [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("generic" .
+	 [1 0 0 0 0 0 0])
+	("objects" .
+	 [1 0 1 0 0 0 0])
+	("order_by" .
+	 [1 0 0 0 0 0 0 0])
+	("promotionalmechanics_list" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("save" .
+	 [1 0 0 0])
+	("Store" .
+	 [5 0 2 1 0])
+	("StorePromotionalMechanic" .
+	 [0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("promotion" .
+	 [0 0 0 0 0 0 0 0 1])
+	("Promotion" .
+	 [0 0 0 0 0 0 0 0 1])
+	("PromotionalMechanic" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+	("live" .
+	 [1 0 0 0])
+	("retailer" .
+	 [1 0 0 0 0 0 0 0])
+	("retailer__slug" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+	("with" .
+	 [1 0 0 0])
+	("as" .
+	 [1 0])
+	("mechanic" .
+	 [2 0 0 0 0 1 0 0])
+	("endwith" .
+	 [1 0 0 0 0 0 0])
+	("font-lock-keyword-face" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+	("lawlist-dark_grey" .
+	 [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+	("python-override-dark_grey" .
+	 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+	("commentColours" .
+	 [1 0 0 0 0 0 0 0 0 1 0 0 0 0])
+	("success_url" .
+	 [0 0 0 0 0 0 0 1 1 0 0])
+	("retailer_slug" .
+	 [1 0 0 0 0 0 0 0 0 0 0 0 0])
+	("store_code" .
+	 [2 0 0 0 0 0 0 0 0 0])))

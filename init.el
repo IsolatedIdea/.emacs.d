@@ -8,14 +8,41 @@
               '((width . 105)
                 (height . 50)
                 (background-color . "black")
-                (foreground-color . "#0088FF")
+                (foreground-color . "#00AFFF")
                 (cursor-color . "purple")
                                         ;(font . "ProggyTinyTT-12")
                 )
               )
       )
 
-(set-face-attribute 'default nil :font "ProggyTinyTT" :height 110)
+;; (set-face-attribute 'default nil :font "ProggyTinyTT" :height 110)
+(set-face-attribute 'default nil :font "Hack" :height 57)
+
+
+;; setup useful modes
+(show-paren-mode)
+
+
+;; (tabkey2-mode)
+(delete-selection-mode t)
+
+
+;; save the session
+(desktop-save-mode 1)
+
+
+;; don't display scroll bars or toolbar
+(scroll-bar-mode -1)
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+
+
+;; set the custom global colours
+(set-face-foreground 'font-lock-comment-face "#505050")
+(set-face-foreground 'font-lock-string-face "#888800")
+(set-face-foreground 'font-lock-function-name-face "#0084FF")
+(set-face-foreground 'font-lock-variable-name-face "#9933FF")
+(set-face-foreground 'font-lock-keyword-face "#DD00FF")
 
 
 ;;Colour Scheme
@@ -37,14 +64,21 @@
 ;; setup line display
 (require 'linum)
 (global-linum-mode)
-(column-number-mode)
 (toggle-truncate-lines)
 
+
+;; Mode Line
+(line-number-mode)
+(column-number-mode)
+(display-time-mode)
+(size-indication-mode)
 
 ;; display a line at column 80
 (add-to-list 'load-path "~/.emacs.d/modes/fci/")
 (require 'fill-column-indicator)
 (setq fci-rule-column 80)
+(setq fci-rule-width 1)
+(setq fci-rule-color "red")
 (define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
 (global-fci-mode 1)
 
@@ -57,11 +91,10 @@
 
 
 ;; set tabs to 2
-;; (setq c-basic-offset 2)
-;; (setq-default indent-tabs-mode 0)
-;; (setq-default tab-width 4)
-;; (setq indent-line-function 'insert-tab)
-(setq-default indent-tabs-mode nil)
+(setq c-basic-offset 2)
+(setq-default indent-tabs-mode 0)
+(setq-default tab-width 2)
+(setq indent-line-function 'insert-tab)
 
 
 ;; handle indenting
@@ -78,33 +111,77 @@
 ;; python settings
 (add-hook 'python-mode-hook
           (lambda ()
-            (add-to-list 'write-file-functions 'delete-trailing-whitespace)))
+            (add-to-list 'write-file-functions 'delete-trailing-whitespace)
+            (indent-tabs-mode nil)))
+
+(custom-set-faces
+ '(font-lock-keyword-face
+	 ((t (:background "Black" :foreground "red" :bold t))))
+ )
+
+(defvar python-override-blue (make-face 'python-override-blue))
+(set-face-attribute 'python-override-blue nil
+										:background "DDDDDD"
+										:foreground "#0084FF"
+										:bold t)
+
+(defvar printStatementHighlight (make-face 'printStatementHighlight))
+(set-face-attribute 'printStatementHighlight nil
+										:background "#FF0000"
+										:foreground "#000000"
+										:bold t)
+
+(defvar python-override-red (make-face 'python-override-red))
+(set-face-attribute 'python-override-red nil
+										:background "#000000"
+										:foreground "#DD0000"
+										:bold t)
 
 
-;; setup useful modes
-(show-paren-mode)
+(defvar commentColours (make-face 'commentColours))
+(set-face-attribute 'commentColours nil
+										:background "#FFFFFF"
+										:foreground "#444444"
+										:bold t
+										:italic t)
 
 
-;; (tabkey2-mode)
-(delete-selection-mode t)
+(defvar python-override-keywords-01
+  (concat "\\b\\(?:"
+					(regexp-opt (list "class" "*\("))
+					"\\)\\b"))
 
+(defvar python-override-keywords-02
+  (concat "\\b\\(?:"
+					(regexp-opt (list "print"))
+					"\\)\\b"))
 
-;; save the session
-(desktop-save-mode 1)
+(defvar python-override-keywords-03
+  (concat "\\b\\(?:"
+					(regexp-opt (list "in" "for" "while"))
+					"\\)\\b"))
 
+(defvar python-override-keywords-04
+  (concat "\\b\\(?:"
+					(regexp-opt (list "TODO" "HACK"))
+					"\\)\\b"))
 
-;; don't display scroll bars or toolbar
-(scroll-bar-mode -1)
-(tool-bar-mode -1)
-(menu-bar-mode -1)
+(font-lock-add-keywords 'python-mode (list
+																			(list (concat
+																						 "\\("python-override-keywords-01"\\)")1 'python-override-blue t)
 
+																			(list (concat
+																						 "\\("python-override-keywords-02"\\)") 1 'printStatementHighlight t)
 
-;; set the comment colour
-(set-face-foreground 'font-lock-comment-face "#505050")
+																			(list (concat
+																						 "\\("python-override-keywords-03"\\)") 1 'python-override-red t)
 
+																			(list (concat
+																						 "\\("python-override-keywords-04"\\)") 1 'commentColours t)
 
+																			))
 ;; maximise the window
-;; (w32-send-sys-command 61488)
+;; (w32-send-sys-command 6p1488)
 
 
 ;; Additional functions...
@@ -177,30 +254,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+	 (quote
+		("a27c00821ccfd5a78b01e4f35dc056706dd9ede09a8b90c6955ae6a390eb1c1e" default)))
  '(package-selected-packages
-   (quote
-    (flycheck-pony
-     pony-mode
-     pony-snippets
-     ponylang-mode
-     flycheck-yamllint
-     flymake-yaml
-     yaml-mode
-     excorporate
-     flycheck
-     highlight-indent-guides-mode
-     highlight-indent-guides
-     projectile
-     projectile-codesearch
-     neotree
-     web-mode
-     slack
-     lua-mode
-     libmpdee
-     iedit
-     dts-mode
-     auto-complete-c-headers
-     auto-complete-auctex))))
+	 (quote
+		(smart-mode-line flycheck-pony pony-mode pony-snippets ponylang-mode flycheck-yamllint flymake-yaml yaml-mode excorporate flycheck highlight-indent-guides-mode highlight-indent-guides projectile projectile-codesearch neotree web-mode slack lua-mode libmpdee iedit dts-mode auto-complete-c-headers auto-complete-auctex))))
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl\\.phpl\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
@@ -222,4 +281,7 @@
 
 ;; flycheck mode
 (add-hook 'after-init-hook #'global-flycheck-mode)
+
+;; Smart Mode Line
+;(smart-mode-line 1)
 ;;; init.el ends here
