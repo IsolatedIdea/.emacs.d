@@ -212,8 +212,8 @@
 
 
 ;; Set frame alpha
-(set-frame-parameter (selected-frame) 'alpha '(83 78))
-(add-to-list 'default-frame-alist '(alpha 83 78))
+(set-frame-parameter (selected-frame) 'alpha '(90 78))
+(add-to-list 'default-frame-alist '(alpha 90 78))
 
 
 ;; package manager
