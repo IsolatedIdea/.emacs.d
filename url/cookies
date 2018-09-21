@@ -2,13 +2,23 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '((".google.co.uk"
-  [url-cookie "PREF" "ID=1111111111111111:FF=0:TM=1449140776:LM=1449140776:V=1:S=ELAXT99kLgclEMJr" "31-Dec-2015 16:02:17.00 GMT" "/" ".google.co.uk" nil]
-  [url-cookie "NID" "74=suDQBN8wHRB8PJQaupcRerK65O5LzUvFzz-6jK5fg-1ylDEZvr3cvh2QhZh5NdnQedd71PNdomduGSrJQjANQ-EEaVToPWj4Nbf5SwsSdyfqRif5JTggJB8WNJmw1wFFwc0A4Rs4Eq1vdLamj75UAAL_byH4rUXbceJKkJM" "03-Jun-2016 11:06:16.00 GMT" "/" ".google.co.uk" nil]
-  [url-cookie "HttpOnly" nil "03-Jun-2016 11:06:16.00 GMT" "/" ".google.co.uk" nil]))
+ '((".google.com"
+  [url-cookie "1P_JAR" "2018-08-27-09" "Wed, 26-Sep-2018 09:41:45 GMT" "/" ".google.com" nil]
+  [url-cookie "NID" "137=HgRqT1WGFNU6loU0Hbo77uvl4s1_nCYZbz6QlhsKWW8SGcD2PAIeO0rT4gWtXhN1C26fI8Q24NC4tYBeZQ3e8GWI8pYUQ7I0d2rosN4e-lsuJWt5MwrR2pRIozc9fw-m" "Tue, 26-Feb-2019 09:41:45 GMT" "/" ".google.com" nil]
+  [url-cookie "CGIC" "IgMqLyo" "Tue, 26-Feb-2019 00:36:21 GMT" "/complete/search" ".google.com" nil]
+  [url-cookie "CGIC" "IgMqLyo" "Tue, 26-Feb-2019 00:36:21 GMT" "/search" ".google.com" nil])
+ (".medium.com"
+  [url-cookie "__cfduid" "d1333608e07bd8cb1daa563ad885b52721535363161" "Tue, 27-Aug-19 09:46:01 GMT" "/" ".medium.com" nil]))
 )
 (setq url-cookie-secure-storage
- 'nil)
+ '((".wiktionary.org"
+  [url-cookie "WMF-Last-Access-Global" "27-Aug-2018" "Fri, 28 Sep 2018 00:00:00 GMT" "/" ".wiktionary.org" t])
+ (".medium.com"
+  [url-cookie "uid" "lo_UuRQci567CWJ" "Tue, 27-Aug-19 09:46:01 GMT" "/" ".medium.com" t]
+  [url-cookie "sid" "1:Wi4lDZt+/jD/6zdIa1LoEBbVaWQ+kxl3jUlPHUt7CNKlzZB/sqJDgQaw2ndYHlUC" "Tue, 27 Aug 2019 09:46:01 GMT" "/" ".medium.com" t])
+ ("en.wiktionary.org"
+  [url-cookie "WMF-Last-Access" "27-Aug-2018" "Fri, 28 Sep 2018 00:00:00 GMT" "/" "en.wiktionary.org" t]))
+)
 
 ;; Local Variables:
 ;; version-control: never

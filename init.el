@@ -8,16 +8,16 @@
               '((width . 105)
                 (height . 50)
                 (background-color . "black")
-                (foreground-color . "#00AFFF")
+                (foreground-color . "#42c2f4")
                 (cursor-color . "purple")
-                                        ;(font . "ProggyTinyTT-12")
-                )
-              )
-      )
+                                        ;(font . "ProggyTinyTT-12"))
+		)
+	      )
+)
+
 
 ;; (set-face-attribute 'default nil :font "ProggyTinyTT" :height 110)
 (set-face-attribute 'default nil :font "Hack" :height 57)
-
 
 ;; setup useful modes
 (show-paren-mode)
@@ -38,18 +38,18 @@
 
 
 ;; set the custom global colours
-(set-face-foreground 'font-lock-comment-face "#505050")
-(set-face-foreground 'font-lock-string-face "#888800")
-(set-face-foreground 'font-lock-function-name-face "#0084FF")
-(set-face-foreground 'font-lock-variable-name-face "#9933FF")
-(set-face-foreground 'font-lock-keyword-face "#DD00FF")
+(set-face-foreground 'font-lock-comment-face "#808080")
+(set-face-foreground 'font-lock-string-face "#ba5900")
+(set-face-foreground 'font-lock-function-name-face "#006033")
+(set-face-foreground 'font-lock-variable-name-face "#aae1f7")
+(set-face-foreground 'font-lock-keyword-face "#2222FF")
 
 
-;;Colour Scheme
-;; (set-background-color "black")
-;; (set-foreground-color "#00CCFF")
-;; (set-foreground-color "#00FF00")
-;; (set-cursor-color "purple")
+;;Org mode
+(require 'org)
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+(setq org-log-done t)
 
 
 ;; Highlight current line
@@ -73,6 +73,7 @@
 (display-time-mode)
 (size-indication-mode)
 
+
 ;; display a line at column 80
 (add-to-list 'load-path "~/.emacs.d/modes/fci/")
 (require 'fill-column-indicator)
@@ -92,7 +93,7 @@
 
 ;; set tabs to 2
 (setq c-basic-offset 2)
-(setq-default indent-tabs-mode 0)
+(setq-default indent-tabs-mode)
 (setq-default tab-width 2)
 (setq indent-line-function 'insert-tab)
 
@@ -111,75 +112,17 @@
 ;; python settings
 (add-hook 'python-mode-hook
           (lambda ()
-            (add-to-list 'write-file-functions 'delete-trailing-whitespace)
-            (indent-tabs-mode nil)))
+            (add-to-list 'write-file-functions
+			 'delete-trailing-whitespace
+			 'hs-minor-mode)))
 
 (custom-set-faces
- '(font-lock-keyword-face
-	 ((t (:background "Black" :foreground "red" :bold t))))
- )
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(font-lock-keyword-face ((t (:background "Black" :foreground "red" :bold t)))))
 
-(defvar python-override-blue (make-face 'python-override-blue))
-(set-face-attribute 'python-override-blue nil
-										:background "DDDDDD"
-										:foreground "#0084FF"
-										:bold t)
-
-(defvar printStatementHighlight (make-face 'printStatementHighlight))
-(set-face-attribute 'printStatementHighlight nil
-										:background "#FF0000"
-										:foreground "#000000"
-										:bold t)
-
-(defvar python-override-red (make-face 'python-override-red))
-(set-face-attribute 'python-override-red nil
-										:background "#000000"
-										:foreground "#DD0000"
-										:bold t)
-
-
-(defvar commentColours (make-face 'commentColours))
-(set-face-attribute 'commentColours nil
-										:background "#FFFFFF"
-										:foreground "#444444"
-										:bold t
-										:italic t)
-
-
-(defvar python-override-keywords-01
-  (concat "\\b\\(?:"
-					(regexp-opt (list "class" "*\("))
-					"\\)\\b"))
-
-(defvar python-override-keywords-02
-  (concat "\\b\\(?:"
-					(regexp-opt (list "print"))
-					"\\)\\b"))
-
-(defvar python-override-keywords-03
-  (concat "\\b\\(?:"
-					(regexp-opt (list "in" "for" "while"))
-					"\\)\\b"))
-
-(defvar python-override-keywords-04
-  (concat "\\b\\(?:"
-					(regexp-opt (list "TODO" "HACK"))
-					"\\)\\b"))
-
-(font-lock-add-keywords 'python-mode (list
-																			(list (concat
-																						 "\\("python-override-keywords-01"\\)")1 'python-override-blue t)
-
-																			(list (concat
-																						 "\\("python-override-keywords-02"\\)") 1 'printStatementHighlight t)
-
-																			(list (concat
-																						 "\\("python-override-keywords-03"\\)") 1 'python-override-red t)
-
-																			(list (concat
-																						 "\\("python-override-keywords-04"\\)") 1 'commentColours t)
-
-																			))
 ;; maximise the window
 ;; (w32-send-sys-command 6p1488)
 
@@ -189,8 +132,13 @@
   "Show all lines matching REGEXP in all buffers (ALLBUFS)."
   (interactive (occur-read-primary-args))
   (multi-occur-in-matching-buffers ".*" regexp))
- (global-set-key (kbd "M-s") 'my-multi-occur-in-matching-buffers)
+(global-set-key (kbd "M-s") 'my-multi-occur-in-matching-buffers)
 
+;; Open multiple files
+(defun dired-find-marked-files ()
+  (interactive)
+  (dolist (f (dired-get-marked-files))
+    (find-file f)))
 
 ;; Additional key bindings
 (global-set-key (kbd "C-x /") 'comment-or-uncomment-region)
@@ -255,11 +203,11 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-	 (quote
-		("a27c00821ccfd5a78b01e4f35dc056706dd9ede09a8b90c6955ae6a390eb1c1e" default)))
+   (quote
+    ("84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" "a27c00821ccfd5a78b01e4f35dc056706dd9ede09a8b90c6955ae6a390eb1c1e" default)))
  '(package-selected-packages
-	 (quote
-		(smart-mode-line flycheck-pony pony-mode pony-snippets ponylang-mode flycheck-yamllint flymake-yaml yaml-mode excorporate flycheck highlight-indent-guides-mode highlight-indent-guides projectile projectile-codesearch neotree web-mode slack lua-mode libmpdee iedit dts-mode auto-complete-c-headers auto-complete-auctex))))
+   (quote
+    (undo-tree magit smart-mode-line-powerline-theme yafolding smart-mode-line flycheck-yamllint flymake-yaml yaml-mode excorporate flycheck highlight-indent-guides-mode highlight-indent-guides projectile projectile-codesearch neotree web-mode slack lua-mode libmpdee iedit dts-mode auto-complete-c-headers auto-complete-auctex))))
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl\\.phpl\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
@@ -282,6 +230,22 @@
 ;; flycheck mode
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
-;; Smart Mode Line
-;(smart-mode-line 1)
+
+;; yafolding
+(add-hook 'prog-mode-hook
+          (lambda () (yafolding-mode)))
+(global-set-key (kbd "C-x C-a") 'yafolding-toggle-all)
+(global-set-key (kbd "C-x C-z") 'yafolding-hide-parent-element)
+(global-set-key (kbd "C-z") 'yafolding-show-element)
+
+
+;; smart-mode-line
+(setq powerline-arrow-right 'curve)
+(setq powerline-default-separator-dir '(left . right))
+(setq sml/theme 'powerline)
+(add-hook 'after-init-hook 'sml/setup)
+
+;; undo tree
+(global-undo-tree-mode)
+
 ;;; init.el ends here

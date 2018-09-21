@@ -2,1107 +2,733 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Jun 22 08:56:13 2018
+;; Created Fri Sep 21 09:41:50 2018
 ;; Desktop file format version 206
 ;; Emacs version 26.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23340 43933 15749 153000) (desktop . "208") "graeme@GraemePC" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-SRC-Hack-normal-normal-normal-*-8-*-*-*-m-0-iso10646-1") (font-parameter . "-SRC-Hack-normal-normal-normal-*-8-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#00AFFF") (background-color . "black") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha 90 78) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "purple") (environment) (sticky) (frameset--id . "F557-3C59-9420-BA6A") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (frameset--text-pixel-width . 1046) (frameset--text-pixel-height . 1615) (height . 161) (width . 209) (left . 9) (top . 296)) ((min-height . 8) (min-width . 20) (min-height-ignore . 4) (min-width-ignore . 18) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 80) (min-pixel-width . 100) (min-pixel-height-ignore . 40) (min-pixel-width-ignore . 90) (min-pixel-height-safe . 20) (min-pixel-width-safe . 20)) vc (pixel-width . 1062) (pixel-height . 1605) (total-width . 212) (total-height . 161) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 1062) (pixel-height . 672) (total-width . 212) (total-height . 67) (normal-height . 0.41838649155722324) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 532) (pixel-height . 672) (total-width . 106) (total-height . 67) (normal-height . 1.0) (normal-width . 0.5) (buffer "control_functions.py" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 142) (start . 1))) (leaf (last . t) (pixel-width . 530) (pixel-height . 672) (total-width . 106) (total-height . 67) (normal-height . 1.0) (normal-width . 0.5) (buffer "comparison_engine.py" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 5851) (start . 4656)))) (hc (last . t) (pixel-width . 1062) (pixel-height . 933) (total-width . 212) (total-height . 94) (normal-height . 0.5816135084427767) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 532) (pixel-height . 933) (total-width . 106) (total-height . 94) (normal-height . 1.0) (normal-width . 0.5) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3900) (start . 3900))) (leaf (last . t) (pixel-width . 530) (pixel-height . 933) (total-width . 106) (total-height . 94) (normal-height . 1.0) (normal-width . 0.5) (buffer "terminal_interface.py" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3282) (start . 1))))))])
+(setq desktop-saved-frameset [frameset 1 (23460 44750 238455 440000) (desktop . "208") "graeme@Mercurytide007" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-SRC-Hack-normal-normal-normal-*-8-*-*-*-m-0-iso10646-1") (font-parameter . "-SRC-Hack-normal-normal-normal-*-8-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#42c2f4") (background-color . "black") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha 90 78) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "purple") (environment) (powerline-cache) (modeline . t) (unsplittable) (frameset--id . "5E14-4AD7-4A2F-4FA9") (frameset--mini t . t) (display . ":0") (icon-name) (explicit-name) (frameset--text-pixel-width . 1046) (frameset--text-pixel-height . 1885) (height . 188) (width . 209) (left . 9) (top . 26)) ((min-height . 8) (min-width . 20) (min-height-ignore . 4) (min-width-ignore . 17) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 80) (min-pixel-width . 100) (min-pixel-height-ignore . 40) (min-pixel-width-ignore . 85) (min-pixel-height-safe . 20) (min-pixel-width-safe . 20)) vc (pixel-width . 1062) (pixel-height . 1875) (total-width . 212) (total-height . 187) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 1062) (pixel-height . 471) (total-width . 212) (total-height . 47) (normal-height . 0.26535211267605635) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 532) (pixel-height . 471) (total-width . 106) (total-height . 47) (normal-height . 1.0) (normal-width . 0.5) (buffer "duplicate_manual_check_match.py" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 765) (start . 1))) (leaf (last . t) (pixel-width . 530) (pixel-height . 471) (total-width . 106) (total-height . 47) (normal-height . 1.0) (normal-width . 0.5) (buffer "dedoup_controls.py" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 9099) (start . 7489)))) (leaf (last . t) (pixel-width . 1062) (pixel-height . 1404) (total-width . 212) (total-height . 140) (normal-height . 0.7346478873239435) (normal-width . 1.0) (buffer "duplicate_manual_check_match.py" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 765) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("permissions" "lists" "ADMIN" "StoreO" "Arc" "Product(" "product(" "settings" "Product" "product-issues" "issues" "product" "ListSto" "Productn" "Sear" "product"))
+(setq search-ring '("print" "convertToGeneric" "progressLock" "progressLock.acquire" "GetDup" "undo-tree" "systemsta" "pr" "print" "menu" "magit" "smart-mode" "GetSys" "DDDDDD" "indent" "indent-tabs-mode"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/error.html" "~/projects/menzies/foreman_site/site/proj/apps/core/models/store.py" "~/projects/menzies/foreman_site/site/proj/templates/core/assign-promotional-mechanics.html" "~/projects/menzies/foreman_site/site/proj/templates/core/assign-promotional-mechanics-form.html" "/home/graeme/projects/menzies/foreman_site/.git/COMMIT_EDITMSG" "~/projects/menzies/foreman_site/site/proj/apps/core/models/retailer.py" "~/projects/menzies/foreman_site/site/proj/templates/core/store-dashboard.html" "~/projects/menzies/foreman_site/site/proj/apps/core/models/managers.py" "~/projects/menzies/foreman_site/site/proj/apps/core/mixins.py" "~/projects/menzies/foreman_site/site/proj/apps/core/templatetags/core.py" "~/projects/menzies/foreman_site/site/proj/apps/core/models/store.py" "~/projects/tribeden/DeDuplication/.gitignoer" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/.git_ignore" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/wsgi.py" "~/projects/menzies/foreman_site/site/proj/apps/core/fixtures/default_user.json" "/home/graeme/projects/tribeden/DeDuplication/.git/MERGE_MSG" "~/projects/tribeden/DeDuplication/DoubleDetector/Design/initial_endpoints.txt" "~/.slack-term" "~/Applications/slack-term/main.go" "~/Applications/slack-term/Makefile" "~/projects/tribeden/DeDuplication/DoubleDetector/Design/initial_endpoints.txt" "~/projects/menzies/foreman_site/site/proj/apps/core/models/abstract.py" "~/projects/menzies/foreman_site/site/proj/apps/core/templatetags/core.py" "~/projects/menzies/foreman_site/site/proj/settings.py" "~/projects/menzies/foreman_site/site/proj/apps/core/filters.py" "~/projects/menzies/foreman_site/site/proj/apps/core/models/main.py" "~/projects/menzies/foreman_site/site/proj/apps/core/models/managers.py" "~/projects/menzies/foreman_site/site/proj/templates/core/manage-products.html" "~/projects/menzies/foreman_site/site/proj/templates/core/manage-stores.html" "~/projects/menzies/foreman_site/site/proj/apps/core/models/managers.py" "~/projects/menzies/foreman_site/site/proj/apps/core/models/store.py" "~/projects/menzies/foreman_site/site/proj/templates/core/dashboard.html" "~/projects/menzies/foreman_site/site/proj/templates/core/store-dashboard.html" "~/projects/menzies/foreman_site/site/proj/settings.py" "~/.config/compton.conf" "~/projects/menzies/foreman_site/site/proj/apps/core/models/store.py" "~/projects/menzies/foreman_site/.gitignore" "~/projects/menzies/foreman_site/site/proj/templates/mocks/assign-promotional-mechanics.html" "~/projects/menzies/foreman_site/site/proj/apps/core/forms.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/internal_interface.py" "/home/graeme/projects/tribeden/DeDuplication/.git/MERGE_MSG" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/docker-prod-entrypoint.sh" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/Dockerfile" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/percentage_calculator.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/comparison_engine.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/contact_types/microsoft_contact.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/contact_types/standard_contact.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/contact_types/generic_contact.py" "~/projects/menzies/foreman_site/site/proj/static/js/site.js" "~/projects/menzies/foreman_site/site/proj/templates/core/_sidebar.html" "~/projects/menzies/foreman_site/site/proj/templates/mocks/_breadcrumbs.html" "~/projects/menzies/foreman_site/site/proj/templates/core/base-dashboard.html" "~/projects/menzies/foreman_site/site/proj/static/css/elements.less" "~/projects/menzies/foreman_site/site/proj/apps/core/urls.py" "~/projects/menzies/foreman_site/site/proj/templates/core/manage-stores.html" "~/projects/menzies/foreman_site/site/proj/templates/core/select-retailer.html" "~/projects/menzies/foreman_site/site/proj/templates/core/_pagination.html" "~/projects/menzies/foreman_site/site/proj/apps/core/views.py" "~/projects/menzies/foreman_site/site/proj/templates/core/assign-promotional-mechanics.html" "~/projects/menzies/foreman_site/site/proj/templates/mocks/assign-promotional-mechanics.html" "~/projects/menzies/foreman_site/site/proj/templates/core/assign-promotional-mechanics-form.html" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/utilities.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/internal_interface.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/DoupDect.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/webui.html" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/address/address.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/address/work_address.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/utilities.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/sort_contacts.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/import_system.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/import_json.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/constants.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/machine_learning/" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/terminal_interface.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/database_interface.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/contact_types/microsoft_contact.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/contact_types/generic_contact.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/contact_types/convert_to_generic.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/number_comparison.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/name_comparison.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/email_comparison.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/comparison_result.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/comparison_engine.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/terminal_interface.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/database_interface.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/DoupDect.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/DoupDect.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/interface/control_functions.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/DedoupDeamon.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dedoup_controls.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/support_systems/constants.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dedoup_end_points.py" "~/projects/menzies/foreman_site/site/proj/apps/core/templatetags/core.py" "~/projects/menzies/foreman_site/site/proj/apps/core/forms.py" "~/projects/menzies/foreman_site/site/proj/templates/core/_pagination.html" "~/projects/menzies/foreman_site/site/proj/apps/core/views.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/address/work_address.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/contact_types/generic_contact.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/comparison_engine/number_comparison.py"))
+(setq file-name-history '("~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/templates/unique_contact_list.html" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/contact_result.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/duplicate_manual_check_match.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/comparison_details.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/duplicate_manual_check_match.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/comparison_weights.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/duplicate_match.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/templates/contact_pair_display.html" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/debug_comparison_result.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dedoup_controls.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/templates/system_status.html" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/templates/base.html" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/templates/system_status.html" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/templates/webui.html" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/webui.py" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/webui.html" "~/.emacs.d/init.el" "~/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/internal_interface.py" "~/.emacs.d/init.el" "~/.emacs.d/ede-projects.el" "~/projects/ncurses/02/02.cpp" "~/projects/ncurses/02/makefile" "~/projects/ncurses/01/01.cpp" "~/projects/ncurses/01/00.cpp" "~/projects/ncurses/01/makefile" "~/projects/ncurses/00/00.cpp" "~/projects/menzies/foreman_site/site/proj/templates/core/_sidebar.html" "~/projects/menzies/foreman_site/site/proj/templates/core/store-dashboard.html" "/home/graeme/projects/menzies/foreman_site/.git/MERGE_MSG" "~/projects/menzies/foreman_site/site/proj/apps/api/views.py" "~/projects/menzies/foreman_site/site/proj/apps/core/build_api_tests.py" "~/org/todo.org" "~/projects/menzies/foreman_site/site/proj/settings.py" "~/projects/menzies/foreman_site/site/proj/templates/core/resolution-message.html" "~/projects/menzies/foreman_site/site/proj/apps/core/models/mixins.py" "~/projects/menzies/foreman_site/site/proj/apps/core/mixins.py" "/home/graeme/projects/menzies/foreman_site/.git/MERGE_MSG" "~/projects/menzies/foreman_site/site/proj/templates/core/stores.html" "~/projects/menzies/foreman_site/site/proj/templates/core/promotional-mechanics.html" "~/projects/menzies/foreman_site/site/proj/templates/core/assign-promotional-mechanics.html" "~/projects/menzies/foreman_site/site/proj/templates/core/stores.html" "~/projects/menzies/foreman_site/site/proj/apps/core/models/" "/home/graeme/projects/menzies/foreman_site/.git/MERGE_MSG" "~/projects/menzies/foreman_site/site/proj/apps/core/models/abstract.py" "~/projects/menzies/foreman_site/site/proj/apps/core/models/mixins.py" "~/Applications/xwinwrap/gifbg.sh" "~/projects/menzies/foreman_site/site/proj/apps/core/models/main.py" "~/projects/menzies/foreman_site/site/proj/apps/core/models/retailer.py" "~/projects/menzies/foreman_site/site/proj/templates/core/resolution-message.html" "~/projects/menzies/foreman_site/site/proj/templates/core/resolved-products.html" "~/projects/menzies/foreman_site/site/proj/apps/core/buildTests.py" "~/projects/menzies/foreman_site/site/proj/apps/core/api.py" "~/projects/menzies/foreman_site/site/proj/apps/core/build_api_tests.py" "e3w" "~/Pictures/Planet.gif" "~/projects/menzies/foreman_site/site/proj/templates/core/build_api_tests.py" "~/projects/menzies/foreman_site/site/proj/apps/core/api.py" "~/Downloads/-.py" "~/projects/menzies/foreman_site/site/proj/templates/core/manage-promotions.html" "~/projects/menzies/foreman_site/site/proj/templates/core/unknown-products.html" "/sudo::/etc/fonts/conf.d/README" "~/.config/termite/config" "~/AUR/st/config.h" "~/.config/fontconfig/conf.d/30-icons.conf" "~/.asoundrc" "/sudo::/etc/asound.conf" "/home/graeme/projects/menzies/foreman_site/.git/MERGE_MSG" "~/projects/menzies/foreman_site/site/proj/static/css/layout.less" "~/projects/menzies/foreman_site/site/proj/static/js/site.js" "~/projects/tutorials/simpleisbetterthancomplex/myproject/templates/topics.html" "~/projects/tutorials/simpleisbetterthancomplex/myproject/boards/admin.py" "~/projects/tutorials/simpleisbetterthancomplex/myproject/boards/tests.py" "~/projects/tutorials/simpleisbetterthancomplex/myproject/templates/home.html" "~/projects/tutorials/simpleisbetterthancomplex/myproject/boards/models.py" "~/projects/tutorials/simpleisbetterthancomplex/myproject/myproject/urls.py" "~/projects/tutorials/simpleisbetterthancomplex/myproject/boards/views.py" "~/projects/tutorials/simpleisbetterthancomplex/myproject/myproject/settings.py" "~/.asoundrc" "/sudo:root@Mercurytide007:/etc/modprobe.d/alsa-base.conf" "/sudo::/var/lib/alsa/asound.state" "/sudo::/etc/modprobe.d/alsa-base.conf" "/sudo::/etc/modprobe.d/alsa-base.conf." "/sudo:/etc/modprobe.d/alsa-base.conf" "/etc/modprobe.d/alsa-base.conf" "/home/graeme/projects/menzies/foreman_site/.git/MERGE_MSG" "~/.bashrc" "~/projects/menzies/foreman_site/site/proj/templates/core/store-form.html" "~/projects/menzies/foreman_site/site/proj/apps/core/models/retailer.py" "~/projects/menzies/foreman_site/site/proj/apps/core/models/main.py" "~/projects/menzies/foreman_site/site/proj/apps/core/models/managers.py" "~/projects/menzies/foreman_site/site/proj/apps/core/filters.py" "~/projects/menzies/foreman_site/site/proj/apps/core/models/store.py" "/home/graeme/projects/menzies/foreman_site/.git/MERGE_MSG" "~/projects/menzies/foreman_site/site/proj/static/css/elements.less" "~/projects/menzies/foreman_site/site/proj/static/css/base.css" "~/projects/menzies/foreman_site/site/proj/templates/core/_pagination.html" "~/projects/menzies/foreman_site/site/proj/static/js/pagination.js" "~/projects/menzies/foreman_site/site/Gruntfile.js" "~/projects/menzies/foreman_site/site/proj/static/js/pagination.js" "/home/graeme/projects/menzies/foreman_site/.git/MERGE_MSG"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/graeme/.emacs.d/init.el"
-  "init.el"
-  'emacs-lisp-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  3900
-  '(973 nil)
-  nil
-  nil
-  '((buffer-display-time 23340 43886 523005 315000) (buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/docker-prod-entrypoint.sh"
-  "docker-prod-entrypoint.sh"
-  'sh-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  91
-  '(90 nil)
-  nil
-  nil
-  '((buffer-display-time 23340 43883 923578 219000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/terminal_interface.py"
-  "terminal_interface.py"
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/duplicate_manual_check_match.py"
+  "duplicate_manual_check_match.py"
   'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  3282
-  '(3282 nil)
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  765
+  '(497 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23340 43883 923579 558000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/control_functions.py"
-  "control_functions.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  142
-  '(2268 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23340 43883 923570 534000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dedoup_controls.py"
-  "dedoup_controls.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  2622
-  '(2228 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23339 48839 884114 616000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/comparison_engine.py"
-  "comparison_engine.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  5851
-  '(7351 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23340 43883 923575 560000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/DedoupDeamon.py"
-  "DedoupDeamon.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1480
-  '(235 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23339 41847 419004 267000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/error.html"
-  "error.html"
-  'web-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  666
-  '(1 nil)
-  nil
-  nil
-  '((buffer-display-time 23339 40714 345460 616000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/apps/core/forms.py"
-  "forms.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  9370
-  '(7545 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23339 40595 335683 393000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/apps/core/views.py"
-  "views.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  15233
-  '(15779 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23339 34963 998584 620000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/apps/core/models/store.py"
-  "store.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  6163
-  '(7051 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23339 34832 179696 672000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/apps/core/templatetags/core.py"
-  "core.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  2038
-  '(2749 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23339 34420 830588 997000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/templates/core/assign-promotional-mechanics-form.html"
-  "assign-promotional-mechanics-form.html"
-  'web-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1291
-  '(2031 nil)
-  nil
-  nil
-  '((buffer-display-time 23339 34047 998797 192000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/templates/core/assign-promotional-mechanics.html"
-  "assign-promotional-mechanics.html"
-  'web-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 23339 28941 50559 572000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/templates/core/manage-stores.html"
-  "manage-stores.html"
-  'web-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  4111
-  '(565 nil)
-  nil
-  nil
-  '((buffer-display-time 23339 28882 370532 225000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/templates/core/store-dashboard.html"
-  "store-dashboard.html"
-  'web-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1534
-  '(483 nil)
-  nil
-  nil
-  '((buffer-display-time 23339 26887 545571 817000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/apps/core/urls.py"
-  "urls.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode smerge-mode)
-  1457
-  '(985 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23339 26113 329896 58000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/apps/core/models/retailer.py"
-  "retailer.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  11799
-  '(1 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23339 24485 284744 782000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dedoup_end_points.py"
-  "dedoup_end_points.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  971
-  '(1298 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23339 23720 79302 377000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/apps/core/models/managers.py"
-  "managers.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  2637
-  '(881 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23338 18651 137953 107000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/apps/core/mixins.py"
-  "mixins.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1964
-  '(1486 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23338 18557 359751 56000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/templates/core/manage-products.html"
-  "manage-products.html"
-  'web-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  3253
-  '(2071 nil)
-  nil
-  nil
-  '((buffer-display-time 23338 11740 707839 865000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/settings.py"
-  "settings.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  606
-  '(1 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23338 11665 409683 149000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.slack-term"
-  ".slack-term"
-  'fundamental-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode projectile-mode)
-  1441
-  '(1770 nil)
-  nil
-  nil
-  '((buffer-display-time 23338 11080 318710 560000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/Dockerfile"
-  "Dockerfile"
-  'fundamental-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode projectile-mode)
-  304
-  '(164 nil)
-  nil
-  nil
-  '((buffer-display-time 23338 10726 943424 50000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/wsgi.py"
-  "wsgi.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  88
-  '(88 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23338 7365 390987 649000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/apps/core/fixtures/default_user.json"
-  "default_user.json"
-  'js-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  609
-  '(609 nil)
-  nil
-  nil
-  '((buffer-display-time 23337 10053 197184 857000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/internal_interface.py"
-  "internal_interface.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1583
-  '(1703 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23336 64986 448747 855000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/Design/initial_endpoints.txt"
-  "initial_endpoints.txt"
-  'text-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode)
-  984
-  '(956 nil)
-  nil
-  nil
-  '((buffer-display-time 23336 64784 614968 50000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23460 44715 916519 461000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
   "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/comparison_result.py"
   "comparison_result.py"
   'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  949
-  '(2429 nil)
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  2212
+  '(2212 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23336 58471 871303 208000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23460 44711 728681 92000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/comparison_weights.py"
+  "comparison_weights.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1
+  '(400 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 49493 354367 702000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/templates/contact_pair_display.html"
+  "contact_pair_display.html"
+  'web-mode
+  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  6066
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 23459 49485 840697 635000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/comparison_engine.py"
+  "comparison_engine.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  9661
+  '(6890 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 47722 373724 814000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/control_functions.py"
+  "control_functions.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  6647
+  '(5653 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 47617 550143 184000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dedoup_controls.py"
+  "dedoup_controls.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  9099
+  '(9748 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23460 44711 728678 967000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/comparison_details.py"
+  "comparison_details.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1498
+  '(2937 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 46609 418466 672000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dedoup_end_points.py"
+  "dedoup_end_points.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  2551
+  '(4969 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 45019 677814 698000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/terminal_interface.py"
+  "terminal_interface.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1
+  '(3006 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 44653 754278 248000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/startDeDupServer.sh"
+  "startDeDupServer.sh"
+  'sh-mode
+  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  67
+  '(67 nil)
+  nil
+  nil
+  '((buffer-display-time 23459 42755 641061 53000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
   "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/DoupDect.py"
   "DoupDect.py"
   'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  396
-  '(203 nil)
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  388
+  '(298 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23336 58209 49018 334000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/apps/core/models/main.py"
-  "main.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  14330
-  '(14222 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23336 49619 797615 126000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/apps/core/models/abstract.py"
-  "abstract.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  7358
-  '(1 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23335 51100 905816 662000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/apps/core/filters.py"
-  "filters.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1373
-  '(142 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23335 37497 710219 455000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/templates/core/dashboard.html"
-  "dashboard.html"
-  'web-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  2455
-  '(1213 nil)
-  nil
-  nil
-  '((buffer-display-time 23335 35085 314638 29000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/test.py"
-  "test.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  67
-  '(35 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23331 47586 427616 841000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.config/compton.conf"
-  "compton.conf"
-  'conf-unix-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode)
-  2142
-  '(1792 nil)
-  nil
-  nil
-  '((buffer-display-time 23331 40086 73319 283000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/contact_types/convert_to_generic.py"
-  "convert_to_generic.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1373
-  '(1307 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23331 35573 96763 718000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/.gitignore"
-  ".gitignore"
-  'fundamental-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode projectile-mode)
-  64
-  '(63 nil)
-  nil
-  nil
-  '((buffer-display-time 23331 29225 749199 59000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/utilities.py"
-  "utilities.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  632
-  '(3382 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23330 34678 124474 133000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/email_comparison.py"
-  "email_comparison.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  2280
-  '(1794 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23330 34530 411717 783000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/contact_types/generic_contact.py"
-  "generic_contact.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1255
-  '(667 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23330 33674 431468 812000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/number_comparison.py"
-  "number_comparison.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  3488
-  '(1 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23330 32808 657016 76000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 41743 663221 148000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
   "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/name_comparison.py"
   "name_comparison.py"
   'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  2470
-  '(2470 nil)
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1973
+  '(2582 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23330 32740 79713 41000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 41490 532201 956000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/database_interface.py"
-  "database_interface.py"
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/email_comparison.py"
+  "email_comparison.py"
   'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1195
-  '(806 nil)
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode text-scale-mode)
+  1451
+  '(3929 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23330 30241 284493 720000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 41484 532505 16000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/percentage_calculator.py"
-  "percentage_calculator.py"
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/number_comparison.py"
+  "number_comparison.py"
   'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  243
-  '(243 nil)
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  3163
+  '(76 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23330 29335 549411 590000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 41482 150396 814000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/contact_types/standard_contact.py"
-  "standard_contact.py"
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/utilities.py"
+  "utilities.py"
   'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  2475
-  '(1271 nil)
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode text-scale-mode)
+  3595
+  '(1396 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23330 27246 298259 529000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 40868 774279 127000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  4221
+  '(1011 nil)
+  nil
+  nil
+  '((buffer-display-time 23459 39534 702007 307000) (buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/DedoupDeamon.py"
+  "DedoupDeamon.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode hs-minor-mode text-scale-mode)
+  3672
+  '(2061 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 39013 753835 96000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
   "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/constants.py"
   "constants.py"
   'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1273
-  '(1272 nil)
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  4071
+  '(3354 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23330 25701 825932 582000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 37633 304895 432000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/static/js/site.js"
-  "site.js"
-  'js-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1924
-  '(5138 nil)
-  nil
-  nil
-  '((buffer-display-time 23330 20528 721943 130000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.Xresources"
-  ".Xresources"
-  'conf-xdefaults-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  287
-  '(220 nil)
-  nil
-  nil
-  '((buffer-display-time 23330 20542 468310 147000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/templates/core/base-dashboard.html"
-  "base-dashboard.html"
-  'web-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  372
-  '(585 nil)
-  nil
-  nil
-  '((buffer-display-time 23330 17800 128912 626000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/static/css/elements.less"
-  "elements.less"
-  'less-css-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  371
-  '(266 nil)
-  nil
-  nil
-  '((buffer-display-time 23330 17220 471311 676000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/templates/core/select-retailer.html"
-  "select-retailer.html"
-  'web-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  2417
-  '(1659 nil)
-  nil
-  nil
-  '((buffer-display-time 23330 12165 600997 87000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/menzies/foreman_site/site/proj/templates/core/_pagination.html"
-  "_pagination.html"
-  'web-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 23330 11286 960878 44000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/webui.html"
-  "webui.html"
-  'web-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  731
-  '(625 nil)
-  nil
-  nil
-  '((buffer-display-time 23327 45381 819100 985000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/address/work_address.py"
-  "work_address.py"
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/contact_types/generic_contact.py"
+  "generic_contact.py"
   'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  249
-  '(1 nil)
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  2679
+  '(1572 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23327 41697 333422 46000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23459 24068 848008 117000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/address/address.py"
-  "address.py"
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/contact_types/convert_to_generic.py"
+  "convert_to_generic.py"
   'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1
-  '(nil nil)
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  2190
+  '(85 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23327 41647 901090 125000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/sort_contacts.py"
-  "sort_contacts.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23327 41509 632283 697000) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/import_system.py"
-  "import_system.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23327 41489 503775 619000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23458 27013 542353 890000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
   "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/import_json.py"
   "import_json.py"
   'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  1
-  '(nil nil)
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  404
+  '(404 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23327 41482 762111 337000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23458 26177 208419 491000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/templates/unique_contact_list.html"
+  "unique_contact_list.html"
+  'web-mode
+  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1140
+  '(343 nil)
+  nil
+  nil
+  '((buffer-display-time 23458 22545 78410 510000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/comparison_engine/contact_result.py"
+  "contact_result.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  349
+  '(261 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23458 20319 268251 5000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
   "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/machine_learning/match_weights.py"
   "match_weights.py"
   'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  2054
+  '(4796 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23458 10363 668910 303000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/templates/system_status.html"
+  "system_status.html"
+  'web-mode
+  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1772
+  '(1772 nil)
+  nil
+  nil
+  '((buffer-display-time 23458 3989 860531 340000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/webui.py"
+  "webui.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1072
+  '(227 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23456 61898 920755 687000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/address/work_address.py"
+  "work_address.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  646
+  '(69 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23455 36932 893155 846000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/address/address.py"
+  "address.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1238
+  '(296 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23455 36556 807019 57000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/sort_contacts.py"
+  "sort_contacts.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
   1
   '(nil nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23327 41462 790651 16000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23455 34569 873920 66000) (truncate-lines . t)))
 
 (desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/response.py"
+  "response.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  358
+  '(284 nil)
   nil
-  "machine_learning"
-  'dired-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode projectile-mode)
-  357
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23455 34516 952451 425000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/percentage_calculator.py"
+  "percentage_calculator.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  345
+  '(345 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23455 34463 880637 166000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/import_system.py"
+  "import_system.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1
   '(nil nil)
-  t
-  '("/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/machine_learning/")
-  '((buffer-display-time 23327 41458 422744 171000) (truncate-lines . t)))
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23455 34445 175929 722000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/support_systems/enum.py"
+  "enum.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  182
+  '(181 nil)
   nil
-  "interface"
-  'dired-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode projectile-mode)
-  292
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23455 34382 89119 442000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/database_interface.py"
+  "database_interface.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  236
+  '(6562 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23455 33839 289894 488000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1
   '(nil nil)
-  t
-  '("/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/dup_dect/interface/")
-  '((buffer-display-time 23327 41414 654229 244000) (truncate-lines . t)))
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23455 33397 368758 203000) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/home/graeme/Applications/Teensy/ergodox-firmware/src/lib/usb/usage-page/keyboard--short-names.h"
-  "keyboard--short-names.h"
-  'c-mode
-  '(abbrev-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  11575
-  '(7012 nil)
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/templates/webui.html"
+  "webui.html"
+  'web-mode
+  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1197
+  '(392 nil)
   nil
   nil
-  '((buffer-display-time 23327 39302 984842 243000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((buffer-display-time 23455 33311 563323 422000) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/graeme/Applications/Teensy/ergodox-firmware/src/keyboard/ergodox/layout/qwerty-kinesis-mod.c"
-  "qwerty-kinesis-mod.c"
-  'c-mode
-  '(abbrev-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  3525
-  '(2033 nil)
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/templates/base.html"
+  "base.html"
+  'web-mode
+  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  288
+  '(1 nil)
   nil
   nil
-  '((buffer-display-time 23327 35764 335720 581000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((buffer-display-time 23455 33309 617517 530000) (buffer-file-coding-system . utf-8-unix) (truncate-lines)))
 
 (desktop-create-buffer 206
-  "/home/graeme/.conky/conkyrings/mem"
-  "mem"
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/daemon/wsgi.py"
+  "wsgi.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23455 33281 201592 624000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tutorials/simpleisbetterthancomplex/myproject/templates/home.html"
+  "home.html"
+  'web-mode
+  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1719
+  '(523 nil)
+  nil
+  nil
+  '((buffer-display-time 23451 34568 962509 905000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/DoubleDetector/src/python/Doxyfile"
+  "Doxyfile"
   'fundamental-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode projectile-mode hi-lock-mode)
-  978
-  '(391 nil)
+  '(linum-mode global-auto-revert-mode yas-minor-mode undo-tree-mode)
+  37757
+  '(37553 nil)
   nil
   nil
-  '((buffer-display-time 23322 33072 546824 698000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((buffer-display-time 23450 17156 825123 503000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/home/graeme/Applications/Teensy/ergodox-firmware/makefile"
+  "/home/graeme/.config/compton.conf"
+  "compton.conf"
+  'conf-unix-mode
+  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  2087
+  '(2087 nil)
+  nil
+  nil
+  '((buffer-display-time 23450 16268 2634 941000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/swagger.yml"
+  "swagger.yml"
+  'yaml-mode
+  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode undo-tree-mode hs-minor-mode)
+  2389
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 23449 13499 953743 418000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/ncurses/02/02.cpp"
+  "02.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  172
+  '(172 nil)
+  nil
+  nil
+  '((buffer-display-time 23447 53910 66032 293000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/ncurses/02/makefile"
   "makefile"
   'makefile-gmake-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  1108
-  '(1102 nil)
+  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  48
+  '(9 nil)
   nil
   nil
-  '((indent-tabs-mode . t) (buffer-display-time 23321 7941 353395 621000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((indent-tabs-mode . t) (buffer-display-time 23446 18759 239157 589000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/home/graeme/.screenlayout/graeme.sh"
-  "graeme.sh"
-  'sh-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  229
-  '(229 nil)
+  "/home/graeme/projects/ncurses/01/makefile"
+  "makefile"
+  'makefile-gmake-mode
+  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  49
+  '(14 nil)
   nil
   nil
-  '((buffer-display-time 23319 56056 539258 849000) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+  '((indent-tabs-mode . t) (buffer-display-time 23446 18732 347098 955000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/home/graeme/Documents/UsefulCommands.txt"
-  "UsefulCommands.txt"
-  'text-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode)
-  241
-  '(241 nil)
+  "/home/graeme/projects/tutorials/simpleisbetterthancomplex/myproject/boards/tests.py"
+  "tests.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  265
+  '(507 nil)
   nil
   nil
-  '((buffer-display-time 23317 31961 154044 370000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23440 61470 187620 201000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
   "/home/graeme/.config/i3/config"
   "config"
   'conf-space-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  4094
-  '(1 nil)
+  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1811
+  '(5600 nil)
   nil
   nil
-  '((buffer-display-time 23317 31964 694667 539000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.bashrc"
-  ".bashrc"
-  'sh-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  6320
-  '(1 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 31983 699267 370000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/Applications/Teensy/ergodox-firmware/src/keyboard/ergodox/layout/graeme-mod.c"
-  "graeme-mod.c"
-  'c-mode
-  '(abbrev-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  6053
-  '(4308 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32005 823414 958000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/Applications/Teensy/ergodox-firmware/src/keyboard/ergodox/layout/colemak-symbol-mod.c"
-  "colemak-symbol-mod.c"
-  'c-mode
-  '(abbrev-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  774
-  '(1052 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32019 412389 381000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/Applications/Teensy/ergodox-firmware/src/keyboard/ergodox/layout/dvorak-kinesis-mod.c"
-  "dvorak-kinesis-mod.c"
-  'c-mode
-  '(abbrev-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode)
-  2013
-  '(1947 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32031 490379 58000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  nil
-  "Applications"
-  'dired-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode projectile-mode)
-  240
-  '(nil nil)
-  t
-  '("/home/graeme/Applications/")
-  '((buffer-display-time 23317 32034 164425 64000) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.tmux.conf"
-  ".tmux.conf"
-  'conf-space-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode)
-  21
-  '(1 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32047 904678 879000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.config/alacritty/alacritty.yml"
-  "alacritty.yml"
-  'yaml-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  1
-  '(15090 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-display-time 23317 32052 924709 272000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.bash_profile"
-  ".bash_profile"
-  'sh-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  339
-  '(338 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32057 236853 44000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.conky/Conky Seamod/seamod_rings.lua"
-  "seamod_rings.lua"
-  'lua-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  15697
-  '(2707 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32065 335234 221000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.ssh/config"
-  "config"
-  'conf-unix-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode)
-  4198
-  '(2339 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32069 339721 577000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.irssi/config"
-  "config"
-  'conf-unix-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  1396
-  '(1000 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32088 275062 499000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.config/i3/i3status.conf"
-  "i3status.conf"
-  'conf-unix-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  570
-  '(343 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32090 252724 64000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/vagrant/walkers/Vagrantfile"
-  "Vagrantfile"
-  'ruby-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  3105
-  '(3105 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-display-time 23317 32100 426069 749000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.conky/conkyrings/rings"
-  "rings"
-  'fundamental-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode projectile-mode hi-lock-mode)
-  979
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32102 136014 897000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.conky/conkyrings/startconky.sh"
-  "startconky.sh"
-  'sh-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  596
-  '(438 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32105 145215 482000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.conky/conkyrings/cpu"
-  "cpu"
-  'fundamental-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode projectile-mode hi-lock-mode)
-  595
-  '(1084 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32106 595078 282000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.config/conky.conf"
-  "conky.conf"
-  'conf-space-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32108 259425 563000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.config/i3-scrot.conf"
-  "i3-scrot.conf"
-  'conf-unix-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  33
-  '(33 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32109 441857 552000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/mt_mtdynamiccontent/maputils/map_picker.py"
-  "map_picker.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23317 32120 358301 9000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/mt_mtdynamiccontent/built_ins.py"
-  "built_ins.py"
-  'python-mode
-  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode smerge-mode)
-  8131
-  '(18 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23317 32131 845577 509000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/projects/mt_mtdynamiccontent/templates/mtdynamiccontent/google-maps.html"
-  "google-maps.html"
-  'web-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode smerge-mode)
-  2155
-  '(40 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32138 553475 717000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/vagrant/mermaidpanels/Vagrantfile"
-  "Vagrantfile"
-  'ruby-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  3634
-  '(2597 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-display-time 23317 32146 433907 470000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/vagrant/scottcountry/scottcountry/Vagrantfile"
-  "Vagrantfile"
-  'ruby-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  2444
-  '(1441 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-display-time 23317 32154 352894 400000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.gitconfig"
-  ".gitconfig"
-  'conf-unix-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  637
-  '(165 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32155 499597 406000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.stalonetrayrc"
-  ".stalonetrayrc"
-  'fundamental-mode
-  '(linum-mode global-auto-revert-mode yas-minor-mode projectile-mode hi-lock-mode)
-  271
-  '(48 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32156 988514 766000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/home/graeme/.conky/conkyrings/clock_rings.lua"
-  "clock_rings.lua"
-  'lua-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  8402
-  '(8866 nil)
-  nil
-  nil
-  '((buffer-display-time 23317 32162 279684 875000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((buffer-display-time 23438 36807 706044 341000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
   "/home/graeme/Applications/xwinwrap/gifbg.sh"
   "gifbg.sh"
   'sh-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  1034
-  '(1267 nil)
+  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  800
+  '(828 nil)
   nil
   nil
-  '((buffer-display-time 23317 32166 516043 433000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+  '((buffer-display-time 23437 2565 119864 129000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/home/graeme/Applications/simpleCountdownTimer/main.c"
-  "main.c"
-  'c-mode
-  '(abbrev-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  647
-  '(647 t)
+  "/home/graeme/.screenlayout/graeme.sh"
+  "graeme.sh"
+  'sh-mode
+  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  135
+  '(11 nil)
   nil
   nil
-  '((buffer-display-time 23317 32170 288189 424000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+  '((buffer-display-time 23437 1454 382586 442000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/home/graeme/vagrant/project_tracker/Vagrantfile"
-  "Vagrantfile"
-  'ruby-mode
-  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode projectile-mode hi-lock-mode)
-  2930
-  '(3190 nil)
+  "/home/graeme/.xinitrc"
+  ".xinitrc"
+  'sh-mode
+  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  645
+  '(601 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 23338 14236 585456 785000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+  '((buffer-display-time 23410 63537 779456 801000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/.config/termite/config"
+  "config"
+  'conf-unix-mode
+  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1473
+  '(105 nil)
+  nil
+  nil
+  '((buffer-display-time 23409 48929 266321 897000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/.bashrc"
+  ".bashrc"
+  'sh-mode
+  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  2621
+  '(3517 nil)
+  nil
+  nil
+  '((buffer-display-time 23409 47855 771885 86000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/.config/fontconfig/conf.d/30-icons.conf"
+  "30-icons.conf"
+  'nxml-mode
+  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  454
+  '(543 nil)
+  nil
+  nil
+  '((buffer-display-time 23409 45500 444415 377000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/.asoundrc"
+  ".asoundrc"
+  'fundamental-mode
+  '(linum-mode global-auto-revert-mode yas-minor-mode undo-tree-mode)
+  22
+  '(22 nil)
+  nil
+  nil
+  '((buffer-display-time 23409 38852 618200 548000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tutorials/simpleisbetterthancomplex/myproject/boards/views.py"
+  "views.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  113
+  '(113 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23401 42448 551696 420000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tutorials/simpleisbetterthancomplex/myproject/myproject/urls.py"
+  "urls.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  888
+  '(888 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23401 42443 400243 94000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tutorials/simpleisbetterthancomplex/myproject/templates/topics.html"
+  "topics.html"
+  'web-mode
+  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  576
+  '(576 nil)
+  nil
+  nil
+  '((buffer-display-time 23401 42409 939689 826000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tutorials/simpleisbetterthancomplex/myproject/boards/admin.py"
+  "admin.py"
+  'python-mode
+  '(eldoc-mode linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  87
+  '(88 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23400 49592 269818 424000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/.bash_profile"
+  ".bash_profile"
+  'sh-mode
+  '(linum-mode global-auto-revert-mode auto-complete-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  118
+  '(120 nil)
+  nil
+  nil
+  '((buffer-display-time 23393 64731 752764 806000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/.tmux.conf"
+  ".tmux.conf"
+  'conf-space-mode
+  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  117
+  '(117 nil)
+  nil
+  nil
+  '((buffer-display-time 23381 61199 180884 306000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/.Xauthority"
+  ".Xauthority"
+  'fundamental-mode
+  '(linum-mode global-auto-revert-mode yas-minor-mode undo-tree-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23381 59201 573636 415000) (buffer-file-coding-system . no-conversion) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/projects/tribeden/DeDuplication/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(linum-mode global-auto-revert-mode yas-minor-mode undo-tree-mode)
+  39
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 23376 27526 290485 277000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/.config/polybar/config"
+  "config"
+  'conf-windows-mode
+  '(linum-mode global-auto-revert-mode yas-minor-mode flycheck-mode undo-tree-mode)
+  1119
+  '(1076 nil)
+  nil
+  nil
+  '((buffer-display-time 23371 23496 23359 828000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/graeme/.local/share/xorg/Xorg.1.log"
+  "Xorg.1.log"
+  'fundamental-mode
+  '(linum-mode global-auto-revert-mode yas-minor-mode undo-tree-mode)
+  2711
+  '(4 nil)
+  nil
+  nil
+  '((buffer-display-time 23459 22422 450978 104000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
