@@ -498,7 +498,7 @@ on troubleshooting.)"
   (memq t (mapcar #'fci-overlay-fills-background-p (overlays-at posn))))
 
 ;; The display spec used in overlay before strings to pad out the rule to the
-;; fill-column. 
+;; fill-column.
 (defconst fci-padding-display
   '((when (not (fci-competing-overlay-p buffer-position))
       . (space :align-to fci-column))

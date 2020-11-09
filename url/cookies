@@ -2,22 +2,15 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '((".google.com"
-  [url-cookie "1P_JAR" "2018-08-27-09" "Wed, 26-Sep-2018 09:41:45 GMT" "/" ".google.com" nil]
-  [url-cookie "NID" "137=HgRqT1WGFNU6loU0Hbo77uvl4s1_nCYZbz6QlhsKWW8SGcD2PAIeO0rT4gWtXhN1C26fI8Q24NC4tYBeZQ3e8GWI8pYUQ7I0d2rosN4e-lsuJWt5MwrR2pRIozc9fw-m" "Tue, 26-Feb-2019 09:41:45 GMT" "/" ".google.com" nil]
-  [url-cookie "CGIC" "IgMqLyo" "Tue, 26-Feb-2019 00:36:21 GMT" "/complete/search" ".google.com" nil]
-  [url-cookie "CGIC" "IgMqLyo" "Tue, 26-Feb-2019 00:36:21 GMT" "/search" ".google.com" nil])
- (".medium.com"
-  [url-cookie "__cfduid" "d1333608e07bd8cb1daa563ad885b52721535363161" "Tue, 27-Aug-19 09:46:01 GMT" "/" ".medium.com" nil]))
-)
+ 'nil)
 (setq url-cookie-secure-storage
- '((".wiktionary.org"
-  [url-cookie "WMF-Last-Access-Global" "27-Aug-2018" "Fri, 28 Sep 2018 00:00:00 GMT" "/" ".wiktionary.org" t])
- (".medium.com"
-  [url-cookie "uid" "lo_UuRQci567CWJ" "Tue, 27-Aug-19 09:46:01 GMT" "/" ".medium.com" t]
-  [url-cookie "sid" "1:Wi4lDZt+/jD/6zdIa1LoEBbVaWQ+kxl3jUlPHUt7CNKlzZB/sqJDgQaw2ndYHlUC" "Tue, 27 Aug 2019 09:46:01 GMT" "/" ".medium.com" t])
- ("en.wiktionary.org"
-  [url-cookie "WMF-Last-Access" "27-Aug-2018" "Fri, 28 Sep 2018 00:00:00 GMT" "/" "en.wiktionary.org" t]))
+ '((".reddit.com"
+	[url-cookie "loid" "0000000000611j8vum.2.1585134987103.Z0FBQUFBQmVlejJMMzlmOW8zTGNCOXRWU0hRWjdWZUhORm5SWEFReUdLME5VUGw5d3RPa0VDbDRvd0VHdF93UVZPZTROUlVyXzlHVVVPU1poQmRHRUtlTkZjcHFmVlpCUDF6cjRkd0o3R3kxb0tQUVR3Rm5qN3Q3Znd2NV9NYVRRU3hfNklVWEZmWXg" "Fri, 25 Mar 2022 11:16:27 GMT" "/" ".reddit.com" t]
+	[url-cookie "d2_token" "3.78953728ab08c5e6c3b793d8d9ce12192b5aa0192a54ca8890f8c926b2bd5a93.eyJhY2Nlc3NUb2tlbiI6Ii1wZUNHMDh4Rk1seHloWUxxbDczMjQyb0xkZlUiLCJleHBpcmVzIjoiMjAyMC0wMy0yNVQxMjoxNjoyNy4wMDBaIiwibG9nZ2VkT3V0Ijp0cnVlLCJzY29wZXMiOlsiKiIsImVtYWlsIl19" "Fri, 25 Mar 2022 11:16:27 GMT" "/" ".reddit.com" t]
+	[url-cookie "eu_cookie_v2" "1" "Mon, 25 Mar 2030 11:16:27 GMT" "/" ".reddit.com" t]
+	[url-cookie "csv" "1" "Fri Mar 25 11:16:28 2022 GMT" "/" ".reddit.com" t])
+ ("reddit.com"
+	[url-cookie "edgebucket" "DJLi0Yc8u6PQU4Xjet" "Fri Mar 25 11:16:27 2022 GMT" "/" "reddit.com" t]))
 )
 
 ;; Local Variables:

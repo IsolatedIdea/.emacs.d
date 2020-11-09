@@ -1,0 +1,127 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Sep  3 08:35:11 2020
+;; Desktop file format version 208
+;; Emacs version 28.0.50
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24400 40111 212809 968000) (desktop . "208") "v1gtinsd@archlinux" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-ADBO-Source Code Pro-normal-normal-normal-*-9-*-*-*-m-0-iso10646-1") (font-parameter . "-ADBO-Source Code Pro-normal-normal-normal-*-9-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#42c2f4") (background-color . "black") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tab-bar-lines . 0) (height . 87) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha 93 83) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (environment "MAIL=/var/spool/mail/v1gtinsd" "DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus" "GDMSESSION=i3" "PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl" "XDG_RUNTIME_DIR=/run/user/1000" "MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins" "XDG_SESSION_ID=2" "XDG_VTNR=7" "SHLVL=1" "DISPLAY=:0" "USER=v1gtinsd" "XDG_SESSION_CLASS=user" "XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0" "XDG_CURRENT_DESKTOP=i3" "LANG=C" "HOME=/home/v1gtinsd" "MOTD_SHOWN=pam" "XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/v1gtinsd" "DESKTOP_STARTUP_ID=i3/dmenu_run/1360-0-archlinux_TIME8912816" "XAUTHORITY=/home/v1gtinsd/.Xauthority" "_=/usr/local/bin/emacsclient" "XDG_SESSION_TYPE=x11" "XDG_SESSION_DESKTOP=i3" "LOGNAME=v1gtinsd" "PWD=/home/v1gtinsd" "XDG_SEAT=seat0" "GTK_MODULES=canberra-gtk-module" "DESKTOP_SESSION=i3" "I3SOCK=/run/user/1000/i3/ipc-socket.1360" "XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0" "SHELL=/bin/bash") (display-type . color) (background-mode . dark) (cursor-color . "purple") (sticky) (last-focus-update) (frameset--id . "8D68-1CFA-C62E-0DF8") (frameset--mini t) (width . 250) (modeline . t) (unsplittable) (left . 2562) (top . 26) (icon-name) (display . ":0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 48) (min-pixel-width . 50) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 30) (min-pixel-height-safe . 12) (min-pixel-width-safe . 10)) leaf (pixel-width . 1269) (pixel-height . 1033) (total-width . 253) (total-height . 86) (normal-height . 1.0) (normal-width . 1.0) (buffer "StorageAdminsController.php" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 5457) (start . 4141)) (prev-buffers ("*scratch*" 1 146) ("routes.py<StorageController>" 11259 11355))) (((minibuffer . t) (undecorated) (override-redirect) (font . "-ADBO-Source Code Pro-normal-normal-normal-*-9-*-*-*-m-0-iso10646-1") (font-parameter . "-ADBO-Source Code Pro-normal-normal-normal-*-9-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#42c2f4") (background-color . "black") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tab-bar-lines . 0) (height . 87) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha 93 83) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (environment "MAIL=/var/spool/mail/v1gtinsd" "DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus" "GDMSESSION=i3" "PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl" "XDG_RUNTIME_DIR=/run/user/1000" "MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins" "XDG_SESSION_ID=2" "XDG_VTNR=7" "SHLVL=1" "DISPLAY=:0" "USER=v1gtinsd" "XDG_SESSION_CLASS=user" "XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0" "XDG_CURRENT_DESKTOP=i3" "LANG=C" "HOME=/home/v1gtinsd" "MOTD_SHOWN=pam" "XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/v1gtinsd" "DESKTOP_STARTUP_ID=i3/dmenu_run/1360-11-archlinux_TIME63033" "XAUTHORITY=/home/v1gtinsd/.Xauthority" "_=/usr/local/bin/emacsclient" "XDG_SESSION_TYPE=x11" "XDG_SESSION_DESKTOP=i3" "LOGNAME=v1gtinsd" "PWD=/home/v1gtinsd" "XDG_SEAT=seat0" "GTK_MODULES=canberra-gtk-module" "DESKTOP_SESSION=i3" "I3SOCK=/run/user/1000/i3/ipc-socket.1360" "XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0" "SHELL=/bin/bash") (display-type . color) (background-mode . dark) (cursor-color . "purple") (sticky) (last-focus-update . t) (frameset--id . "9D5C-5A3D-2335-29E8") (frameset--mini t . t) (width . 252) (modeline . t) (unsplittable) (left . 1282) (top . 26) (icon-name) (display . ":0") (explicit-name)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 12) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 48) (min-pixel-width . 100) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 60) (min-pixel-height-safe . 12) (min-pixel-width-safe . 20)) hc (pixel-width . 1276) (pixel-height . 1033) (total-width . 255) (total-height . 86) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 639) (pixel-height . 1033) (total-width . 128) (total-height . 86) (normal-height . 1.0) (normal-width . 0.5) (buffer "fileset_model.py" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)) (prev-buffers ("user_filesets_model.py" 1 1) ("routes.py<Frontend>" 1854 2794) ("routes.py<StorageController>" 9873 12298) ("storage_controller_api.py" 9666 11332) ("storage_allocation_controller.py" 1 1413) ("viewme.ctp" 1 1972) ("*scratch*" 1 146))) (leaf (last . t) (pixel-width . 637) (pixel-height . 1033) (total-width . 127) (total-height . 86) (normal-height . 1.0) (normal-width . 0.5) (buffer "user_filesets_model.py" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 426) (start . 1)) (prev-buffers ("routes.py<StorageController>" 11259 11355) ("system_manager_config.py" 1 1) ("storage_controller_api.py" 9666 11332) ("viewme.ctp" 1157 1972)))) (((minibuffer . t) (display-type . mono) (background-mode . dark) (cursor-color . "purple") (vertical-scroll-bars) (tool-bar-lines . 0) (menu-bar-lines . 0) (alpha 93 83) (foreground-color . "#42c2f4") (background-color . "black") (font . "tty") (height . 11) (width . 10) (modeline . t) (unsplittable) (tab-bar-lines . 0) (frameset--id . "BF38-D274-8AE7-B19E") (frameset--mini t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 10) (total-width . 10) (total-height . 10) (normal-height . 1.0) (normal-width . 1.0) (buffer "*scratch*" (selected) (hscroll . 0) (fringes 0 0 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 146) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '(#("get_user" 0 8 (isearch-regexp-function nil isearch-case-fold-search t)) #("get the user" 0 12 (isearch-regexp-function nil isearch-case-fold-search t)) #("allocation" 0 10 (isearch-regexp-function nil isearch-case-fold-search t)) #("alo" 0 3 (isearch-regexp-function nil isearch-case-fold-search t)) #("fileset" 0 7 (isearch-regexp-function nil isearch-case-fold-search t))))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '(#("/home/v1gtinsd/.emacs.d/" 0 24 (ivy-index 0)) #("/home/v1gtinsd/Projects/SystemManager/src/StorageController/service/database/models/fileset_model.py" 0 100 (ivy-index 7)) #("/home/v1gtinsd/Projects/SystemManager/src/StorageController/service/database/models/user_filesets_model.py" 0 106 (ivy-index 0)) #("/home/v1gtinsd/Projects/SystemManager/src/support/SystemManagerUtils/system_manager_config.py" 0 93 (ivy-index 5)) #("/home/v1gtinsd/Projects/SystemManager/src/Frontend/web/routes.py" 0 64 (ivy-index 0)) #("/home/v1gtinsd/Projects/SystemManager/src/StorageController/service/storage_controller_api.py" 0 93 (ivy-index 5)) #("/home/v1gtinsd/Projects/SystemManager/src/StorageController/service/database/controllers/storage_allocation_controller.py" 0 121 (ivy-index 1)) #("/home/v1gtinsd/Projects/SystemManager/src/StorageController/web/routes.py" 0 73 (ivy-index 0)) #("/home/v1gtinsd/Projects/StorageManagerReview/src/storage-manager/app/Controller/StorageAdminsController.php" 0 107 (ivy-index 4)) #("/home/v1gtinsd/Projects/StorageManagerReview/src/storage-manager/app/View/StorageAdmins/viewme.ctp" 0 98 (ivy-index 2)) "~/.pylintrc" "~/Projects/SystemManager/src/Frontend/web/routes.py" "~/.emacs.d/recentf" "~/Projects/SystemManager/src/Frontend/web/forms.py" "~/Projects/SystemManager/src/Frontend/web/templates/system/monitoring_and_logging/add_log.html" "~/Projects/SystemManager/src/Frontend/web/templates/storage_management/home.html" "~/Projects/SystemManager/src/Frontend/web/templates/storage_management/#home.html#" "~/Projects/SystemManager/src/SystemController/service/system_controller_api.py" "~/Projects/SystemManager/src/Frontend/web/templates/home.html" "~/.emacs.d/init.el" "~/Projects/gTed/include/LineBuffers.h" "~/Projects/gTed/src/NativeTerminal.c" "~/Projects/gTed/src/LineBuffers.c" "~/Projects/gTed/include/Definitions.h" "~/Projects/SystemManager/src/BillingManager/service/database/models/storage_allocation_model.py" "~/Projects/SystemManager/src/BillingManager/service/database/models/bill_model.py" "~/Projects/SystemManager/src/BillingManager/service/database/models/storage_service_model.py" "~/.ssh/config" "~/Projects/SystemManager/src/MonitoringAndLogging/service/config.py" "~/Projects/SystemManager/src/DataManagment/service/config.py"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/v1gtinsd/Projects/SystemManager/src/StorageController/service/database/models/user_filesets_model.py"
+  "user_filesets_model.py"
+  'python-mode
+  '(eldoc-mode global-auto-revert-mode projectile-mode ivy-mode yas-minor-mode undo-tree-mode flycheck-mode company-mode highlight-indent-guides-mode)
+  426
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-display-time 24400 40108 575011 294000) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/v1gtinsd/Projects/SystemManager/src/StorageController/service/database/models/fileset_model.py"
+  "fileset_model.py"
+  'python-mode
+  '(eldoc-mode global-auto-revert-mode projectile-mode ivy-mode yas-minor-mode undo-tree-mode flycheck-mode company-mode highlight-indent-guides-mode)
+  1
+  '(237 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-display-time 24400 40108 575009 512000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/home/v1gtinsd/Projects/SystemManager/src/Frontend/web/routes.py"
+  "routes.py"
+  'python-mode
+  '(eldoc-mode global-auto-revert-mode projectile-mode ivy-mode yas-minor-mode undo-tree-mode flycheck-mode company-mode highlight-indent-guides-mode)
+  2794
+  '(2468 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-display-time 24400 39640 664915 679000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring (52945 53210 53161 1 87782 13320 11993 2468 30227))))
+
+(desktop-create-buffer 208
+  "/home/v1gtinsd/Projects/SystemManager/src/StorageController/web/routes.py"
+  "routes.py"
+  'python-mode
+  '(eldoc-mode global-auto-revert-mode projectile-mode ivy-mode yas-minor-mode undo-tree-mode flycheck-mode company-mode highlight-indent-guides-mode)
+  11355
+  '(11355 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-display-time 24400 39576 434897 781000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring (12207 12259 12198 11498 14917 669 18 8149 18))))
+
+(desktop-create-buffer 208
+  "/home/v1gtinsd/Projects/StorageManagerReview/src/storage-manager/app/Controller/StorageAdminsController.php"
+  "StorageAdminsController.php"
+  'php-mode
+  '(abbrev-mode global-auto-revert-mode projectile-mode ivy-mode yas-minor-mode undo-tree-mode flycheck-mode company-mode highlight-indent-guides-mode)
+  5457
+  '(3226 nil)
+  nil
+  nil
+  '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-display-time 24400 38714 920390 370000) (buffer-file-coding-system . undecided-unix) (fill-column . 70) (case-fold-search . t) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/v1gtinsd/Projects/SystemManager/src/support/SystemManagerUtils/system_manager_config.py"
+  "system_manager_config.py"
+  'python-mode
+  '(eldoc-mode global-auto-revert-mode projectile-mode ivy-mode yas-minor-mode undo-tree-mode flycheck-mode company-mode highlight-indent-guides-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-display-time 24399 43545 389168 776000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/v1gtinsd/Projects/SystemManager/src/StorageController/service/storage_controller_api.py"
+  "storage_controller_api.py"
+  'python-mode
+  '(eldoc-mode global-auto-revert-mode projectile-mode ivy-mode yas-minor-mode undo-tree-mode flycheck-mode company-mode highlight-indent-guides-mode)
+  11332
+  '(11331 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-display-time 24399 39867 75236 580000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring (11332 11190 11190 10793 11190 10793 5673 1215))))
+
+(desktop-create-buffer 208
+  "/home/v1gtinsd/Projects/SystemManager/src/StorageController/service/database/controllers/storage_allocation_controller.py"
+  "storage_allocation_controller.py"
+  'python-mode
+  '(eldoc-mode global-auto-revert-mode projectile-mode ivy-mode yas-minor-mode undo-tree-mode flycheck-mode company-mode highlight-indent-guides-mode)
+  1413
+  '(1280 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-display-time 24399 39651 860103 129000) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring (1280 1150 1150 1150 1137 1137 1954))))
+
+(desktop-create-buffer 208
+  "/home/v1gtinsd/Projects/StorageManagerReview/src/storage-manager/app/View/StorageAdmins/viewme.ctp"
+  "viewme.ctp"
+  'php-mode
+  '(abbrev-mode global-auto-revert-mode projectile-mode ivy-mode yas-minor-mode undo-tree-mode flycheck-mode company-mode highlight-indent-guides-mode)
+  1972
+  '(nil nil)
+  nil
+  nil
+  '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-display-time 24399 38413 848198 615000) (buffer-file-coding-system . undecided-unix) (fill-column . 70) (case-fold-search . t) (truncate-lines . t))
+  '((mark-ring nil)))
+
