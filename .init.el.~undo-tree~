@@ -1,0 +1,54 @@
+"0bd5708e5a405bab24dd23fc81560df40a75fbf0"
+#s(undo-tree [nil ([nil ([nil ([nil ([nil (#1=[nil nil ((5519 . 5758) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -5519) (4526 . 4528) (#("
+" 0 1 (fontified nil)) . -4526) (4378 . 4527) (#(" " 0 1 (fontified nil)) . 4378) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (4027 . 4379) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(lsp-clients-clangd-executable \"D:\\\\compilers\\\\clangd_13.0.0\\\\bin\\\\clangd\")
+ '(package-selected-packages
+	 '(py-autopep8 elpy company-jedi jedi jedi-core flycheck lsp-mode undo-tree highlight-indent-guides use-package nyan-mode ivy csharp-mode company)))" 0 501 (fontified nil)) . -4027) (t 25127 33686 0 0)) nil (25231 18897 503880 0) 0 nil]) ((5519 . 5758) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -5519) (4526 . 4528) (#("
+" 0 1 (fontified nil)) . -4526) (4378 . 4527) (#(" " 0 1 (fontified nil)) . 4378) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (4027 . 4379) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(lsp-clients-clangd-executable \"D:\\\\compilers\\\\clangd_13.0.0\\\\bin\\\\clangd\")
+ '(package-selected-packages
+	 '(elpy company-jedi jedi jedi-core flycheck lsp-mode undo-tree highlight-indent-guides use-package nyan-mode ivy csharp-mode company)))" 0 489 (fontified nil)) . -4027) (t 25127 31904 0 0)) nil (25127 33686 768465 0) 0 nil]) ((#("             " 0 13 (fontified nil)) . 10894) (#("             " 0 13 (fontified nil)) . 7348) (5507 . 5746) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -5507) (4514 . 4516) (#("
+" 0 1 (fontified nil)) . -4514) (4378 . 4515) (#(" " 0 1 (fontified nil)) . 4378) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (4027 . 4379) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(lsp-clients-clangd-executable \"D:\\\\compilers\\\\clangd_13.0.0\\\\bin\\\\clangd\")
+ '(package-selected-packages
+	 '(company-jedi jedi jedi-core flycheck lsp-mode undo-tree highlight-indent-guides use-package nyan-mode ivy csharp-mode company)))" 0 484 (fontified nil)) . -4027) (t 25102 7170 0 0)) nil (25127 31904 9890 0) 0 nil]) ((5502 . 5741) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -5502) (4509 . 4511) (#("
+" 0 1 (fontified nil)) . -4509) (4378 . 4510) (#(" " 0 1 (fontified nil)) . 4378) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (4027 . 4379) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(lsp-clients-clangd-executable \"D:\\\\compilers\\\\clangd_13.0.0\\\\bin\\\\clangd\")
+ '(package-selected-packages
+	 '(flycheck lsp-mode undo-tree highlight-indent-guides use-package nyan-mode ivy csharp-mode company)))" 0 456 (fontified nil)) . -4027)) nil (25102 7170 393122 0) 0 nil]) ((#("x" 0 1 (fontified t)) . -5439) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) 5440 (t 24974 38578 0 0)) nil (24999 36451 19103 0) 0 nil]) nil nil (24999 36451 19107 0) 0 nil] #1# 3377 5 nil)

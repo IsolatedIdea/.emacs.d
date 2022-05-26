@@ -1,0 +1,303 @@
+;;; Package --- Summary
+;;; Commentary:
+;;Graeme Emacs config V05
+;; Multi frame colour scheme
+;;; Code:
+(setq default-frame-alist
+      (append default-frame-alist
+              '((width . 105)
+                (height . 50)
+                (background-color . "black")
+                (foreground-color . "#5585fc")
+                (cursor-color . "purple")
+                                        ;(font . "ProggyTinyTT-12")
+                )
+              )
+      )
+
+;; (set-face-attribute 'default nil :font "ProggyTinyTT" :height 110)
+(set-face-attribute 'default nil :font "Hack" :height 70)
+
+
+;; setup useful modes
+(show-paren-mode)
+
+
+;; (tabkey2-mode)
+(delete-selection-mode t)
+
+;; save the session
+(desktop-save-mode 1)
+
+;; don't display scroll bars or toolbar
+(scroll-bar-mode -1)
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+
+
+;; set the custom global colours
+(set-face-foreground 'font-lock-comment-face "#505050")
+(set-face-foreground 'font-lock-string-face "#888800")
+(set-face-foreground 'font-lock-function-name-face "#00bf13")
+(set-face-foreground 'font-lock-variable-name-face "#00a359")
+;; (set-face-foreground 'font-lock-variable-name-face "#FF0000")
+(set-face-foreground 'font-lock-keyword-face "#df00ff")
+
+
+;; Highlight current line
+(global-hl-line-mode 1)
+(set-face-background 'hl-line "#3F1F1F")
+
+
+;; ;shut up the bloody beep
+(setq visible-bell 1)
+
+
+;; setup line display
+(require 'linum)
+(global-linum-mode)
+(toggle-truncate-lines)
+
+
+;; Mode Line
+(line-number-mode)
+(column-number-mode)
+(display-time-mode)
+(size-indication-mode)
+
+;; display a line at column 80
+(add-to-list 'load-path "~/.emacs.d/modes/fci/")
+(require 'fill-column-indicator)
+(setq fci-rule-column 80)
+(setq fci-rule-width 1)
+(setq fci-rule-color "red")
+(define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
+(global-fci-mode 1)
+
+
+;; set tabs to 2
+(setq c-basic-offset 2)
+(setq-default indent-tabs-mode 0)
+(setq-default tab-width 2)
+(setq indent-line-function 'insert-tab)
+
+
+;; handle indenting
+(setq c-default-style "bsd")
+
+
+;; indent case statments
+(add-hook 'c-mode-common-hook
+          (lambda ()
+            (c-set-offset 'case-label +)))
+(c-set-offset 'case-label '+)
+
+
+;; python settings
+(add-hook 'python-mode-hook
+          (lambda ()
+            (add-to-list 'write-file-functions 'delete-trailing-whitespace)
+            (indent-tabs-mode nil)))
+
+
+;; Additional functions...
+(defun my-multi-occur-in-matching-buffers (regexp &optional allbufs)
+  "Show all lines matching REGEXP in all buffers (ALLBUFS)."
+  (interactive (occur-read-primary-args))
+  (multi-occur-in-matching-buffers ".*" regexp))
+ (global-set-key (kbd "M-s") 'my-multi-occur-in-matching-buffers)
+
+
+;; Additional key bindings
+(global-set-key (kbd "C-x /") 'comment-or-uncomment-region)
+(put 'upcase-region 'disabled nil)
+(put 'downcase-region 'disabled nil)
+
+
+;; Disable C-z
+(global-unset-key [(control z)])
+(global-unset-key[(control x)(control z)])
+
+
+;; Disable M-.
+(global-unset-key [(alt .)])
+
+
+;; Auto update buffers
+(global-auto-revert-mode t)
+
+
+;; Set frame alpha
+(set-frame-parameter (selected-frame) 'alpha '(100 100))
+(add-to-list 'default-frame-alist '(alpha 100 100))
+
+
+;; package manager
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(package-initialize)
+
+;; yasnippet
+(require 'yasnippet)
+(yas-global-mode 1)
+
+
+;; auto complete headers
+(defun my:ac-c-header-init()
+	(require 'auto-complete-c-headers)
+	(add-to-list 'ac-sources 'ac-source-c-headers)
+	(add-to-list 'achead:include-directories '"/usr/include/x86_64-linux-gnu/c++/5")
+	(add-to-list 'achead:include-directories '"/usr/include"))
+(add-hook 'c++-mode-hook 'my:ac-c-header-init)
+(add-hook 'c-mode-hook 'my:ac-c-header-init)
+
+
+;; iEdit
+(define-key global-map (kbd "C-x ;") 'iedit-mode)
+
+
+;; Package manager
+(server-start)
+
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.phpl\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.cs'\\'" . csharp-mode))
+(add-to-list 'auto-mode-alist '("\\.xaml\\'" . xml-mode))
+
+
+;; neotree
+(setq new-smart-open t)
+(define-key global-map (kbd"C-t") 'neotree-toggle)
+
+
+;; indent highlighting
+(add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+
+
+
+;; flycheck mode
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+	 '(csharp-mode tree-sitter-langs tree-sitter use-package csproj-mode lsp-mode flycheck-irony json-mode company-iron company-irony company nyan-mode ggtags dumb-jump undo-tree cmake-mode ivy yaml-mode web-mode neotree libmpdee iedit highlight-indent-guides flymake-yaml flycheck-yamllint dts-mode auto-complete-c-headers auto-complete-auctex)))
+
+;; Smart Mode Line
+;; (smart-mode-line 1)
+
+;; use-packeage
+(require 'use-package)
+
+;; Company mode
+(use-package company
+						 :ensure t
+						 :config
+						 (setq company-idle-delay 0)
+						 (setq company-dabbrev-downcase 0)
+						 (setq company-minimum-prefix-length 1))
+
+(with-eval-after-load 'company
+	(define-key company-active-map (kbd "C-n") #'company-select-next)
+	(define-key company-active-map (kbd "C-p") #'company-select-previous))
+
+;; company-iron
+(use-package company-irony
+						 :ensure t
+						 :config
+						 (require 'company)
+						 (add-to-list 'company-backends 'company-irony))
+
+(use-package irony
+						 :ensure t
+						 :config
+						 (add-hook 'c++-mode-hook 'irony-mode)
+						 (add-hook 'c-mode-hook 'irony-mode)
+						 (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))
+
+(with-eval-after-load 'company
+	(global-company-mode))
+
+
+;; Projectile
+(projectile-global-mode)
+(setq projectile-enable-caching t)
+(define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
+(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+
+;; Undo-Tree
+(global-undo-tree-mode)
+(setq undo-tree-visuliser-diff 1)
+(setq undo-tree-visuliser-timestamps t)
+(setq undo-tree-auto-save-history t)
+
+;; Ivy
+(ivy-mode 1)
+(setq ivy-use-virtual-buffers t)
+(setq ivy-count-format "(%d/%d) ")
+
+;; Dumb Jump
+(dumb-jump-mode t)
+
+
+;; C# Mode
+(use-package tree-sitter :ensure t)
+(use-package tree-sitter-langs :ensure t)
+
+(use-package csharp-mode
+	:ensure t
+	:config
+	(add-to-list 'auto-mode-alist '("\\.cs\\'" . csharp-tree-sitter-mode)))
+
+;; OmniSharp
+;; (add-hook 'csharp-mode-hook 'omnisharp-mode)
+;; (eval-after-load
+;; 		'company
+;; 	'(add-to-list 'company-backends 'company-omnisharp))
+;; (add-hook 'csharp-mode #'flycheck-mode)
+
+;; (setq omnisharp-server-executable-path "D:\\AppData\\Roaming\\.emacs.d\\Omnisharp-win-x86-server\\OmniSharp.exe")
+
+
+
+
+;; Flycheck
+(flycheck-mode 1)
+
+
+;; ggtags
+(require 'ggtags)
+(add-hook 'c-mode-hook
+					(lambda ()
+						(when (derived-mode-p 'c-mode 'c++-mode 'java-mode 'csharp-mode 'asm-mode)
+							(ggtags-mode 1))))
+(define-key ggtags-mode-map (kbd "C-c g s") 'ggtags-find-other-symbol)
+(define-key ggtags-mode-map (kbd "C-c g h") 'ggtags-view-tag-history)
+(define-key ggtags-mode-map (kbd "C-c g r") 'ggtags-find-reference)
+(define-key ggtags-mode-map (kbd "C-c g f") 'ggtags-find-file)
+(define-key ggtags-mode-map (kbd "C-c g c") 'ggtags-create-tags)
+(define-key ggtags-mode-map (kbd "C-c g u") 'ggtags-update-tags)
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+;; Nyan-mode
+(nyan-mode t)
+
+(setq org-todo-keywords
+			'((sequence "TODO" "IN-PROGRESS" "ON-HOLD" "WAITING" "DONE")))
+
+;;; init.el ends here

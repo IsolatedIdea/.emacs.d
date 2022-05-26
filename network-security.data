@@ -1,3 +1,5 @@
 (
+ (:id "sha1:6d4eb958390599243ba9f5035cb671fa8dd6a93a" :fingerprints ("sha1:7b:75:42:b2:7f:94:3e:67:6a:fe:e1:3f:af:ae:df:58:6e:aa:f1:54" "sha1:20:5d:a0:22:12:af:6f:9e:24:12:6c:3c:88:b4:97:b1:f0:19:9c:65") :host "elpa.gnu.org:443" :conditions (:expired :invalid :same-cert))
+ (:id "sha1:85b31c268009209a8d3c5387033b219264f7e62b" :fingerprints ("sha1:b5:b9:09:73:35:bc:48:5a:1f:f1:37:33:e5:c0:89:7e:e2:5f:6a:6c" "sha1:8f:65:09:eb:5f:dc:bd:ff:d7:0b:db:f8:3a:a8:b4:6a:2e:9c:3a:6b") :host "melpa.org:443" :conditions (:expired :invalid :same-cert))
  (:id "sha1:edb3acfbd961d150ddbd741380a2111ccaa69e17" :fingerprint "sha1:4c:58:82:15:7e:d0:27:5b:ce:0e:2f:e8:97:13:5c:e9:bc:84:5f:80" :host "mercurytide.co.uk:443" :conditions (:self-signed :no-host-match :expired :unknown-ca :invalid))
 )
