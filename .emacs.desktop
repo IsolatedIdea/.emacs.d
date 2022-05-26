@@ -2,21 +2,33 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu May 26 10:47:55 2022
+;; Created Thu May 26 11:37:29 2022
 ;; Desktop file format version 208
 ;; Emacs version 27.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (25231 19659 744121 0) (desktop . "208") "tin_m@Nightshade" nil nil ((((minibuffer . t) (undecorated) (skip-taskbar) (font . "-outline-Hack-normal-normal-normal-mono-9-*-*-*-c-*-iso8859-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#5585fc") (background-color . "black") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-focus-on-map) (no-accept-focus) (no-special-glyphs) (alpha 100 100) (menu-bar-lines . 0) (tab-bar-lines . 0) (height . 100) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 17) (scroll-bar-height . 17) (fullscreen) (z-group) (visibility . t) (display-type . color) (background-mode . dark) (cursor-color . "purple") (environment) (last-focus-update) (frameset--id . "7415-93EA-E807-99DB") (frameset--mini t . t) (width . 188) (modeline . t) (unsplittable) (left . 953) (top . 0) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 7) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 40) (min-pixel-width . 50) (min-pixel-height-ignore . 30) (min-pixel-width-ignore . 35) (min-pixel-height-safe . 10) (min-pixel-width-safe . 10)) leaf (pixel-width . 958) (pixel-height . 990) (total-width . 191) (total-height . 99) (normal-height . 1.0) (normal-width . 1.0) (buffer "sieve.py" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins 1) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 183) (start . 1)) (prev-buffers ("sieve.py" 1 183) ("clientrunner.log" 13765 15209) ("*scratch*" 1 1))))])
+(setq desktop-saved-frameset [frameset 1 (25231 22633 230276 0) (desktop . "208") "tin_m@Nightshade" nil nil ((((minibuffer . t) (undecorated) (skip-taskbar) (font . "-outline-Hack-normal-normal-normal-mono-9-*-*-*-c-*-iso8859-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#5585fc") (background-color . "black") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-focus-on-map) (no-accept-focus) (no-special-glyphs) (alpha 100 100) (menu-bar-lines . 0) (tab-bar-lines . 0) (height . 50) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 17) (scroll-bar-height . 17) (fullscreen) (z-group) (visibility . t) (display-type . color) (background-mode . dark) (cursor-color . "purple") (environment) (last-focus-update . t) (frameset--id . "B864-6E90-61E3-E664") (frameset--mini t . t) (width . 105) (modeline . t) (unsplittable) (left . 26) (top . 26) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 40) (min-pixel-width . 50) (min-pixel-height-ignore . 30) (min-pixel-width-ignore . 40) (min-pixel-height-safe . 10) (min-pixel-width-safe . 10)) leaf (pixel-width . 541) (pixel-height . 490) (total-width . 108) (total-height . 49) (normal-height . 1.0) (normal-width . 1.0) (buffer "config" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins 2) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 267) (start . 1)) (prev-buffers ("config" 1 119) ("sieve.py" 1 183) ("*scratch*" 1 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '(#("elpy" 0 4 (isearch-regexp-function nil isearch-case-fold-search t)) #("blacken" 0 7 (isearch-regexp-function nil isearch-case-fold-search t)) #("py-au" 0 5 (isearch-regexp-function nil isearch-case-fold-search t)) #("flychec" 0 7 (isearch-regexp-function nil isearch-case-fold-search t)) #("fly" 0 3 (isearch-regexp-function nil isearch-case-fold-search t)) #("python" 0 6 (isearch-case-fold-search t isearch-regexp-function nil)) #("indent-" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("indent-t" 0 8 (isearch-case-fold-search t isearch-regexp-function nil)) #("myPack" 0 6 (isearch-regexp-function nil isearch-case-fold-search nil)) #("jedi" 0 4 (isearch-regexp-function nil isearch-case-fold-search t)) #("jedii" 0 5 (isearch-regexp-function nil isearch-case-fold-search t)) #("lsp-mode" 0 8 (isearch-case-fold-search t isearch-regexp-function nil)) #("flyche" 0 6 (isearch-regexp-function nil isearch-case-fold-search t)) #("flycheck" 0 8 (isearch-case-fold-search t isearch-regexp-function nil)) #("lsp-modei" 0 9 (isearch-case-fold-search t isearch-regexp-function nil)) #("undo-tree" 0 9 (isearch-case-fold-search t isearch-regexp-function nil))))
+(setq search-ring '(#("elpy" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("blacken" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("py-au" 0 5 (isearch-case-fold-search t isearch-regexp-function nil)) #("flychec" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("fly" 0 3 (isearch-case-fold-search t isearch-regexp-function nil)) #("python" 0 6 (isearch-regexp-function nil isearch-case-fold-search t)) #("indent-" 0 7 (isearch-regexp-function nil isearch-case-fold-search t)) #("indent-t" 0 8 (isearch-regexp-function nil isearch-case-fold-search t)) #("myPack" 0 6 (isearch-case-fold-search nil isearch-regexp-function nil)) #("jedi" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("jedii" 0 5 (isearch-case-fold-search t isearch-regexp-function nil)) #("lsp-mode" 0 8 (isearch-regexp-function nil isearch-case-fold-search t)) #("flyche" 0 6 (isearch-case-fold-search t isearch-regexp-function nil)) #("flycheck" 0 8 (isearch-regexp-function nil isearch-case-fold-search t)) #("lsp-modei" 0 9 (isearch-regexp-function nil isearch-case-fold-search t)) #("undo-tree" 0 9 (isearch-regexp-function nil isearch-case-fold-search t))))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '(#("d:/sieve.py" 0 11 (ivy-index 0)) #("d:/AppData/Roaming/.emacs.d/init.el" 0 35 (ivy-index 2)) #("d:/Dropbox/Projects/gTed/main.c" 0 31 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/CMakeLists.txt" 0 39 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/CMakeList.txt" 0 38 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/CMake" 0 30 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/.build.bat.~undo-tree~" 0 47 (ivy-index 3)) #("d:/Dropbox/Projects/gTed/test.c" 0 31 (ivy-index 1)) #("d:/Dropbox/Projects/gTed/build.bat" 0 34 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/test.cpp" 0 33 (ivy-index 2)) #("d:/AppData/Roaming/.emacs.d/.emacs.desktop" 0 42 (ivy-index 1)) #("d:/Dropbox/Projects/gTed/window.h" 0 33 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/window.c" 0 33 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/" 0 25 (ivy-index 0)) #("d:/Applications/Old_Emacs/bin/" 0 30 (ivy-index 0)) #("d:/Projects/Unity/RPG/RPG/Assets/Scripts/CharacterControllers/CameraController.cs" 0 81 (ivy-index 8)) #("d:/Projects/Unity/RPG/RPG/Assets/Scripts/CharacterControllers/AnimationController.cs" 0 84 (ivy-index 5)) "~/.emacs.d/" "d:/Projects/Unity/RPG/RPG/Assets/Scripts/CharacterControllers/MoveTo.cs"))
+(setq file-name-history '(#("c:/Users/tin_m/AppData/Roaming/.emacs.d/.git/config" 0 51 (ivy-index 0)) #("d:/sieve.py" 0 11 (ivy-index 0)) #("d:/AppData/Roaming/.emacs.d/init.el" 0 35 (ivy-index 2)) #("d:/Dropbox/Projects/gTed/main.c" 0 31 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/CMakeLists.txt" 0 39 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/CMakeList.txt" 0 38 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/CMake" 0 30 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/.build.bat.~undo-tree~" 0 47 (ivy-index 3)) #("d:/Dropbox/Projects/gTed/test.c" 0 31 (ivy-index 1)) #("d:/Dropbox/Projects/gTed/build.bat" 0 34 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/test.cpp" 0 33 (ivy-index 2)) #("d:/AppData/Roaming/.emacs.d/.emacs.desktop" 0 42 (ivy-index 1)) #("d:/Dropbox/Projects/gTed/window.h" 0 33 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/window.c" 0 33 (ivy-index 0)) #("d:/Dropbox/Projects/gTed/" 0 25 (ivy-index 0)) #("d:/Applications/Old_Emacs/bin/" 0 30 (ivy-index 0)) #("d:/Projects/Unity/RPG/RPG/Assets/Scripts/CharacterControllers/CameraController.cs" 0 81 (ivy-index 8)) #("d:/Projects/Unity/RPG/RPG/Assets/Scripts/CharacterControllers/AnimationController.cs" 0 84 (ivy-index 5)) "~/.emacs.d/" "d:/Projects/Unity/RPG/RPG/Assets/Scripts/CharacterControllers/MoveTo.cs"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "c:/Users/tin_m/AppData/Roaming/.emacs.d/.git/config"
+  "config"
+  'conf-windows-mode
+  '(global-auto-revert-mode linum-mode override-global-mode company-mode undo-tree-mode ivy-mode)
+  267
+  '(119 nil)
+  nil
+  nil
+  '((buffer-display-time 25231 21855 468307 0) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring (119 267 267))))
+
 (desktop-create-buffer 208
   "d:/sieve.py"
   "sieve.py"
@@ -26,18 +38,6 @@
   '(183 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 25231 18911 217242 0) (buffer-file-coding-system . iso-latin-1-dos) (truncate-lines . t))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "d:/Program Files (x86)/Steam/steamapps/common/World of Warships/bin/clientrunner/profile/clientrunner.log"
-  "clientrunner.log"
-  'fundamental-mode
-  '(global-auto-revert-mode linum-mode override-global-mode company-mode undo-tree-mode ivy-mode)
-  15209
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 25231 15544 31828 0) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 25231 21787 956352 0) (buffer-file-coding-system . iso-latin-1-dos) (truncate-lines . t))
   '((mark-ring nil)))
 
