@@ -440,7 +440,9 @@ and `fci-rule-character-color'.  For further options, see the
 Customization menu or the package file.  (See the latter for tips
 on troubleshooting.)"
 
-  nil nil nil
+  :init-value nil
+  :lighter nil
+  :keymap nil
 
   (if fci-mode
       ;; Enabling.
